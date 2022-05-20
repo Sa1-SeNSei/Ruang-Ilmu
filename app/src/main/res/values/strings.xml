@@ -1,0 +1,2057 @@
+<resources>
+    <string name="app_name">Ruang Ilmu</string>
+
+    <!--Main Menu-->
+    <string name="Latihan_1">Materi Rangkuman Latihan 1</string>
+    <string name="Latihan_2">Materi Rangkuman Latihan 2</string>
+    <string name="Latihan_3">Materi Rangkuman Latihan 3</string>
+
+    <string name="materi1_ipa">Ciri Khusus Mahkluk Hidup \u0026 Penggolongan Hewan</string>
+    <string name="materi2_ipa">Hubungan Antar Makhluk Hidup Dalam Ekosistem \u0026 Energi</string>
+
+
+    <string name="materi1_indo">MEMBACA SASTRA \u0026 NONSASTRA</string>
+    <string name="materi2_indo">MENULIS TERBATAS \u0026 MEYUNTING</string>
+
+
+    <string name="materi1_mtk">BILANGAN</string>
+    <string name="materi2_mtk">Geometri Dan Pengukuran</string>
+
+
+    <!--Login Menu-->
+    <string name="info_nama">Nama:</string>
+    <string name="InfoUser">Info Pengguna</string>
+    <string name="LihatDetail">Lihat Detail</string>
+    <string name="RuangIlmu">Ruang Ilmu</string>
+    <string name="Ipa">IPA</string>
+    <string name="Ilmu_Pengetahuan_Alam">Ilmu Pengetahuan Alam</string>
+    <string name="Mtk">Matematika</string>
+    <string name="Indo">Bahasa Indonesia</string>
+
+    <!--Isi Materi-->
+    <string name="Latihan1">Latihan 1</string>
+    <string name="Latihan2">Latihan 2</string>
+    <string name="UjianIPA">Ujian IPA</string>
+    <string name="UjianMTK">Ujian Matematika</string>
+    <string name="UjianINDO">Ujian B.Indonesia</string>
+
+    <!--Isi Buku Materi-->
+    <string name="buku_ipa">IPA</string>
+    <string name="buku_mtk">Matematika</string>
+    <string name="buku_indo">Bahasa Indonesia</string>
+
+
+    <!--Bagian Materi Isi IPA-->
+    <!--Isi Materi IPA Lat. 1-->
+    <string name="SpoilerMateriIPA1_1">A.	Ciri – ciri khusus hewan dan tumbuhan</string>
+    <string name="SpoilerMateriIPA1_1_1">Ciri khusus hewan\n
+        1.	Kelelawar\n
+        -Mempunyai kemampuan bunti ultrasonik untuk mengetahui jarak atau lokasi mangsa.\n
+        -Pendengaran tajam.\n
+        -Kulit lentur dan ringan untuk terbang.\n
+        -Hidup dalam gua atau tempat gelap.\n
+        -Hewan yang hidup pada malam hari.\n
+        2.	Cicak\n
+        -Memiliki kaki perekat yang dapat menempel dan berjalan didinding.\n
+        -Lidah panjang dan lengket untuk menangkap mangsa.\n
+        -Memiliki kemampuan untuk memutuskan ekor.\n\n
+        Ciri khusus tumbuhan\n
+        1.	Tertai\n
+        -Daun lebar dan tipis untuk memperbesar penguapan.\n
+        -Batang berongga untuk mengapung di air dan sebagai alur udara.\n
+        2.	Kantong semar\n
+        -Mengeluarkan aroma manis (nectar) untuk memikat serangga.\n
+        -Menghasilkan cairan enzim untuk mencerna serangga untuk memenuhi nitrogen\n
+        -Memiliki daun yang berbentuk piala.\n
+    </string>
+
+    <string name="SpoilerMateriIPA1_2">B.	Pengelompokan makhluk hidup</string>
+    <string name="SpoilerMateriIPA1_2_1">Pengelompokan hewan\n
+        1.	Berdasarkan cara berkembang biak :\n
+        \ta.	Bertelur (ovipar) : ayam,bebek,burung.\n
+        \tb.	Melahirkan (vivipara) : paus, anjing, kambing, dan lumba-lumba.\n
+        c.	Bertelur dan melahirkan (ovovivipar): kadal, hiu, ular, buaya, dan pesut.\n
+        2.	Berdasarkan alat penapasan\n
+        a.	Paru-paru : kelompok hewan mamlia (kambing,sapimlumba-lumba,dan lain-lain).\n
+        b.	Insang :kelompok ikan,berudu.\n
+        c.	Trakea : kelompok serangga (belalang,walang sangit).\n
+        d.	Kulit :cacing tanah\n
+        3.	Berdasarkan cara makan\n
+        a.	Pemakan tumbuhan (herbivora) :kambing kuda,sapi dll).\n
+        b.	Pemakan daging (karnivora): harimau,serigala,macan,dll).\n
+        c.	Pemakan segelanya (omnivora) : ayam, bebek, tikus.\n\n
+        Pengelompokan tumbuhan\n
+        1.	Akar\n
+        a.	Serabut :jagung, padi, tebu, kelapa, pohon pisang, dll.\n
+        b.	Tunggan : jati, mangga, belimbing, rambutan,dll.\n
+        2.	Batang\n
+        a.	Berbatang rumput : padi, jagung, rumput teki.\n
+        b.	Berbatang kayu : belimbing, mangga, rambutan.\n
+        c.	Berbatang basah : bayam, pisang, pacar air.\n
+        d.	Batang menjalar ditanah : ubi jalar, mentimun, dan semangka.\n
+        3.	Biji\n
+        a.	Berkeping satu ( monokotil) : jagung, padi, tebu, kelapa, pisang.\n
+        b.	Berkeping dua (dikotil) : mangga, jambu, belimbing, kacang-kacangan.\n
+    </string>
+
+    <string name="SpoilerMateriIPA1_3">C.	Pentingnya pelestarian</string>
+    <string name="SpoilerMateriIPA1_3_1">Untuk melindungi hewan dan tumbuhan langka, ada dua cara secara in situ (didalam habitat) contoh taman nasional dan cagara alam dan  eks situ (diluar habitat) contoh suaka margasatwa.\n\n
+        Pelestarian atau perlindungan ada tiga cara, yaitu :\n
+        a.	Suaka margasatwa :tempat perlindungan hewan langka secara eks situ.\n
+        b.	Taman nasional : tempat pelindungan bagi hewan dan tumbuhan langka secara in situ.\n
+        c.	Cagar alam : tempat perlindungan tumbuhan, satwa, dan ekosistemnya atau ekosistem tertentu yang berlangsung secara alami.\n
+        d.	Kebun raya dan kebun botani untuk melestarikan tumbuhan.\n
+    </string>
+
+    <string name="SpoilerMateriIPA1_4">D.	Daur hidup</string>
+    <string name="SpoilerMateriIPA1_4_1">Proses daur hidup hewan tersebut merupakan suatu perputaran atau siklus karena akan kembali pada titik awal mulanya. Daur hidup hewan berdasarkan proses perubahan bentuk tubuhnya dapat dibagi menjadi dua yaitu :\n
+        1.	Daur hidup tanpa metamorphosis.\n
+        Daur hidup yang diawali dari lahirnya atau menetasnya hewan baru yang berbentuk tubuh induknya. Contohnya ayam,kucing.\n
+    </string>
+
+    <string name="SpoilerMateriIPA1_4_2">2.	Daur hidup dengan metamorphosis.\n
+        Daur hidup hewan yang lahir dengan bentuk yang berbeda dari induknya, dan mengalami perubahan bentuk yang bertahap hingga dewasa.\n\n
+        Metamorfosis merupakan perubahan bentuk hewan secara bertahap setalah kelahiran atau penetasan hingga dewasa.\n
+        Metamorphosis ada dua yaitu :\n
+        1.	Metamorphosis sempurna\n
+        Dialami oleh hewan yang pada saat lahir memiliki bentuk tubuh yang sangat berbeda sekali dengan induknya. Contohnya kupu-kupu, nyamuk, katak.\n
+    </string>
+    <string name="SpoilerMateriIPA1_4_3">2.	Metamorphosis tidak sempurna\n
+        Hewan yang mirip dengan induknya tetaou ada bagian tubuh yang belum terbentuk, misalnya sayap. Contohnya capung,kecoa.\n
+    </string>
+
+    <!--Isi Materi IPA Lat. 2-->
+    <string name="SpoilerMateriIPA2_1">A.	Hubungan antara makhluk hidup</string>
+    <string name="SpoilerMateriIPA2_1_1">Simbiosis adalah semua jenis interaksi (hubungan) antara dua makhluk hidup yang berbeda jenis. Simbiosis ada 3 macam yaitu:\n
+        1.	Sismbiosis mutualisme = hubungan yang saling menguntungkan\n
+        Contoh : hubungan antara kupu-kupu dan bunga dan hubungan antar kerbau dan burung jalak.\n
+        2.	Simbiosis komensalisme = hubungan satu diuntungkan dan satu lagi tidak diuntungkan dan tidak rugi.\n
+        Contoh :tanaman anggrek dengan tanaman inangnya dan ikan remora dengan ikan hiu atau paus\n
+        3.	Simbiosis parasitisme = hubungan satu diuntungkan dan yang satunya dirugikan.\n
+        Contoh : tumbuhan benalu dengan tumbuhan inangnya dan cacing pita yang hidup didalam perut manusia.\n
+    </string>
+
+    <string name="SpoilerMateriIPA2_2">B.	Perubahan wujud benda</string>
+    <string name="SpoilerMateriIPA2_2_1">
+        1.	Membeku adalah perubahan wujud zat cari ke padat.\n
+        2.	Mencair adalah perubahan wujud zat padat ke cair\n
+        3.	Menguap adalah perubahan wujud zat cair ke gas.\n
+        4.	Mengembun adalah perubahan wujud zat gas ke cair\n
+        5.	Menublim adalah perubahan wujud zat dari padat ke gas.\n
+        6.	Mengkristal atau menghablur adalah perubahan wujud benda yang mulanya bersifat gas berubah menjadi padat, perubahan wujud ini terjadi karena penurunan suhu atau pelepasan panas yang dialami bendar tersebut.\n
+    </string>
+
+    <string name="SpoilerMateriIPA2_3">C.	Perpindahan panas (kalor)</string>
+    <string name="SpoilerMateriIPA2_3_1">
+        Macam-macam perpindahan panas yaitu :\n
+        1.	Konduksi adalah perpindahan panas melalui perantara (benda pada bersifat logam ) dan dimana zat perantaranya tidak ikut berpindah.\n
+        2.	Konvksi adalah perpindahan panas melalui zat perantara (air dan angina) dengan disertai perpindahan zat perantara.\n
+        3.	Radiasi adalah perpindahan panas tanpa melalui perantara (langsung).\n
+    </string>
+
+
+    <!--Bagian Materi Isi INDO-->
+    <!--Isi Materi INDO Lat. 1-->
+    <string name="SpoilerMateriIndo1_A">A.	Membaca Nonsastra</string>
+    <string name="SpoilerMateriIndo1_A1">
+        Menentukan Makna Kata/Istilah\n
+        Teks nonsastra adalah teks yang berisi karangan ilmiah dan bertujuan menambah wawasan dan pengetahuan pembacanya. Kesalahan penggunaan kata-kata atau istilah dapat menimbulkan perbedaan penafsiran. Kata-kata atau istilah yang digunakan dapat berupa kata baku, kata bersinonim, kata berkonotasi, kata denotasi, atau kata yang mengalami perubahan makna.\n
+        \n
+        Menentukan Antonim/Sinonim\n
+        Antonim adalah kata yang memiliki makna yang berlawanan, misalnya :\n
+        \u000B • Dulu \u003E\u003C sekarang\n
+        \u000B • Ekor \u003E\u003C kepala\n
+        \u000B •	 Asli \u003E\u003C palsu\n
+        \u000B •	 Tanya \u003E\u003C jawab\n
+        Sedangkan sinonim adalah kata yang memiliki makna yang sama, misalkan :\n
+        \u000B •	 Laba = untung\n
+        \u000B •	 Mudah = gampang\n
+        \u000B •	 Abadi = awet,kekal\n\n
+        Menggali Informasi Tersurat Teks\n
+        Sebuah paragraph pasti memuat informasi, baik itu informasi tersurat ataupun informasi tersirat. Informasi tersurat adalah sebuat informasi yang tertulis secara jelas di dalam teks. Sedangkan informasi tersirat adalah informasi yang tidak tertulis didalam teks.\n\n
+        Untuk dapat menemukan informasi yang terdapat pada teks dapat menggunakan rumus 5W + 1H (Who, What, Where, Why, When dan How) atau menggunakan singakatan ADIKSIMBA (apa, di mana, kapan, siapa, mengapa dan bagaimana)\n
+        \n\n
+        Menentukan U
+        nsur Teks\n
+        Dalam sebuah paragraf, umumnya terusun atas satu kalimat utama dan beberapa kalimat penjelas.\n\n
+        Kalimat Utama\n\n
+            -Kalimat utama memuat permasalan yang dapat diuraikan lebih lanjut\n
+            -Biasanya berupa sebuah kalimat lengkap yang dapat berdiri sendiri\n
+            -Memiliki arti yang jelas tanpa dihubungkan dengan kalimat lain\n
+            -Dapat dibentuk tanpa kata sambung\n
+            -Pada paragraph induktif, sering ditandai dengan kata jadi atau dengan demikian.\n\n
+        Kalimat Penjelas\n\n
+            -Kalimat penjelas merupakan kalimat yang tidak dapat beridir sendiri.\n
+            -Kalimat penjelas akan memiliki arti setelah dihubungkan dengan kalimat lain dalam satu paragraph\n
+            -Memerlukan bantuan kata sambung, frasa penghubung, atau kalimat transisi\n
+            -Berisikan rincian, keterangan, contoh dan data lain yang bersifat mendukung kalimat utama\n    </string>
+
+    <string name="SpoilerMateriIndo1_B">B.	Membaca Sastra</string>
+    <string name="SpoilerMateriIndo1_B1">
+        Menentukan Isi Pantun\n\n
+        Dua larik pertama merupakan sampiran dan dua larik berikutnya merupakan isi. Pantun memiliki pola rima akhir a-b-a-b.\n\n
+        Ciri-ciri pantun\n\n
+        \u000B •	Terdiri atas empat larik dalam satu bait\n
+        \u000B •	Teridiri empat sampai dengan enam kata dalam satu larik\n
+        \u000B •	Terdiri atas delapan sampai dengan dua belas suku kata.\n
+        \u000B •	Larik pertama dan kedua merupakan sampiran dan larik ketiga dan keempat merupakan isi.\n
+    </string>
+
+    <!--Isi Materi INDO Lat. 2-->
+    <string name="SpoilerMateriIndo2_A">Menulis Terbatas </string>
+    <string name="SpoilerMateriIndo2_A1">
+        Teks yang berisi petunjuk menggunakan atau membuat sesuatu disebut dengan teks prosedur.\n\n
+
+        Ciri-ciri Teks Prosedur\n
+        •	Umumnya menggunakan kalimat perintah atau imperatif\n
+        •	Memakai kata kerja aktif\n
+        •	Adanya penggunaan konjungsi.\n
+        •	Ada istilah tentang waktu, tempat dan cara secara akurat\n
+        •	Teks Prosedur terdiri dari Tujuan teks prosedur/mekanisme, material dan langkah-langka\n
+    </string>
+
+    <string name="SpoilerMateriIndo2_B">Menyusun kalimat</string>
+    <string name="SpoilerMateriIndo2_B1">
+        \u00A4 Kalimat efektif dan kalimat tidak efektif\n\n
+
+        1. \u000B      Kalimat efektif\n
+        Kalimat efektif adalah kalimat berisikan gagasan pembicara atau penulis secara singkat, jelas, dan tepat.\n
+        •	Jelas      : berarti mudah dipahami oleh pendengar atau pembaca.\n
+        •	Singkat  : hemat dalam pemakaian atau pemilihan kata-kata.\n
+        •	Tepat      : sesuai dengan kaidah bahasa yang berlaku.\n
+        \n
+        2. \u000B     Kalimat tidak efektif\n
+        Kalimat tidak efektif adalah kalimat yang tidak memiliki atau mempunyai sifat-sifat yang terdapat pada kalimat efektif.\n
+        Sebab-sebab ketidakefektifan kalimat\n\n
+
+        1)      kontaminasi= merancukan 2 struktur benar  1 struktur salah\n
+        contoh:\n
+        •	diperlebar, dilebarkan\n
+        •	diperlebarkan (salah)\n
+        2)	Tidak memiliki subjek\n
+        contoh:\n
+        •	Buah mangga mengandung vitamin.(SPO) (benar)\n
+        •	Di dalam buah mangga terkandung vitamin.(KPS)(benar)??\n
+        3)      Adanya kata depan yang tidak perlu\n
+        •	Perkembangan  daripada teknologi informasi sangat pesat.\n
+        •	Kepada siswa kelas I berkumpul di aula.\n
+        •	 Selain daripada bekerja, ia juga kuliah.\n
+    </string>
+
+    <string name="SpoilerMateriIndo2_C">Menulis Surat</string>
+    <string name="SpoilerMateriIndo2_C1">
+        Surat adalah suatu sarana komunikasi yang digunakan untuk menyampaikan informasi tertulis oleh suatu pihak kepada pihak lain.\n
+        \n
+        Isi Surat : \n
+        Secara garis besar isi surat terbagi atas tiga bagian, yaitu bagian pertama merupakan paragraf pembuka, bagian kedua merupakan paragraf isi dan bagian ketiga merupakan paragraf penutup.\n
+        a.      Paragraf pembuka mengantarkan isi surat yang akan diberitahukan. Paragraf pembuka berisikan pemberitahuan, pertanyaan, pernyataan, atau permintaan.\n
+        b.      Dalam paragraf  isi dikemukakan hal yang perlu disampaikan kepada penerima surat. Namun, isi surat harus singkat, lugas, dan jelas.\n
+        c.      Paragraf penutup merupakan simpulan dan kunci isi surat. Di samping itu, paragraf penutup dapat mengandung harapan penulis surat atau berisi ucapan terima kasih kepada penerima surat.\n
+    </string>
+
+    <string name="SpoilerMateriIndo2_D">Meyunting</string>
+
+    <string name="SpoilerMateriIndo2_D1">
+        Menunjukkan Kesalahan Penggunaan Ejaan\n\n
+
+        a. \u000B Menggunakan huruf kapital\n
+        1) Huruf Kapital atau huruf besar dipakai sebagai huruf pertama kata pada awal kalimat. Misalnya:\n
+        •	Dia mengantuk.\n
+        •	Apa maksudnya?\n
+        2) Huruf kapital dipakai sebagai huruf pertama petikan langsung.\n
+           Misalnya:\n
+        •	Adik bertanya, “Kapan kita pulang?”\n
+        3) Huruf kapital dipakai sebagai huruf pertama dalam ungkapan yang berhubungan dengan nama Tuhan dan kitab suci, termasuk kata ganti untuk Tuhan.\n\n\n
+
+        b. \u000B Penulisan tanda baca\n
+
+        1) Tanda Titik\n
+        a) Tanda titik dipakai pada akhir kalimat yang bukan pertanyaan atau seruan.\n
+            Misalnya :\n
+        •	Ayah tinggal di Solo.\n
+        b) Tanda titik dipakai untuk singkatan nama orang.\n
+           Misalnya :\n
+        •	A.S. Kramawijaya\n
+        •	Muh. Feedayen\n\n
+
+        2) Tanda Koma ( , )\n
+        a) Tanda koma dipakai di antara unsur-unsur dalam suatu perincian atau pembilangan.\n
+           Misalnya :\n
+        •	Saya membeli kertas, pena, dan tinta.\n
+        b) Tanda koma dipakai untuk memisahkan kalimat setara yang satu dari kalimat setara berikutnya yang didahului oleh kata seperti tetapi, melainkan.\n
+           Misalnya :\n
+        •	Saya ingin datang, tetapi hari hujan.\n\n
+
+        \u000B Menggunakan kata depan\n\n
+
+        -Kata depan merupakan kata yang bertugas merangkaikan kata atau bagian kalimat. Kata depan biasanya terletak di depan kata benda.\n
+        -Kata depan ditulis terpisah dari kata yang mengikutinya kecuali di dalam\n
+        -gabungan kata yang sudah lazim dianggap sebagai satu kata seperti kepada dan daripada.\n
+        Berikut ini contoh kata depan dan fungsinya:\n
+    </string>
+
+    <!--Bagian Materi Isi MTK-->
+    <!--Isi Materi MTK Lat. 1-->
+    <string name="SpoilerMateriMTK1_A">A.	Jenis-jenis Bilangan</string>
+    <string name="SpoilerMateriMTK1_A1">
+        Bilangan terbagi dalam beberapa macam sebagai berikut.\n
+        1. Bilangan Asli\n
+        Yaitu bilangan positif yang dimulai dari angka satu.\n
+        Contoh: {1,2,3,4,5,…}\n
+        2. Bilangan Cacah\n
+        Yaitu himpunan bilangan yang terdiri dari bilangan nol dan bilangan positif.\n
+        Contoh: {0,1,2,3,4,5,6,7,…}\n
+        3. Bilangan Bulat\n
+        Bilangan ini terbagi menjadi bilangan bulat positif dan bilangan bulat negatif.\n
+        a. Bilangan bulat positif\n
+        Yaitu himpunan antara bilangan nol dan bilangan positif.\n
+        Contoh: {0,1,2,3,4,5,6,7,8,9,…}\n
+        b. Bilangan bulat negatif\n
+        Yaitu himpunan antara bilangan negatif dan bilangan nol.\n
+        Contoh: {.-6,-5,-4,-3,-2,-1,0}\n
+        4. Bilangan Nol\n
+        Yaitu bilangan nol (0) itu sendiri.\n
+        Contoh: {0}\n
+        5. Bilangan Prima\n
+        Yaitu bilangan-bilangan asli yang hanya bisa dibagi dirinya sendiri dan angka satu. Angka satu bukan bilangan prima.\n
+        Contoh: (2,3,5,7,11,13,17,19,...)\n
+    </string>
+
+    <string name="SpoilerMateriMTK1_B">B.	Operasi Hitung Bilangan</string>
+    <string name="SpoilerMateriMTK1_B1">
+        \nSifat-sifat operasi hitung bilangan\n
+        1.	Sifat Komutatif (Pertukaran)\n
+    </string>
+    <string name="SpoilerMateriMTK1_B2">2.	Sifat Asosiatif (Pengelompokan)\n</string>
+    <string name="SpoilerMateriMTK1_B3">3.Sifat Distributif (Penyebaran)\n</string>
+
+    <string name="SpoilerMateriMTK1_C">C.	Bilangan Berpangkat</string>
+    <string name="SpoilerMateriMTK1_C1">
+        1.	Bilangan Kuadrat (Berpangkat Dua)\n
+        Yaitu perkalian dua bilangan yang sama.\n
+        Contoh: 2\u00B2 = 2 x 2 4.\n
+    </string>
+    <string name="SpoilerMateriMTK1_C2">
+        2.	Bilangan Kubik (Berpangkat Tiga)
+        Yaitu perkalian tiga bilangan yang sama.\n
+        Contoh: 3\u00B2 = 3 x 3 x 3 = 27\n
+    </string>
+    <string name="SpoilerMateriMTK1_C3">
+        3.	Akar Pangkat dua\n
+        Yaitu menentukan bilangan berpangkat dua.\n
+        Contoh:\n
+    </string>
+
+
+    <string name="SpoilerMateriMTK1_D">D.	KPK dan FPB</string>
+    <string name="SpoilerMateriMTK1_D1">
+        1.	KPK (Kelipatan Persekutuan Terkecil)\n
+        KPK dari dua atau lebih bilangan merupakan bilangan terkecil yang habis dibagi oleh kedua bilangan tersebut. KPK dapat dicari dengan cara mengalikan faktor prima yang berbeda dengan pangkat tertinggi.\n
+        Contoh:\n
+        Tentukan KPK dari 12, 18, dan 24\n
+        Pembahasan:\n
+    </string>
+
+    <string name="SpoilerMateriMTK1_D2">
+        Faktor prima terdiri dari 2 dan 3, pilih yang mempunyai pangkat tertinggi,maka dihasilkan perkaliannya berikut ini:\n
+        KPK dari 12, 18, 24, yaitu 2\u00B3 x 3\u00B2 = 36.\n
+    </string>
+
+    <string name="SpoilerMateriMTK1_D3">2.	FPB (Faktor Persekutuan Terbesar)\n
+        FPB dari dua atau lebih bilangan adalah bilangan terbesar yang habis membagi kedua bilangan tersebut FPB dapat dicari dengan cara mengalikan faktor-faktor prima yang sama da berpangkat kecil.\n
+        Contoh:\n
+        Hasil FPB dari 4, 8, dan 12 adalah ...\n
+        Pembahasan\n
+    </string>
+    <string name="SpoilerMateriMTK1_D4">
+        Faktor prima terdiri dari 2 dan 3, pilih yang mempunyai pangkat terkecil\n
+        dan sama, maka dihasilkan perkaliannya berikut ini:\n
+        FPB dari 4, 8, 12, yaitu 2\u00B2 = 4.\n
+        Pecahan adalah bilangan yang terdiri dari pembilang dan penyebut.\n
+    </string>
+
+    <string name="SpoilerMateriMTK1_E">E.	Pecahan</string>
+    <string name="SpoilerMateriMTK1_E1">
+        Jenis-jenis Pecahan\n
+        1. Pecahan biasa\n
+        Merupakan pacahan yang pembilang dan penyebutnya bilangan bulat.\n
+        Contoh :\n
+    </string>
+    <string name="SpoilerMateriMTK1_E2">
+        2. Pecahan Murni\n
+        Merupakan pecahan yang pembilang dan penyebut merupakan bilangan bulat dan berlaku pembilang lebih kecil dari penyebutnya. Pecahan murni termasuk pecahan biasa tetapi tidak berlaku sebaliknya.\n
+        Contoh:\n
+    </string>
+    <string name="SpoilerMateriMTK1_E3">
+        3.	Pecahan Campuran\n
+        Merupakan pecahan yang terdiri atas bagian bilangan bulat dan bagian pecahan murni.\n
+        Contoh:\n
+    </string>
+    <string name="SpoilerMateriMTK1_E4">
+        4. Pecahan desimal\n
+        Merupakan pecahan yang mempunyai penyebut 10, 100, 1000, dan seterusnya. Umumnya ditulis dengan tanda koma.\n
+        Contoh:\n
+    </string>
+    <string name="SpoilerMateriMTK1_E5">
+        5. Perseratus atau persen (\u0025)\n
+        Merupakan pecahan dengan penyebut 100.\n
+        Contoh:\n
+    </string>
+
+
+    <!--Isi Materi MTK Lat. 2-->
+    <string name="SpoilerMateriMTK2_A">
+        A.	Satuan Kuantitas
+        Merupakan satuan yang digunakan untuk menentukan jumlah (banyaknya) suatu
+        benda. Hubungan antara beberapa satuan kuantitas antara lain sebagai berikut.
+        1 lusin = 12 buah
+        1 gross = 12 lusin = 144 buah
+        1 kodi = 20 lembar
+        1 rim = 500 lembar
+        Contoh:
+        2 gross + 4 lusin = ... buah
+        \u000B \u000B= ((2 x 144) + (4 x 12)) buah
+        \u000B \u000B= (288 + 48) buah
+        \u000B \u000B= 363 buah
+    </string>
+    <string name="SpoilerMateriMTK2_B">
+        B.	Satuan Berat\n
+        Merupakan satuan yang menyatakan berat suatu benda, umumnya menggunakan satuan gram. Adapun tangga satuan berat sebagai berikut.\n
+    </string>
+    <string name="SpoilerMateriMTK2_C">
+        C.	Satuan Panjang\n
+        Satuan panjang dalam SI (Satuan Internasional) adalah meter, sedangkan dalam CGS (Centimetre Gram Second) adalah centimeter (cm). Konversi tangga satuan panjang sebagai berikut.\n
+    </string>
+    <string name="SpoilerMateriMTK2_D">
+        D.	Satuan Waktu\n
+        Merupakan satuan yang digunakan untuk menyatakan waktu. Kesetaraan satuan waktu sebagai berikut.\n
+        1 menit = 60 detik\n
+        1 jam = 60 menit\n
+        1 jam = 3600 detik\n
+        1 hari = 24 jam\n
+        1 minggu = 7 hari\n
+        1 bulan = 30 hari\n
+        1 tahun = 12 bulan\n
+        1 tahun = 365 atau 366 hari\n
+        1 lustrum = 5 tahun\n
+        1 windu = 8 tahun\n
+        1 dasawarsa = 10 tahun\n
+        1 dekade = 10 tahun\n
+        1 abad = 100 tahun\n
+        1 milenium = 1000 tahun\n
+
+    </string>
+    <string name="SpoilerMateriMTK2_E">
+        E.	Waktu, Jarak dan Kecepatan
+    </string>
+    <string name="SpoilerMateriMTK2_E1">
+        Keterangan:\n
+        Kecepatan (v), satuannya (m/s);\n
+        Jarak (s), satuannya (m);\n
+        Waktu (t), satuannya (seconds (s) atau detik).\n
+    </string>
+
+    <string name="SpoilerMateriMTK2_F">
+        F.	Keleling dan Luas Bangun Datar\n
+        Tabel Rumus :
+
+    </string>
+
+
+    <!--Soal NOMOR Matematika 1-->
+    <string-array name="soal1">
+        <item>Menurut prakiraan cuaca, suhu di Kp. Tarogong adalah 300C, sedangkan suhu di Kp. Cikandang -100C, selisih suhu dari kedua Kampung tersebut adalah…\n</item>
+        <item>Hasil dari 15 x 50 ÷ 30 adalah....</item>
+        <item>Hasil dari 17 – 152 adalah....</item>
+        <item>1 ¾ diubah ke persen menjadi....</item>
+        <item>Hasil dari 70 – (–25) adalah....</item>
+        <item>FPB dari 48, 72 dan 96 adalah....</item>
+        <item>Hasil dari  21 : (3 – 10) + 4 × (–2)  = …</item>
+        <item>Hasil dari  28  +  7 × (–5) adalah ... </item>
+        <item>Hasil dari –12 + 20 × 4 – (–6) : 3 = ...</item>
+        <item>Hasil dari 14 + (18: (–3)) – ((–2)  × 3) adalah ...</item>
+        <item>Nilai n yang memenuhi (12 + 8) + (–3n) = –22 adalah ...</item>
+        <item>72 – (520 : 8) = ...</item>
+        <item>Suhu mula-mula suatu ruangan adalah 250° C. Ruangan tersebut akan digunakan untuk menyimpan ikan sehinga suhunya diturunkan menjadi –30° C. Besar perubahan suhu pada ruangan tersebut adalah ...\n</item>
+        <item>Ali membeli 36 bola dengan harga Rp21.000 per buah dan bola yang lain sebanyak 32 buah dengan harga masing-masing Rp42.000 per buah. Berapakah uang yang harus dibayar Ali untuk bola-bola tersebut?\n</item>
+        <item>Santi membeli selusin gelas dengan harga Rp17.000,00 per gelas. Kemudian ia membeli 19 gelas lagi dengan harga Rp34.000,00 per gelas. Berapakah uang yang harus dibayarkan untuk gelas-gelas tersebut?\n</item>
+        <item>3 jam = ... detik\n</item>
+        <item>5000 cm³ = ... liter\n</item>
+        <item>3 liter = ... cc\n</item>
+        <item>Satuan debit 20 m³/menit = ... dm³/menit\n</item>
+        <item>75 dm³/menit = ... cm³/menit\n</item>
+        <item>120.000 cm³/menit = ... dm³/detik\n</item>
+        <item>1.000 ml/detik = ... cc/menit\n</item>
+        <item>48.000 dm³/menit = ... dm³/detik\n</item>
+        <item>0,375 cc/detik = ... mm³/detik\n</item>
+        <item>Jika debit air 3.000 liter/menit maka volume air yang mengalir tiap detik adalah ..... liter.\n</item>
+        <item>Dalam sebuah bak mandi terdapat 9.000 liter air. Karena akan dibersihkan, bak dapat dikosongkan dalam waktu 15 menit. Debit air tersebut adalah . . . .liter/menit.\n</item>
+        <item>Sebuah penampungan air berbentuk tabung dengan volume 24 m³. Tabung dialiri dengan debit 100 liter/menit. Maka tabung tersebut akan penuh dalam waktu .... jam\n</item>
+        <item>Sebuah mobil pemadam kebakaran menyemprotkan air ke lokasi kebakaran. Persediaan air yang dibawa adalah 12.000 liter. Setelah 3 menit air tinggal 9.000 liter. Debit air yang dipakai dalam m³/menit adalah ...\n</item>
+        <item>Debit air kran di rumah paman 15 dm³/menit. Jika bak mandi berukuran 60 cm x 50 cm x 40 cm akan diisi sampai penuh. Maka waktu yang diperlukan adalah ..... menit.\n</item>
+        <item>Waktu yang dibutuhkan untuk mengosongkan akuarium dengan volume 3.250 liter dengan debit kran pembuangan air 50 liter/menit adalah ..... menit.\n</item>
+
+    </string-array>
+    <integer-array name="jumlahpilihan1">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="pilihan1">
+        <item>A.     20C</item>
+        <item>B.     5C</item>
+        <item>C.     40C</item>
+        <item>D.     30C</item>
+        <item>A. 25</item>
+        <item>B. 35</item>
+        <item>C. 45</item>
+        <item>D. 55</item>
+        <item>A. 4</item>
+        <item>B. 16</item>
+        <item>C. 64</item>
+        <item>D. 128</item>
+        <item>A. 125%</item>
+        <item>B. 145%</item>
+        <item>C. 165%</item>
+        <item>D. 175%</item>
+        <item>A. –95</item>
+        <item>B. –45 </item>
+        <item>C. 45</item>
+        <item>D. 95</item>
+        <item>A. 25 X 3</item>
+        <item>B. 24 X 3 </item>
+        <item>C. 23 X 3</item>
+        <item>D. 22 X 3</item>
+        <item>A.  –11</item>
+        <item>B.  –5</item>
+        <item>C.   5</item>
+        <item>D.  11</item>
+        <item>A. –175</item>
+        <item>B. –63</item>
+        <item>C. –7</item>
+        <item>D.   7</item>
+        <item>A.  110</item>
+        <item>B.  70</item>
+        <item>C. 34</item>
+        <item>D. 30</item>
+        <item>A.  –4</item>
+        <item>B.  2</item>
+        <item>C. 14</item>
+        <item>D. 42</item>
+        <item>A.  14</item>
+        <item>B.  13</item>
+        <item>C. –13</item>
+        <item>D. –14</item>
+        <item>A.  9</item>
+        <item>B.  8</item>
+        <item>C.   7</item>
+        <item>D.  6</item>
+        <item>A. –280°</item>
+        <item>B.  –220°C</item>
+        <item>C. 220° C</item>
+        <item>D. 280° C</item>
+        <item>A.	Rp 2.100.000</item>
+        <item>B.	Rp 2.200.000</item>
+        <item>C.	Rp 4.100.000</item>
+        <item>D.	Rp 4.200.000</item>
+        <item>A.	Rp 480.000</item>
+        <item>B.	Rp 560.000</item>
+        <item>C.	Rp 850.000</item>
+        <item>D.	Rp 980.000</item>
+        <item>A. 180</item>
+        <item>B. 1.800</item>
+        <item>C. 10.800</item>
+        <item>D. 18.000</item>
+        <item>A. 0,5</item>
+        <item>B. 5</item>
+        <item>C. 50</item>
+        <item>D. 500</item>
+        <item>A. 3</item>
+        <item>B. 30</item>
+        <item>C. 300</item>
+        <item>D. 3.000</item>
+        <item>A. 200</item>
+        <item>B. 2.000</item>
+        <item>C. 20.000</item>
+        <item>D. 200.000</item>
+        <item>A. 750</item>
+        <item>B. 7.500</item>
+        <item>C. 75.000</item>
+        <item>D. 750.000</item>
+        <item>A. 2</item>
+        <item>B. 20</item>
+        <item>C. 12</item>
+        <item>D. 120</item>
+        <item>A. 0,6</item>
+        <item>B. 60</item>
+        <item>C. 6.000</item>
+        <item>D. 60.000</item>
+        <item>A. 80</item>
+        <item>B. 800</item>
+        <item>C. 8000</item>
+        <item>D. 2.880.000</item>
+        <item>A. 0,375</item>
+        <item>B. 3, 75</item>
+        <item>C. 37,5</item>
+        <item>D. 375</item>
+        <item>A. 0,5</item>
+        <item>B. 5</item>
+        <item>C. 50</item>
+        <item>D. 180.000</item>
+        <item>A. 600</item>
+        <item>B. 60</item>
+        <item>C. 10</item>
+        <item>D. 6</item>
+        <item>A. 3</item>
+        <item>B. 4</item>
+        <item>C. 5</item>
+        <item>D. 6</item>
+        <item>A. 1</item>
+        <item>B. 3</item>
+        <item>C. 5</item>
+        <item>D. 10</item>
+        <item>A. 4</item>
+        <item>B. 6</item>
+        <item>C. 8</item>
+        <item>D. 10</item>
+        <item>A. 45</item>
+        <item>B. 55</item>
+        <item>C. 60</item>
+        <item>D. 65</item>
+    </string-array>
+    <string-array name="penjelasanjawaban1">
+        <item>Untuk menyelesaikan soal maka perlu diuraikan terlebih dahulu konsep penghuitungannya  menjadi sebagai berikut :\nSelisih suhu = Suhu Kp. Tarogong – Suhu Kp. Cikandang\nSelisih suhu = 300C – (-100C)\n= 30 + 10\n= 400C\n</item>
+        <item>15 x 50 ÷ 30 =   =   = 25</item>
+        <item>172 – 152 = (17 x 17) – (15 x 15)\n= 289 – 225\n= 64\n</item>
+        <item>Ubah pecahan campurannya ke percahan biasa\n1 74 kalikan dengan 100%\n= \n</item>
+        <item>Ketika tanda negatif (–) bertemu dengan negatif (–), maka operasi bilangannya akan berubah menjadi positif (+), sehingga:\n70 – (–25) = 70 + 25\n= 95\n</item>
+        <item>Maka FPB nya adalah = 23×3</item>
+        <item>21 : (3 – 10) + 4 × (–2)\n= 21 : – 7 – 8\n= – 3 – 8\n= – 11\n</item>
+        <item>28  +  7 × (–5)\n= 28 – 35\n= – 7\n</item>
+        <item>–12 + 20 × 4 – (–6) : 3\n= –12 + 80 + 6 : 3\n= 68 + 2\n= 70\n</item>
+        <item>14 + (18: (–3)) – ((–2) × 3)\n= 14 – 6 – (–6)\n= 8 + 6\n= 14\n</item>
+        <item>(12 + 8) + (–3n) = –22\n20 – 3n = – 22\n– 3n = – 22 – 20\n– 3n = – 42\nn = –3/–42 = 14\n</item>
+        <item>72 – (520 : 8) = 72 – 65\n= 7\n</item>
+        <item>Perubahan suhu  = 25°C – (–3°C)\n= 25°C + 3°C\n= 28°C\n</item>
+        <item>Harga 36 bola = 21.000 × 36 = 756.000\nHarga 32 bola = 42.000 × 32 = 1.344.000\nTotal uang yang harus dibayarkan:\n⇒ 756.000 + 1.344.000\n⇒ 2.100.000\nDengan demikian, uang yang harus dibayar Ali adalah Rp2.100.000,00.\n</item>
+        <item>Satu lusin gelas = 12 gelas\nUang yang harus dibayarkan adalah sebagai berikut.\n⇒ 12 × 17.000 + 19 × 34.000\n⇒ 12 × 17.000 + 19 × 2 × 17.000\n⇒ 17.000 × (12 + 19 × 2)\n⇒ 17.000 × (12 + 38)\n⇒ 17.000 × 50\n⇒ 850.000\n</item>
+        <item>1 jam = 3.600 detik\n3 jam = 3 x 3.600 detik\n3 jam = 10.800 detik\n</item>
+        <item>1 liter = 1000 cm³\n1.000 cm³ = 1 liter\n5.000 cm³  = 5 liter\n</item>
+        <item>1 liter = 1000 cc\n3 liter = 3 x 1000 cc\n3 liter = 3000 cc\n</item>
+        <item>1 m³ = 1.000 dm³\n20 m³ = 20 x 1.000 = 20.000 dm³\n</item>
+        <item>1 dm³ = 1.000 cm³\n75 dm³ =  75 x 1.000 = 75.000 dm³\n</item>
+        <item>1 cm³ = 0,001 dm³\n120.000 cm³ = 120.000 x 0,001 = 120 dm³ atau\n120.000 cm³ = 120.000 : 1.000 = 120 dm³\nMengubah menit ke detik dibagi 60\n120.000 cm³/menit = 120 : 60 = 2 dm³/detik\n</item>
+        <item>1 ml = 1 cc\n1.000 ml = 1.000 cc\nMengubah detik ke menit dikali 60\n1.000 ml/detik = 1.000 x 60 = 60.000 cc/menit\n</item>
+        <item>1 menit = 60 detik\nMengubah menit ke detik dibagi 60\n48.000 dm³/menit = 48.000 : 60 = 800 dm³/detik\n</item>
+        <item>1 cc = 1 cm³ = 1.000 mm³\n0,375 cc = 0,375 cm³ = 375 mm³\n</item>
+        <item>Mengubah menit ke detik dibagi 60\n3000 : 60 = 50\n</item>
+        <item>V = 9.000 l\nW = 15 menit\nD = V : W\nD = 9.000 l : 15 menit\nD = 600 l/menit\n</item>
+        <item>V = 24 m³ = 24.000 dm³ = 24.000 l\nD = 100 liter/menit\nW = V : D\nW = 24.000 : 100\nW = 240 menit\nW = 240 : 60\nW = 4 jam\n</item>
+        <item>V = 12.000 liter - 9.000 liter\nV = 3.000 liter = 3.000 dm³ = 3 m³\nW = 3 menit\nD = V : W\nD = 3 m³: 3 menit\nD = 1 m³/menit\n</item>
+        <item>V = 60 x 50 x 40\nV = 120.000 cm³ = 120 dm³\nD = 15 dm³/ menit\nW = V : W\nW = 120 dm³ : 15 dm³/ menit\nW = 8 menit\n</item>
+        <item>V = 3.250 liter\nD = 50 liter/menit\nW = V : D\nW = 3.250 liter : 50 liter/menit\nW = 65 menit\n</item>
+    </string-array>
+    <integer-array name="jawabankuis1">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+
+
+
+
+    <!--Soal IPA Latihan 1-->
+    <string-array name="SoalIPA_Lat1">
+
+    </string-array>
+    <integer-array name="JumlahPilihanIPA_Lat1">
+
+    </integer-array>
+    <string-array name="PenjelasanJawabanIPA_Lat1">
+
+    </string-array>
+    <integer-array name="JawabanKuisIPA_Lat1">
+
+    </integer-array>
+
+    <!--Soal IPA Latihan 2-->
+    <string-array name="SoalIPA_Lat2">
+
+    </string-array>
+    <integer-array name="JumlahPilihanIPA_Lat2">
+
+    </integer-array>
+    <string-array name="PenjelasanJawabanIPA_Lat2">
+
+    </string-array>
+    <integer-array name="JawabanKuisIPA_Lat2">
+
+    </integer-array>
+
+    <!--Soal IPA Ujian-->
+    <string-array name="SoalIPA_Ujian">
+
+    </string-array>
+    <integer-array name="JumlahPilihanIPA_Ujian">
+
+    </integer-array>
+    <string-array name="PenjelasanJawabanIPA_Ujian">
+
+    </string-array>
+    <integer-array name="JawabanKuisIPA_Ujian">
+
+    </integer-array>
+
+    <!--Soal MTK Latihan 1-->
+    <string-array name="SoalMTK_Lat1">
+        <item>\nMenurut prakiraan cuaca, suhu di Kp. Tarogong adalah 300C, sedangkan suhu di Kp. Cikandang -100C, selisih suhu dari kedua Kampung tersebut adalah…\n</item>
+        <item>Hasil dari 15 x 50 ÷ 30 adalah....</item>
+        <item>Hasil dari 17 – 152 adalah....</item>
+        <item>1 ¾ diubah ke persen menjadi....</item>
+        <item>Hasil dari 70 – (–25) adalah....</item>
+        <item>FPB dari 48, 72 dan 96 adalah....</item>
+        <item>Hasil dari  21 : (3 – 10) + 4 × (–2)  = …</item>
+        <item>Hasil dari  28  +  7 × (–5) adalah ... </item>
+        <item>Hasil dari –12 + 20 × 4 – (–6) : 3 = ...</item>
+        <item>Hasil dari 14 + (18: (–3)) – ((–2)  × 3) adalah ...</item>
+        <item>Nilai n yang memenuhi (12 + 8) + (–3n) = –22 adalah ...</item>
+        <item>72 – (520 : 8) = ...</item>
+        <item>Suhu mula-mula suatu ruangan adalah 250° C. Ruangan tersebut akan digunakan untuk menyimpan ikan sehinga suhunya diturunkan menjadi –30° C. Besar perubahan suhu pada ruangan tersebut adalah ...\n</item>
+        <item>Ali membeli 36 bola dengan harga Rp21.000 per buah dan bola yang lain sebanyak 32 buah dengan harga masing-masing Rp42.000 per buah. Berapakah uang yang harus dibayar Ali untuk bola-bola tersebut?\n</item>
+        <item>Santi membeli selusin gelas dengan harga Rp17.000,00 per gelas. Kemudian ia membeli 19 gelas lagi dengan harga Rp34.000,00 per gelas. Berapakah uang yang harus dibayarkan untuk gelas-gelas tersebut?\n</item>
+        <item>3 jam = ... detik\n</item>
+        <item>5000 cm³ = ... liter\n</item>
+        <item>3 liter = ... cc\n</item>
+        <item>Satuan debit 20 m³/menit = ... dm³/menit\n</item>
+        <item>75 dm³/menit = ... cm³/menit\n</item>
+        <item>120.000 cm³/menit = ... dm³/detik\n</item>
+        <item>1.000 ml/detik = ... cc/menit\n</item>
+        <item>48.000 dm\00B3/menit = ... dm\u00B3/detik\n</item>
+        <item>0,375 cc/detik = ... mm\u00B3/detik\n</item>
+        <item>Jika debit air 3.000 liter/menit maka volume air yang mengalir tiap detik adalah ..... liter.\n</item>
+        <item>Dalam sebuah bak mandi terdapat 9.000 liter air. Karena akan dibersihkan, bak dapat dikosongkan dalam waktu 15 menit. Debit air tersebut adalah . . . .liter/menit.\n</item>
+        <item>Sebuah penampungan air berbentuk tabung dengan volume 24 m³. Tabung dialiri dengan debit 100 liter/menit. Maka tabung tersebut akan penuh dalam waktu .... jam\n</item>
+        <item>Sebuah mobil pemadam kebakaran menyemprotkan air ke lokasi kebakaran. Persediaan air yang dibawa adalah 12.000 liter. Setelah 3 menit air tinggal 9.000 liter. Debit air yang dipakai dalam m³/menit adalah ...\n</item>
+        <item>Debit air kran di rumah paman 15 dm³/menit. Jika bak mandi berukuran 60 cm x 50 cm x 40 cm akan diisi sampai penuh. Maka waktu yang diperlukan adalah ..... menit.\n</item>
+        <item>Waktu yang dibutuhkan untuk mengosongkan akuarium dengan volume 3.250 liter dengan debit kran pembuangan air 50 liter/menit adalah ..... menit.\n</item>
+    </string-array>
+
+    <integer-array name="JumlahPilihanMTK_Lat1">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+
+    <string-array name="ABC_MTK_Lat1">
+        <item>A.     20C</item>
+        <item>B.     5C</item>
+        <item>C.     40C</item>
+        <item>D.     30C</item>
+        <item>A. 25</item>
+        <item>B. 35</item>
+        <item>C. 45</item>
+        <item>D. 55</item>
+        <item>A. 4</item>
+        <item>B. 16</item>
+        <item>C. 64</item>
+        <item>D. 128</item>
+        <item>A. 125%</item>
+        <item>B. 145%</item>
+        <item>C. 165%</item>
+        <item>D. 175%</item>
+        <item>A. –95</item>
+        <item>B. –45 </item>
+        <item>C. 45</item>
+        <item>D. 95</item>
+        <item>A. 25 X 3</item>
+        <item>B. 24 X 3 </item>
+        <item>C. 23 X 3</item>
+        <item>D. 22 X 3</item>
+        <item>A.  –11</item>
+        <item>B.  –5</item>
+        <item>C.   5</item>
+        <item>D.  11</item>
+        <item>A. –175</item>
+        <item>B. –63</item>
+        <item>C. –7</item>
+        <item>D.   7</item>
+        <item>A.  110</item>
+        <item>B.  70</item>
+        <item>C. 34</item>
+        <item>D. 30</item>
+        <item>A.  –4</item>
+        <item>B.  2</item>
+        <item>C. 14</item>
+        <item>D. 42</item>
+        <item>A.  14</item>
+        <item>B.  13</item>
+        <item>C. –13</item>
+        <item>D. –14</item>
+        <item>A.  9</item>
+        <item>B.  8</item>
+        <item>C.   7</item>
+        <item>D.  6</item>
+        <item>A. –280°</item>
+        <item>B.  –220°C</item>
+        <item>C. 220° C</item>
+        <item>D. 280° C</item>
+        <item>A.	Rp 2.100.000</item>
+        <item>B.	Rp 2.200.000</item>
+        <item>C.	Rp 4.100.000</item>
+        <item>D.	Rp 4.200.000</item>
+        <item>A.	Rp 480.000</item>
+        <item>B.	Rp 560.000</item>
+        <item>C.	Rp 850.000</item>
+        <item>D.	Rp 980.000</item>
+        <item>A. 180</item>
+        <item>B. 1.800</item>
+        <item>C. 10.800</item>
+        <item>D. 18.000</item>
+        <item>A. 0,5</item>
+        <item>B. 5</item>
+        <item>C. 50</item>
+        <item>D. 500</item>
+        <item>A. 3</item>
+        <item>B. 30</item>
+        <item>C. 300</item>
+        <item>D. 3.000</item>
+        <item>A. 200</item>
+        <item>B. 2.000</item>
+        <item>C. 20.000</item>
+        <item>D. 200.000</item>
+        <item>A. 750</item>
+        <item>B. 7.500</item>
+        <item>C. 75.000</item>
+        <item>D. 750.000</item>
+        <item>A. 2</item>
+        <item>B. 20</item>
+        <item>C. 12</item>
+        <item>D. 120</item>
+        <item>A. 0,6</item>
+        <item>B. 60</item>
+        <item>C. 6.000</item>
+        <item>D. 60.000</item>
+        <item>A. 80</item>
+        <item>B. 800</item>
+        <item>C. 8000</item>
+        <item>D. 2.880.000</item>
+        <item>A. 0,375</item>
+        <item>B. 3, 75</item>
+        <item>C. 37,5</item>
+        <item>D. 375</item>
+        <item>A. 0,5</item>
+        <item>B. 5</item>
+        <item>C. 50</item>
+        <item>D. 180.000</item>
+        <item>A. 600</item>
+        <item>B. 60</item>
+        <item>C. 10</item>
+        <item>D. 6</item>
+        <item>A. 3</item>
+        <item>B. 4</item>
+        <item>C. 5</item>
+        <item>D. 6</item>
+        <item>A. 1</item>
+        <item>B. 3</item>
+        <item>C. 5</item>
+        <item>D. 10</item>
+        <item>A. 4</item>
+        <item>B. 6</item>
+        <item>C. 8</item>
+        <item>D. 10</item>
+        <item>A. 45</item>
+        <item>B. 55</item>
+        <item>C. 60</item>
+        <item>D. 65</item>
+    </string-array>
+    <string-array name="PenjelasanJawabanMTK_Lat1">
+        <item>Untuk menyelesaikan soal maka perlu diuraikan terlebih dahulu konsep penghuitungannya  menjadi sebagai berikut :\nSelisih suhu = Suhu Kp. Tarogong – Suhu Kp. Cikandang\nSelisih suhu = 300C – (-100C)\n= 30 + 10\n= 400C\n</item>
+        <item>15 x 50 ÷ 30 =   =   = 25</item>
+        <item>172 – 152 = (17 x 17) – (15 x 15)\n= 289 – 225\n= 64\n</item>
+        <item>Ubah pecahan campurannya ke percahan biasa\n1 74 kalikan dengan 100%\n= \n</item>
+        <item>Ketika tanda negatif (–) bertemu dengan negatif (–), maka operasi bilangannya akan berubah menjadi positif (+), sehingga:\n70 – (–25) = 70 + 25\n= 95\n</item>
+        <item>Maka FPB nya adalah = 23×3</item>
+        <item>21 : (3 – 10) + 4 × (–2)\n= 21 : – 7 – 8\n= – 3 – 8\n= – 11\n</item>
+        <item>28  +  7 × (–5)\n= 28 – 35\n= – 7\n</item>
+        <item>–12 + 20 × 4 – (–6) : 3\n= –12 + 80 + 6 : 3\n= 68 + 2\n= 70\n</item>
+        <item>14 + (18: (–3)) – ((–2) × 3)\n= 14 – 6 – (–6)\n= 8 + 6\n= 14\n</item>
+        <item>(12 + 8) + (–3n) = –22\n20 – 3n = – 22\n– 3n = – 22 – 20\n– 3n = – 42\nn = –3/–42 = 14\n</item>
+        <item>72 – (520 : 8) = 72 – 65\n= 7\n</item>
+        <item>Perubahan suhu  = 25°C – (–3°C)\n= 25°C + 3°C\n= 28°C\n</item>
+        <item>Harga 36 bola = 21.000 × 36 = 756.000\nHarga 32 bola = 42.000 × 32 = 1.344.000\nTotal uang yang harus dibayarkan:\n⇒ 756.000 + 1.344.000\n⇒ 2.100.000\nDengan demikian, uang yang harus dibayar Ali adalah Rp2.100.000,00.\n</item>
+        <item>Satu lusin gelas = 12 gelas\nUang yang harus dibayarkan adalah sebagai berikut.\n⇒ 12 × 17.000 + 19 × 34.000\n⇒ 12 × 17.000 + 19 × 2 × 17.000\n⇒ 17.000 × (12 + 19 × 2)\n⇒ 17.000 × (12 + 38)\n⇒ 17.000 × 50\n⇒ 850.000\n</item>
+        <item>1 jam = 3.600 detik\n3 jam = 3 x 3.600 detik\n3 jam = 10.800 detik\n</item>
+        <item>1 liter = 1000 cm³\n1.000 cm³ = 1 liter\n5.000 cm³  = 5 liter\n</item>
+        <item>1 liter = 1000 cc\n3 liter = 3 x 1000 cc\n3 liter = 3000 cc\n</item>
+        <item>1 m³ = 1.000 dm³\n20 m³ = 20 x 1.000 = 20.000 dm³\n</item>
+        <item>1 dm³ = 1.000 cm³\n75 dm³ =  75 x 1.000 = 75.000 dm³\n</item>
+        <item>1 cm³ = 0,001 dm³\n120.000 cm³ = 120.000 x 0,001 = 120 dm³ atau\n120.000 cm³ = 120.000 : 1.000 = 120 dm³\nMengubah menit ke detik dibagi 60\n120.000 cm³/menit = 120 : 60 = 2 dm³/detik\n</item>
+        <item>1 ml = 1 cc\n1.000 ml = 1.000 cc\nMengubah detik ke menit dikali 60\n1.000 ml/detik = 1.000 x 60 = 60.000 cc/menit\n</item>
+        <item>1 menit = 60 detik\nMengubah menit ke detik dibagi 60\n48.000 dm³/menit = 48.000 : 60 = 800 dm³/detik\n</item>
+        <item>1 cc = 1 cm³ = 1.000 mm³\n0,375 cc = 0,375 cm³ = 375 mm³\n</item>
+        <item>Mengubah menit ke detik dibagi 60\n3000 : 60 = 50\n</item>
+        <item>V = 9.000 l\nW = 15 menit\nD = V : W\nD = 9.000 l : 15 menit\nD = 600 l/menit\n</item>
+        <item>V = 24 m³ = 24.000 dm³ = 24.000 l\nD = 100 liter/menit\nW = V : D\nW = 24.000 : 100\nW = 240 menit\nW = 240 : 60\nW = 4 jam\n</item>
+        <item>V = 12.000 liter - 9.000 liter\nV = 3.000 liter = 3.000 dm³ = 3 m³\nW = 3 menit\nD = V : W\nD = 3 m³: 3 menit\nD = 1 m³/menit\n</item>
+        <item>V = 60 x 50 x 40\nV = 120.000 cm³ = 120 dm³\nD = 15 dm³/ menit\nW = V : W\nW = 120 dm³ : 15 dm³/ menit\nW = 8 menit\n</item>
+        <item>V = 3.250 liter\nD = 50 liter/menit\nW = V : D\nW = 3.250 liter : 50 liter/menit\nW = 65 menit\n</item>
+    </string-array>
+    <integer-array name="JawabanKuisMTK_Lat1">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+
+    <!--Soal MTK Latihan 2-->
+    <string-array name="SoalMTK_Lat2">
+        <item>3 jam = ..... detik</item>
+        <item>5000 cm\u00B3 = ..... liter</item>
+        <item>3 liter = ..... cc</item>
+        <item>Satuan debit 20 m\u00B3/menit = ..... dm\u00B3/menit</item>
+        <item>75 dm\u00B3/menit = ..... cm\u00B3/menit</item>
+        <item> 120.000 cm\u00B3/menit = ..... dm\u00B3/detik</item>
+        <item>1.000 ml/detik = ..... cc/menit</item>
+        <item>48.000 dm\u00B3/menit = ..... dm\u00B3/detik</item>
+        <item>0,375 cc/detik = ..... mm\u00B3/detik</item>
+        <item>Jika debit air 3.000 liter/menit maka volume air yang mengalir tiap detik adalah ..... liter.</item>
+        <item>Dalam sebuah bak mandi terdapat 9.000 liter air. Karena akan dibersihkan, bak dapat dikosongkan dalam waktu 15 menit. Debit air tersebut adalah . . . .liter/menit.</item>
+    </string-array>
+    <integer-array name="JumlahPilihanMTK_Lat2">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="ABC_MTK_Lat2">
+        <item>A. 180</item>
+        <item>B. 1.800</item>
+        <item>C. 10.800</item>
+        <item>D. 18.000</item>
+        <item>A. 0,5</item>
+        <item>B. 5</item>
+        <item>C. 50</item>
+        <item>D. 500</item>
+        <item>A. 3</item>
+        <item>B. 30</item>
+        <item>C. 300</item>
+        <item>D. 3.000</item>
+        <item>A. 200</item>
+        <item>B. 2.000</item>
+        <item>C. 20.000</item>
+        <item>D. 200.000</item>
+        <item>A. 750</item>
+        <item>B. 7.500</item>
+        <item>C. 75.000</item>
+        <item>D. 750.000</item>
+        <item>A. 2</item>
+        <item>B. 20</item>
+        <item>C. 12</item>
+        <item>D. 120</item>
+        <item>A. 0,6</item>
+        <item>B. 60</item>
+        <item>C. 6.000</item>
+        <item>D. 60.000</item>
+        <item>A. 80</item>
+        <item>B. 800</item>
+        <item>C. 8000</item>
+        <item>D. 2.880.000</item>
+        <item>A. 0,375</item>
+        <item>B. 3, 75</item>
+        <item>C. 37,5</item>
+        <item>D. 375</item>
+        <item>A. 0,5</item>
+        <item>B. 5</item>
+        <item>C. 50</item>
+        <item>D. 180.000</item>
+        <item>A. 600</item>
+        <item>B. 60</item>
+        <item>C. 10</item>
+        <item>D. 6</item>
+    </string-array>
+    <string-array name="PenjelasanJawabanMTK_Lat2">
+        <item>
+            \n1 jam = 3.600 detik\n
+                3 jam = 3 x 3.600 detik\n
+                3 jam = 10.800 detik\n
+                Jawaban : c
+        </item>
+        <item>
+            \n1 liter = 1000 cm\u00B3\n
+            1.000 cm³ = 1 liter\n
+            5.000 cm³  = 5 liter\n
+            Jawaban : b\n
+        </item>
+        <item>
+            \n1 liter = 1000 cc\n
+            3 liter = 3 x 1000 cc\n
+            3 liter = 3000 cc\n
+            Jawaban : d
+        </item>
+        <item>
+            \n1 m³ = 1.000 dm\u00B3\n
+            20 m³ = 20 x 1.000 = 20.000 dm³\u00B3\n
+            Jawaban : c\n
+        </item>
+        <item>
+            1 dm\u00B3 = 1.000 cm\u00B3\n
+            75 dm\u00B3 =  75 x 1.000 = 75.000 dm\u00B3\n
+            Jawaban : c\n
+        </item>
+        <item>
+            1 cm\u00B3 = 0,001 dm\u00B3\n
+            120.000 cm\u00B3 = 120.000 x 0,001 = 120 dm\u00B3 atau\n
+            120.000 cm\u00B3 = 120.000 : 1.000 = 120 dm\u00B3\n
+            Mengubah menit ke detik dibagi 60\n
+            120.000 cm\u00B3/menit = 120 : 60 = 2 dm³/detik\u00B3\n
+            Jawaban : a
+        </item>
+        <item>
+            1 ml = 1 cc\n
+            1.000 ml = 1.000 cc\n
+            Mengubah detik ke menit dikali 60\n
+            1.000 ml/detik = 1.000 x 60 = 60.000 cc/menit\n
+            Jawaban : d\n
+        </item>
+        <item>
+            1 menit = 60 detik\n
+            Mengubah menit ke detik dibagi 60\n
+            48.000 dm\u00B3/menit = 48.000 : 60 = 800 dm\u00B3/detik\n
+            Jawaban : b
+        </item>
+        <item>
+            1 cc = 1 cm\u00B3 = 1.000 mm\n
+            0,375 cc = 0,375 cm\u00B3 = 375 mm\u00B3\n
+            Jawaban : d\n
+
+        </item>
+        <item>
+            Mengubah menit ke detik dibagi 60
+            3000 : 60 = 50
+            Jawaban : c
+        </item>
+        <item>
+            V = 9.000 l
+            W = 15 menit
+            D = V : W
+            D = 9.000 l : 15 menit
+            D = 600 l/menit
+            Jawaban : a
+        </item>
+
+    </string-array>
+    <integer-array name="JawabanKuisMTK_Lat2">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+
+    <!--Soal MTK Ujian-->
+    <string-array name="SoalMTK_Ujian">
+        <item>Sebuah penampungan air berbentuk tabung dengan volume 24 m³. Tabung dialiri dengan debit 100 liter/menit. Maka tabung tersebut akan penuh dalam waktu ... jam.</item>
+        <item>Sebuah mobil pemadam kebakaran menyemprotkan air ke lokasi kebakaran. Persediaan air yang dibawa adalah 12.000 liter. Setelah 3 menit air tinggal 9.000 liter. Debit air yang dipakai dalam m³/menit adalah ...</item>
+        <item>Debit air kran di rumah paman 15 dm³/menit. Jika bak mandi berukuran 60 cm x 50 cm x 40 cm akan diisi sampai penuh. Maka waktu yang diperlukan adalah ... menit.</item>
+        <item>Waktu yang dibutuhkan untuk mengosongkan akuarium dengan volume 3.250 liter dengan debit kran pembuangan air 50 liter/menit adalah ... menit.</item>
+        <item>Luas Bangunan tersebut adalah...?</item>
+        <item>Panjang AC = 12 cm, dan Panjang BD = 20 cm, maka luas bangun datar ABCD adalah...?</item>
+        <item>Luas gabungan bangun datar tersebut adalah...?</item>
+        <item>Volume prisma segitiga di bawah adalah ...cm³</item>
+        <item>Volume tabung di atas adalah ...</item>
+        <item>Sebuah bak berbentuk prisma segitiga berisi air setengah bagian. Tinggi prisma tersebut 150 cm. Panjang alas segitiga 100 cm dan tingginya 80 cm. Volume air yang ada dalam bak tersebut adalah …</item>
+    </string-array>
+    <integer-array name="JumlahPilihanMTK_Ujian">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+
+    <string-array name="ABC_MTK_Ujian">
+        <item>A. 3</item>
+        <item>B. 4</item>
+        <item>C. 5</item>
+        <item>D. 6</item>
+        <item>A. 1</item>
+        <item>B. 3</item>
+        <item>C. 5</item>
+        <item>D. 10</item>
+        <item>A. 4</item>
+        <item>B. 6</item>
+        <item>C. 8</item>
+        <item>D. 10</item>
+        <item>A. 45</item>
+        <item>B. 55</item>
+        <item>C. 60</item>
+        <item>D. 65</item>
+        <item>A. 656 cm².</item>
+        <item>B. 752 cm²</item>
+        <item>C. 1.312 cm² </item>
+        <item>D. 1.504 cm²</item>
+        <item>A. 480 cm².</item>
+        <item>B. 240 cm².</item>
+        <item>C. 120 cm².</item>
+        <item>D. 60 cm².</item>
+        <item>A. 120 cm². </item>
+        <item>B. 70 cm². </item>
+        <item>C.52 cm²</item>
+        <item>D.42 cm²</item>
+        <item>a.	1.344</item>
+        <item>b.	1.434</item>
+        <item>c.	2.688</item>
+        <item>d.	2.868</item>
+        <item>a.	1.732 cm³</item>
+        <item>b.	1.734 cm³</item>
+        <item>c.	1.732,5 cm³</item>
+        <item>d.	1.734,5 cm³</item>
+        <item>a.	200.000 liter</item>
+        <item>b.	200 liter</item>
+        <item>c.	300.000 liter</item>
+        <item>d.	300 liter</item>
+    </string-array>
+
+    <string-array name="PenjelasanJawabanMTK_Ujian">
+        <item>
+            V = 24 m³ = 24.000 dm³\n
+            D = 100 liter/menit\n
+            W = V : D\n
+            W = 24.000 : 100\n
+            W = 240 menit\n
+            W = 240 : 60\n
+            W = 4 jam\n
+            Jawaban : b\n
+        </item>
+        <item>
+            V = 12.000 liter - 9.000 liter\n
+            V = 3.000 liter = 3.000 dm³ = 3 m³\n
+            W = 3 menit\n
+            D = V : W\n
+            D = 3 m³: 3 menit\n
+            D = 1 m³/menit\n
+            Jawaban : a\n
+        </item>
+        <item>
+            V = 60 x 50 x 40\n
+            V = 120.000 cm³ = 120 dm³\n
+            D = 15 dm³/ menit\n
+            W = V : W\n
+            W = 120 dm³ : 15 dm³/ menit\n
+            W = 8 menit\n
+        </item>
+        <item>
+            V = 3.250 liter\n
+            D = 50 liter/menit\n
+            W = V : D\n
+            W = 3.250 liter : 50 liter/menit\n
+            W = 65 menit\n
+            Jawaban : d\n
+        </item>
+        <item>
+            Rumus mencari luas trapesium adalah :  1/2 x tinggi x (alas atas +alas bawah)\n
+                       tinggi = 16 cm\n
+                       alas bawah = 35 + 12 + 12 = 59 cm\n
+                       alas atas  = 35 cm\n
+                       Luas = 1/2 x 16 x (35 + 59)\n
+                                = 1/2 x 16 x 94 = 752 cm2.\n
+            Jawaban B.
+        </item>
+        <item>
+            Luas Bangunan datar ABCD adalah  L = 1/2 x d1 x d2
+            L = 1/2 x 12 x 20 = 120 cm2.
+            Jawaban C.
+
+        </item>
+        <item>
+            Luas total = Luas 1 + luas 2
+                = 10 X 4  + 10 x 3
+                = 40 + 30 = 70 cm2.
+            Jawaban B
+
+        </item>
+        <item>
+            Volume Prisma = Alas x tinggi
+            = ½ x 16 x 8 x 21
+            = 8 x 8 x 21
+            = 64 x 21
+            = 1.344
+            Jadi, volume prisma segitiga adalah 1.344 cm³.
+        </item>
+        <item>
+            Volume tabung = luas lingkaran × tinggi tabung
+            = 22/7 × 10,5 × 10,5 × 5
+            = 1.732,5 cm³
+        </item>
+        <item>
+            Volume air = ½ x ½ x a x t x t
+            = ½ x ½ x 100 x 80 x 150
+            = 300.000 cm³
+            = 300 liter
+            Jadi, volume air dalam bak adalah 300 liter.
+        </item>
+
+    </string-array>
+    <integer-array name="JawabanKuisMTK_Ujian">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+
+
+    <!--Soal Indo Latihan 1-->
+    <string-array name="SoalIndo_Lat1">
+        <item>Paman membeli sepda motor secara kredit. Antonim dari kredit adalah …</item>
+        <item>
+            (1)Ayahku tidak pernah mengalami kesulitan tidur. (2) Ia bisa tidur di mana saja. (3) Sambil duduk pun, Ayah bisa tidur. (4) Jika di kasur, belum sepuluh menit berbaring, ia sudah mendengkur keras.\n\n
+            Kalimat utama paragraf tersebut ditandai dengan nomor ...
+        </item>
+        <item>
+            Ambil sapu dekat pagar\n
+            Bersihkan rumah halaman juga\n
+            Baca buku rajin belajar\n
+            Tingkah laku pun dijaga juga.\n\n
+            Pesan yang terkandung dalam pantun tersebut adalah ...\n
+
+        </item>
+        <item>
+            Aku bersujud kepadamu\n
+            Tuk memohon ampunanmu\n
+            Aku berdoa kepadamu\n
+            Tuk mengarapkan surgamu\n\n
+            Maksud isi syair tersebut adalah…\n
+        </item>
+        <item>
+            Aku sangat senang sekali membaca buku. Terkadang karena keasyikan membaca, aku tidak mendengar teman yang berbicara kepadaku. Oleh karena itu aku dijuluki “si kutu buku”. Aku tidak marah dijuluki seperti itu. Kata ibu kutu buku itu artinya orang yang sangat gemar membaca buku.\n\n
+            Perbaikan yang tepat pada kalimat pertama paragraf di atas adalah…
+        </item>
+        <item>
+            Manusia jangan melangit tinggi.\n
+            Makna melangit pada kalimat tersebut adalah ....
+        </item>
+        <item>
+            Pohon itu kelihatan pendek\n
+            Antonim kata pendek dalam kalimat tersebut adalah ….
+        </item>
+        <item>
+            Hadiah ini hanya … saja sebagai tanda persahabatan.\n
+            Kata baku yang tepat untuk melengkapi kalimat tersebut adalah …
+        </item>
+        <item>
+            Beberapa sekolah dikota memiliki halaman yang sempit.\n
+            Antonim kata sempit dalam kalimat tersebut …
+        </item>
+        <item>
+            Siang itu sampah berserakan di halaman sekolah.\n
+            Persamaan kata bergaris bawah di dalam kalimat tersebut yaitu ....
+        </item>
+
+
+    </string-array>
+    <integer-array name="JumlahPilihanIndo_Lat1">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+
+    <string-array name="ABC_Indo_Lat1">
+        <item>A.	Diangsur</item>
+        <item>B.	Tunai</item>
+        <item>C.	Potongan harga</item>
+        <item>D.	Diskon</item>
+        <item>A.	(1)</item>
+        <item>B.	(2)</item>
+        <item>C.	(3)</item>
+        <item>D.	(4)</item>
+        <item>A.	Kita harus rajin membaca buku agar menjadi pintar</item>
+        <item>B.	Selain rajin membaca buku, kita harus menjaga tingkah laku</item>
+        <item>C.	Karena buku merupakan gudang ilmu, haruslah jarin belajar</item>
+        <item>D.	Tingkah laku perlu dijaga agar hidup sejahtera</item>
+        <item>A. Jika mengharapkan surga, maka laksanakanlah perintah Tuhan dan memohon ampunan.</item>
+        <item>B. Jika mengharap surga, maka bersedekahlah kepada fakir miskin.</item>
+        <item>C. Jika melawan orang tua maka akan masuk neraka.</item>
+        <item>D. Memohon ampunan Tuhan setelah melakukan kesalahan.</item>
+        <item>A. Aku sangat senang membaca buku.</item>
+        <item>B. Saking asyiknya membaca aku sampai tidak fokus.</item>
+        <item>C. Aku dijuluki dengan nama “si kutu buku”</item>
+        <item>D. Kutu buku adalah orang yang sanfat gemar membaca buku.</item>
+        <item>A. Mulia</item>
+        <item>B. hebat</item>
+        <item>C. angkuh</item>
+        <item>D. kaya</item>
+        <item>A. besar</item>
+        <item>B. tinggi</item>
+        <item>C. panjang</item>
+        <item>D. rimbun</item>
+        <item>A.	Sekadarmua</item>
+        <item>B.	Sekedarnya</item>
+        <item>C.	Sekidarnya</item>
+        <item>D.	Skidarnya</item>
+        <item>A.	Besar</item>
+        <item>B.	Longgar</item>
+        <item>C.	Lebar</item>
+        <item>D.	Luas</item>
+        <item>A. beterbangan</item>
+        <item>B. mengonggok</item>
+        <item>C. berhamburan</item>
+        <item>D. bertebaran</item>
+    </string-array>
+    <string-array name="PenjelasanJawabanIndo_Lat1">
+        <item>
+            Arti dari kata kredit adalah menjual barang dengan cara tidak tunai atau di angsur. Jadi antonim dari kredit adalah tunai.\n
+            Jawaban : B\n
+        </item>
+        <item>
+            Kalimat utama adalah kalimat yang berisi ide pokok paragraf. Yang merupakan kalimat utama adalah Ayahku tidak pernah mengalami kesulitan tidur. Sedangkan kalimat kedua sampai keempat merupakan kalimat penjelas jadi kalimat utamanya  adalah nomor (1)\n
+            Jawaban : A\n
+        </item>
+        <item>
+            Pantun tersebut mengingatkan kepada para pembaca agar selalu rajin belajar dan menjaga tingkah laku.\n
+            Jadi, pesan yang terkandung dalam pantun tersebut adalah Selain rajin membaca buku, kita juga harus menjaga tingkah laku.\n
+            Jawaban : B\n
+        </item>
+        <item>
+            Syair tersebut merupakan syair agama yang berpesan bahwa apabila kita mengharapkan surga, maka kita harus melaksanakan perintah Tuhan dan memohon ampunan. Oleh sebab itu, jawaban yang tepat adalah pilihan A\n
+            Jawaban kuis : A\n
+        </item>
+        <item>Kalimat pertama pada paragraf tersebut tidak efektif karena pemakaian kata sangat dan senang sekali karena keduanya menunjukkan maksud yang sama. Perbaikan yang tepat agar menjadi kalimat efektif adalah aku sangat senang membaca buku. Oleh sebab itu, jawaban yang tepat adalah pilihan A.</item>
+        <item>
+            Kata melangit dalam arti adalah angkuh, berlebih-lebihkan dan makna kalimat di atas adalah manusia jangan angkuh.\n
+            Jawaban kuis : C\n
+        </item>
+        <item>
+            Kata melangit dalam arti adalah angkuh, berlebih-lebihkan dan makna kalimat di atas adalah manusia jangan angkuh.\n
+            Jawaban kuis : C
+        </item>
+        <item>
+            Kata baku yang tepat adalah SEKADARNYA, bentuk tidak bakunya adalah sekedarnya.\n
+            Jawaban kuis : A
+        </item>
+        <item>
+            Antonim adalah kata yang memiliki makna yang berlawanan, kata antonim sempit adalah LUAS.\n
+            Jawaban kuis : D
+        </item>
+        <item>
+            Persamaan kata berserakan merupakan berhamburan.\n
+            Jawaban kuis : C
+        </item>
+    </string-array>
+    <integer-array name="JawabanKuisIndo_Lat1">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+
+    <!--Soal Indo Latihan 2-->
+    <string-array name="SoalIndo_Lat2">
+        <item>Sebelum menanggapi isi berita / informasi, kita harus dapat ….</item>
+        <item>
+            Syafa membeli obat di apotik dengan menggunakan resep dokter.\n
+            Perbaikan kata yang dicetak tebal di atas adalah…
+        </item>
+        <item>Kalimat berikut yang menggunakan tanda koma dengan benar adalah…</item>
+        <item>Pedagang grosir itu membuatkan kuwitansi pembelian satu kuwintal gula inport. Penulisan kata kuitansi, kuwintal, dan inport yang tepat untuk kalimat tersebut adalah ...</item>
+        <item>Pemakaian tanda baca yang sempurna terdapat pada ...</item>
+        <item>Berikut ialah pola penerapan tanda hubung (-) yang benar, kecuali ....</item>
+        <item>Penulisan kata bilangan yang benar terdapat pada kalimat ....</item>
+        <item>Kalimat yang tepat di bawah ini yaitu ....</item>
+        <item>
+            Minuman hangat yang tersedia ialah teh kopi dan susu.\n
+            Penulisan tanda baca yang tepat adalah ...
+        </item>
+        <item>
+            Mobil itu berhenti di Jalan Tol.\n
+            Penulisan kata Jalan Tol salah karena ....
+        </item>
+    </string-array>
+    <integer-array name="JumlahPilihanIndo_Lat2">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="ABC_Indo_Lat2">
+        <item>a. mencatat pokok-pokok informasi</item>
+        <item>b. melewatkan pokok informasi</item>
+        <item>c. mengabaikan pesan informasi</item>
+        <item>d. merubah pokok-pokok informasi</item>
+        <item>A. apotik</item>
+        <item>B. apotic</item>
+        <item>C. avotek</item>
+        <item>D. apotek</item>
+        <item>A. Toko kue, dan toko sayur letaknya bersebelahan.</item>
+        <item>B. Aisyah, Fatimah, dan Khadijah belajar bersama.</item>
+        <item>C. Ibu pergi ke pasar untuk berbelanja buah duku, salak dan manggis.</item>
+        <item>D. Adik menabung sebesar Rp. 150,000</item>
+        <item>A. kuitansi, kuintal, impor</item>
+        <item>B. kwitansi, kuintal, inpor</item>
+        <item>C. kuitansi, kwintal, import</item>
+        <item>D. kwitansi, kuintal, import</item>
+        <item>A. Dian bertanya: "Siapa gadis itu?".</item>
+        <item>B. Rok "canda" sudah tidak terkenal lagi di Indonesia.</item>
+        <item>C. Lana tinggal di Jalan Hakim, Medan.</item>
+        <item>D. Rate of inflation, \u0027 laju inflasi\u0027, di Indonesia mulai menurun.</item>
+        <item>A. se-Jawa Barat</item>
+        <item>B. Tahun 90-an</item>
+        <item>C. Anak-anak</item>
+        <item>D. memPHK-kan</item>
+        <item>A. Dua ratus empat puluh orang tamu diundang dalam pertemuan itu.</item>
+        <item>B. Dewi membaca novel itu hingga empat kali.</item>
+        <item>C. 14 orang tewas dalam kecelakaan itu.</item>
+        <item>D. Perusahaan itu mencari 10 (sepuluh) pegawai baru.</item>
+        <item>A. Para guru sedang rapat hari ini.</item>
+        <item>B. Para guru-guru sedang rapat hari ini.</item>
+        <item>C. Para bapak-bapak dan ibu-ibu guru sedang rapat hari ini.</item>
+        <item>D. Para semua guru sedang rapat hari ini.</item>
+        <item>A. Minuman hangat yang tersedia, ialah teh, kopi, dan susu.</item>
+        <item>B. Minuman hangat yang tersedia ialah teh, kopi dan susu.</item>
+        <item>C. Minuman hangat yang tersedia ialah: teh, kopi, dan susu.</item>
+        <item>D. Minuman hangat yang tersedia ialah teh, kopi, dan susu.</item>
+        <item>A. terletak pada akhir kalimat</item>
+        <item>B. nama jalan diikuti kata tol</item>
+        <item>C. jalan tol jalan bebas hambatan</item>
+        <item>D. ditulis dengan huruf kapital</item>
+    </string-array>
+    <string-array name="PenjelasanJawabanIndo_Lat2">
+        <item>
+            Menurut Kamus Besar Bahasa Indonesia penulisan kata apotik yang tepat adalah apotek.\n
+            Jawaban kuis : D
+        </item>
+        <item></item>
+        <item>
+            Tanda koma (,) digunakan di antara unsur-unsur dalam suatu perincian. Pada pilihan jawaban tersebut yang paling tepat adalah Aisyah, Fatimah, dan Khadijah belajar bersama. Pilihan A tidak tepat karena perincian hanya terdiri dari dua unsur sehingga tidak memerlukan tanda koma (,). Pilihan B tidak tepat karena tidak terdapat tanda koma (,) sebelum kata dan. Pilihan D juga tidak tepat karena pada penulisan nominal uang; untuk menunjukkan ribuan menggunakan tanda titik (.) bukan tanda koma (,).Oleh sebab itu, jawaban yang tepat adalah pilihan B.\n
+            Jawaban kuis : B
+        </item>
+        <item>
+            Dalam Kamus Besar Bahasa Indonesia (KBII), kata baku yang benar adalah kuitansi, kuintal, impor.\n
+            Jawaban kuis : A
+        </item>
+        <item>
+            Pemakaian tanda baca yang sempurna terdapat pada kalimat (B) Rok "canda" sudah tidak terkenal lagi di Indonesia. Tanda petik (") yang dipakai menuliskan kata yang dipertegas maknanya dan atau mempunyai kata khusus.\n
+            Jawaban kuis : B
+        </item>
+        <item>
+            Pola penerapan tanda hubung yang tidak sempurna ialah memPHK-kan. Seharusnya ialah mem-PHK-kan.\n
+            Jawaban kuis : D
+        </item>
+        <item>
+            Aturan penulisan kata bilangan:\n
+            1. Pada awal kalimat ditulis dengan huruf\n
+            2. Jika sanggup ditulis dengan satu atau dua kata maka ditulis denga huruf\n
+            3. Jika lebih dari dua kata, maka ditulis dengan angka\n
+            Jadi,  penulisan kata bilangan yang benar terdapat kalimat (B)\n
+            Jawaban kuis : B
+        </item>
+        <item>
+            Kata para berarti jamak, kata guru-guru juga bermakna jamak, jadi salah satunya perlu dihilangkan agar tidak terjadi pemborosan bahasa.\n
+            Jawaban kuis : A
+        </item>
+        <item>
+            Sesudah kata ialah/adalah tidak diperlukan tanda baca titik dua (:), tetapi langsung diikuti kata-kata atau bagian kalimat selanjutnya. Jawaban yang betul untuk nomor 2 adalah D.\n
+            Jawaban kuis : D
+        </item>
+        <item>
+            Kata Jalan Tol yang tidak di iringi dengan huruf pertama dalam penulisan unsur-unsur nama geografi yang diikuti nama diri geografi merupakan salah.\n
+            Jawaban kuis : D
+        </item>
+    </string-array>
+    <integer-array name="JawabanKuisIndo_Lat2">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+
+    <!--Soal IPA Ujian-->
+    <string-array name="SoalIndo_Ujian">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <integer-array name="JumlahPilihanIndo_Ujian">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="ABC_Indo_Ujian">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="PenjelasanJawabanIndo_Ujian">
+
+    </string-array>
+    <integer-array name="JawabanKuisIndo_Ujian">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+
+
+    <!--Key-->
+
+    <string name="QUIZ_AKU_USERNAME">me.sigitari.ujian.username</string>
+
+    <string name="MateriFragment">me.sigitari.ujian.materi.fragment</string>
+
+    <string name="MateriFragmentIPA">me.sigitari.ujian.materiIPA.fragment</string>
+    <string name="MateriFragmentMTK">me.sigitari.ujian.materiMTK.fragment</string>
+    <string name="MateriFragmentINDO">me.sigitari.ujian.materiINDO.fragment</string>
+
+    <string name="KuisFragment">me.sigitari.ujian.materi.kuis</string>
+
+
+    <string name="KuisFragmentIPA">me.sigitari.ujian.materiIPA.kuis</string>
+    <!--Bagian ga penting bisa di hapus-->
+    <string name="KuisFragmentMTK">me.sigitari.ujian.materiMTK.kuis</string>
+    <string name="KuisFragmentINDO">me.sigitari.ujian.materiINDO.kuis</string>
+
+
+    <string name="SCORE_UTAMANYA">me.sigitari.ujian.score</string>
+
+    <string name="Array_Bobot1">me.sigitari.ujian.bobotsoal</string>
+    <!--
+    <string name="QUIZ_AKU_SCORE_KUIS1">me.sigitari.ujian.scorekuis1</string>
+    <string name="QUIZ_AKU_SCORE_KUIS2">me.sigitari.ujian.scorekuis2</string>
+    <string name="QUIZ_AKU_SCORE_KUIS3">me.sigitari.ujian.scorekuis3</string>
+    <string name="QUIZ_AKU_SCORE_KUIS4">me.sigitari.ujian.scorekuis4</string>
+    <string name="QUIZ_AKU_SCORE_KUIS5">me.sigitari.ujian.scorekuis5</string>
+    <string name="QUIZ_AKU_SCORE_KUIS6">me.sigitari.ujian.scorekuis6</string>
+    <string name="QUIZ_AKU_SCORE_KUIS7">me.sigitari.ujian.scorekuis7</string>
+-->
+
+    <!--Score IPA-->
+    <string name="SCORE_IPA_Latihan1">me.sigitari.SCORE_IPA_Latihan1</string>
+    <string name="SCORE_IPA_Latihan2">me.sigitari.SCORE_IPA_Latihan2</string>
+    <string name="SCORE_IPA_Ujian">me.sigitari.SCORE_IPA_Ujian</string>
+
+    <string name="Dikerjakan_IPA_Latihan1">me.sigitari.Dikerjakan_IPA_Latihan1</string>
+    <string name="Dikerjakan_IPA_Latihan2">me.sigitari.Dikerjakan_IPA_Latihan2</string>
+    <string name="Dikerjakan_IPA_Ujian">me.sigitari.Dikerjakan_IPA_Ujian</string>
+
+    <!--Score MTK-->
+    <string name="SCORE_MTK_Latihan1">me.sigitari.SCORE_MTK_Latihan1</string>
+    <string name="SCORE_MTK_Latihan2">me.sigitari.SCORE_MTK_Latihan2</string>
+    <string name="SCORE_MTK_Ujian">me.sigitari.SCORE_MTK_Ujian</string>
+
+    <string name="Dikerjakan_MTK_Latihan1">me.sigitari.Dikerjakan_MTK_Latihan1</string>
+    <string name="Dikerjakan_MTK_Latihan2">me.sigitari.Dikerjakan_MTK_Latihan2</string>
+    <string name="Dikerjakan_MTK_Ujian">me.sigitari.Dikerjakan_MTK_Ujian</string>
+
+    <!--Score B.INDO-->
+    <string name="SCORE_INDO_Latihan1">me.sigitari.SCORE_INDO_Latihan1</string>
+    <string name="SCORE_INDO_Latihan2">me.sigitari.SCORE_INDO_Latihan2</string>
+    <string name="SCORE_INDO_Ujian">me.sigitari.SCORE_INDO_Ujian</string>
+
+    <string name="Dikerjakan_INDO_Latihan1">me.sigitari.Dikerjakan_INDO_Latihan1</string>
+    <string name="Dikerjakan_INDO_Latihan2">me.sigitari.Dikerjakan_INDO_Latihan2</string>
+    <string name="Dikerjakan_INDO_Ujian">me.sigitari.Dikerjakan_INDO_Ujian</string>
+
+    <!--Point Progress bar Level exp-->
+
+    <string name="Point_EXP">me.sigitari.Point_EXP</string>
+
+
+    <!--
+    <string name="SCORE_MTK">me.sigitari.ujian.MTK</string>
+    <string name="SCORE_INDO">me.sigitari.ujian.INDO</string>
+
+    <string name="SCORE_UJIAN_IPA">me.sigitari.ujian.ujianipa</string>
+    <string name="SCORE_UJIAN_MTK">me.sigitari.ujian.ujianmtk</string>
+    <string name="SCORE_UJIAN_INDO">me.sigitari.ujian.ujianindo</string>
+-->
+
+    <string name="QUIZ_AKU_LEVEL">me.sigitari.ujian.level</string>
+    <string name="QUIZ_AKU_SOAL1">me.sigitari.ujian.level1</string>
+    <string name="QUIZ_AKU_SOAL2">me.sigitari.ujian.level2</string>
+    <string name="QUIZ_AKU_SOAL3">me.sigitari.ujian.level3</string>
+    <string name="QUIZ_AKU_SOAL4">me.sigitari.ujian.level4</string>
+    <string name="QUIZ_AKU_SOAL5">me.sigitari.ujian.level5</string>
+    <string name="QUIZ_AKU_SOAL6">me.sigitari.ujian.level6</string>
+    <string name="QUIZ_AKU_SOAL7">me.sigitari.ujian.level7</string>
+    <string name="QUIZ_AKU_SOAL8">me.sigitari.ujian.level8</string>
+    <string name="QUIZ_AKU_SOAL9">me.sigitari.ujian.level9</string>
+    <string name="QUIZ_AKU_PROGRESS">me.sigitari.ujian.progress</string>
+
+    <string name="QUIZ_AKU_BGM">me.sigitari.ujian.bgm</string>
+    <string name="QUIZ_AKU_SFX">me.sigitari.ujian.sfx</string>
+
+
+    <string name="title_activity_layoutmateri1">layoutmateri1</string>
+    <string name="title_activity_tutorial_aku">tutorialAKU</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Soal NOMOR 1-->
+    <string-array name="ipa_latihan1">
+        <item>Fungsi bagian yang diberi tanda panah pada hewan di samping adalah untuk....</item>
+        <item>1. akar tidak menancap di dasar perairan \n2. akar lebat untuk menjaga keseimbangan \n3. seluruh batangnya terdapat rongga udara \nCiri-ciri tumbuhan tersebut dimiliki oleh….</item>
+        <item>Berdasarkan gambar di atas dampak negatif terhadap lingkungan yang terjadi adalah….</item>
+        <item>Perkembangbiakan hewan tersebut dilakukan dengan cara….</item>
+        <item>Proses penyesuaian diri makhluk hidup terhadap lingkungannya disebut ….</item>
+        <item>Ciri khusus yang dimiliki kelelawar adalah ….</item>
+        <item>Teratai dapat terapung di atas air karena memiliki ….</item>
+        <item>Hewan pemakan tumbuhan dinamakan ….</item>
+        <item>Hewan dapat hidup di berbagai tempat, kecuali ….</item>
+        <item>\n1.	Baterai\n2.	generator\n3.	bola lampu\n4.	setrika listrik \n5.	rice cooker\n6.	oven\n\nContoh-contoh benda yang mengalami perubahan energi yang sama ditunjukkan oleh nomor ...</item>
+        <item>Nilai n yang memenuhi (12 + 8) + (–3n) = –22 adalah ...</item>
+        <item>72 – (520 : 8) = ...</item>
+        <item>Suhu mula-mula suatu ruangan adalah 250° C. Ruangan tersebut akan digunakan untuk menyimpan ikan sehinga suhunya diturunkan menjadi –30° C. Besar perubahan suhu pada ruangan tersebut adalah ...\n</item>
+        <item>Ali membeli 36 bola dengan harga Rp21.000 per buah dan bola yang lain sebanyak 32 buah dengan harga masing-masing Rp42.000 per buah. Berapakah uang yang harus dibayar Ali untuk bola-bola tersebut?\n</item>
+        <item>Santi membeli selusin gelas dengan harga Rp17.000,00 per gelas. Kemudian ia membeli 19 gelas lagi dengan harga Rp34.000,00 per gelas. Berapakah uang yang harus dibayarkan untuk gelas-gelas tersebut?\n</item>
+        <item>3 jam = ... detik\n</item>
+        <item>5000 cm³ = ... liter\n</item>
+        <item>3 liter = ... cc\n</item>
+        <item>Satuan debit 20 m³/menit = ... dm³/menit\n</item>
+        <item>75 dm³/menit = ... cm³/menit\n</item>
+        <item>120.000 cm³/menit = ... dm³/detik\n</item>
+        <item>1.000 ml/detik = ... cc/menit\n</item>
+        <item>48.000 dm\u00B2/menit = ... dm³/detik\n</item>
+        <item>0,375 cc/detik = ... mm³/detik\n</item>
+        <item>Jika debit air 3.000 liter/menit maka volume air yang mengalir tiap detik adalah ..... liter.\n</item>
+        <item>Dalam sebuah bak mandi terdapat 9.000 liter air. Karena akan dibersihkan, bak dapat dikosongkan dalam waktu 15 menit. Debit air tersebut adalah . . . .liter/menit.\n</item>
+        <item>Sebuah penampungan air berbentuk tabung dengan volume 24 m³. Tabung dialiri dengan debit 100 liter/menit. Maka tabung tersebut akan penuh dalam waktu .... jam\n</item>
+        <item>Sebuah mobil pemadam kebakaran menyemprotkan air ke lokasi kebakaran. Persediaan air yang dibawa adalah 12.000 liter. Setelah 3 menit air tinggal 9.000 liter. Debit air yang dipakai dalam m³/menit adalah ...\n</item>
+        <item>Debit air kran di rumah paman 15 dm³/menit. Jika bak mandi berukuran 60 cm x 50 cm x 40 cm akan diisi sampai penuh. Maka waktu yang diperlukan adalah ..... menit.\n</item>
+        <item>Waktu yang dibutuhkan untuk mengosongkan akuarium dengan volume 3.250 liter dengan debit kran pembuangan air 50 liter/menit adalah ..... menit.\n</item>
+
+    </string-array>
+    <string-array name="ipa_latihan1_pilihan">
+        <item>A. mengeluarkan tinta hitam</item>
+        <item>B. mengeluarkan bisa</item>
+        <item>C. mengelabuhi musuh</item>
+        <item>D. mengeluarkan duri tubuhnya</item>
+        <item>A. eceng gondok</item>
+        <item>B. teratai</item>
+        <item>C. kaktus</item>
+        <item>D. pohon mahoni</item>
+        <item>A. meluasnya resapan air</item>
+        <item>B. tempat tinggal makhluk hidup semakin luas</item>
+        <item>C. tanah kehilangan kesuburannya</item>
+        <item>D. pohon mudah ditanam</item>
+        <item>A. konjugasi</item>
+        <item>B. ovipar</item>
+        <item>C. vivipara</item>
+        <item>D. ovovivipar</item>
+        <item>A. Morfologi</item>
+        <item>B. Ekosistem</item>
+        <item>C. Adaptasi</item>
+        <item>D. Habitat</item>
+        <item>A. Pendengaran</item>
+        <item>B. Penglihatan</item>
+        <item>C. Perabaan</item>
+        <item>D. Pencengkraman</item>
+        <item>A. Batang yang kuat</item>
+        <item>B. Batang yang berongga</item>
+        <item>C. Daun yang runcing</item>
+        <item>D. Daun yang panjang</item>
+        <item>A. Herbivora</item>
+        <item>B. Karnivora</item>
+        <item>C. Omnivora</item>
+        <item>D. Insektivora</item>
+        <item>A. Di air</item>
+        <item>B. Di api</item>
+        <item>C. Di darat</item>
+        <item>D. Di darat dan air</item>
+        <item>A. 1, 2, dan 3</item>
+        <item>B. 2, 4, dan 5  </item>
+        <item>C. 1, 3, dan 6</item>
+        <item>D. 4, 5, dan 6</item>
+        <item>A.  14</item>
+        <item>B.  13</item>
+        <item>C. –13</item>
+        <item>D. –14</item>
+        <item>A.  9</item>
+        <item>B.  8</item>
+        <item>C.   7</item>
+        <item>D.  6</item>
+        <item>A. –280°</item>
+        <item>B.  –220°C</item>
+        <item>C. 220° C</item>
+        <item>D. 280° C</item>
+        <item>A.	Rp 2.100.000</item>
+        <item>B.	Rp 2.200.000</item>
+        <item>C.	Rp 4.100.000</item>
+        <item>D.	Rp 4.200.000</item>
+        <item>A.	Rp 480.000</item>
+        <item>B.	Rp 560.000</item>
+        <item>C.	Rp 850.000</item>
+        <item>D.	Rp 980.000</item>
+        <item>A. 180</item>
+        <item>B. 1.800</item>
+        <item>C. 10.800</item>
+        <item>D. 18.000</item>
+        <item>A. 0,5</item>
+        <item>B. 5</item>
+        <item>C. 50</item>
+        <item>D. 500</item>
+        <item>A. 3</item>
+        <item>B. 30</item>
+        <item>C. 300</item>
+        <item>D. 3.000</item>
+        <item>A. 200</item>
+        <item>B. 2.000</item>
+        <item>C. 20.000</item>
+        <item>D. 200.000</item>
+        <item>A. 750</item>
+        <item>B. 7.500</item>
+        <item>C. 75.000</item>
+        <item>D. 750.000</item>
+        <item>A. 2</item>
+        <item>B. 20</item>
+        <item>C. 12</item>
+        <item>D. 120</item>
+        <item>A. 0,6</item>
+        <item>B. 60</item>
+        <item>C. 6.000</item>
+        <item>D. 60.000</item>
+        <item>A. 80</item>
+        <item>B. 800</item>
+        <item>C. 8000</item>
+        <item>D. 2.880.000</item>
+        <item>A. 0,375</item>
+        <item>B. 3, 75</item>
+        <item>C. 37,5</item>
+        <item>D. 375</item>
+        <item>A. 0,5</item>
+        <item>B. 5</item>
+        <item>C. 50</item>
+        <item>D. 180.000</item>
+        <item>A. 600</item>
+        <item>B. 60</item>
+        <item>C. 10</item>
+        <item>D. 6</item>
+        <item>A. 3</item>
+        <item>B. 4</item>
+        <item>C. 5</item>
+        <item>D. 6</item>
+        <item>A. 1</item>
+        <item>B. 3</item>
+        <item>C. 5</item>
+        <item>D. 10</item>
+        <item>A. 4</item>
+        <item>B. 6</item>
+        <item>C. 8</item>
+        <item>D. 10</item>
+        <item>A. 45</item>
+        <item>B. 55</item>
+        <item>C. 60</item>
+        <item>D. 65</item>
+    </string-array>
+    <string-array name="penjelasan_ipa_latihan1">
+        <item>Hewan di atas adalah cicak. Tubuh cicak terdiri atas kepala, badan, kaki, dan ekor. Ketika dalam keadaan bahaya, cicak dapat memutuskan ekornya untuk mengelabuhi musuh.</item>
+        <item>Ciri-ciri tersebut dimiliki oleh tumbuhan air yaitu eceng gondok. Eceng gondok memiliki struktur tubuh yang mendukung untuk mengapung di air. sedangkan teratai meskipun tumbuhan air namun memiliki ciri yang berbeda yaitu akarnya berada di dasar perairan, batangnya terdapat di dalam air, daunnya menyembul di permukaan, dan daunnya lebar serta tipis.</item>
+        <item>Pada gambar terlihat areal bekas pertambangan. Dampak negatif yang terjadi dari aktivitas pertambangan tersebuat adalah tanah kehilangan kesuburannya, terganggungnya habitat hewan, berkurangnya resapan air, serta pencemaran sungai karena limbah yang dihasilkan.</item>
+        <item>Hewan pada gambar adalah ikan pari, hewan ini berkembangbiak dengan cara ovovivipar telur yang ada dalam kandungan tidak langsung dikeluarkan dan dibiarkan menetas begitu saja. Akan tetapi, telur tersebut akan disimpan didalam tubuh ikan pari betina sampai embrionya tumbuh dan berkembang dalam kandungan hingga mencapai titik yang optimal.</item>
+        <item>Morfologi (biologi), adalah ilmu yang mempelajari tentang bentuk organisme. Ekosistem adalah suatu sistem ekologi yang terbentuk karena adanya hubungan timbal balik antara mahluk hidup dengan lingkungan. Adaptasi adalah cara bagaimana suatu organisme menyesuaikan diri dalam mengatasi tekanan lingkungan sekitarnya. Habitat itu artinya lingkungan alam di mana suatu organisme hidup. Jadi jawabannya yang benar ialah Adaptasi</item>
+        <item>Memiliki kemampuan ekolokasi yaitu mampu menggunakan gelombang bunyi (sonar) untuk mendeteksi keadaan disekitarnya. Kelelawar mampu mengeluarkan bunyi dengan frekuensi tinggi (bunyi utrasonik).</item>
+        <item>Batang dan akar teratai memiliki rongga-rongga udara. Rongga-rongga ini berfungsi membawa oksigen ke batang dan akar sehingga teratai dapat bernapas walaupun batang dan daun akar terendam dalam air.</item>
+        <item>Herbivora adalah hewan pemakan tumbuhan. Ciri-ciri hewan herbivora : berkaki empat, berdarah panas, vivipar (beranak), mamalia.</item>
+        <item>Tempat hidup bagi makhluk hidup terdiri dari 3 yaitu hidup di Darat, hidup di Air, hidup di Darat dan Air</item>
+        <item>Baterai contoh benda perpindahan energi kimia menjadi energi listrik. Generator contoh benda perpindahan energi gerak menjadi energi listrik. Bola lampu contoh perpindahan energi listrik menjadi energi cahaya. Setrika listrik, oven, dan rice cooker contoh perpindahan energi listrik menjadi energi panas</item>
+        <item>(12 + 8) + (–3n) = –22\n20 – 3n = – 22\n– 3n = – 22 – 20\n– 3n = – 42\nn = –3/–42 = 14\n</item>
+        <item>72 – (520 : 8) = 72 – 65\n= 7\n</item>
+        <item>Perubahan suhu  = 25°C – (–3°C)\n= 25°C + 3°C\n= 28°C\n</item>
+        <item>Harga 36 bola = 21.000 × 36 = 756.000\nHarga 32 bola = 42.000 × 32 = 1.344.000\nTotal uang yang harus dibayarkan:\n⇒ 756.000 + 1.344.000\n⇒ 2.100.000\nDengan demikian, uang yang harus dibayar Ali adalah Rp2.100.000,00.\n</item>
+        <item>Satu lusin gelas = 12 gelas\nUang yang harus dibayarkan adalah sebagai berikut.\n⇒ 12 × 17.000 + 19 × 34.000\n⇒ 12 × 17.000 + 19 × 2 × 17.000\n⇒ 17.000 × (12 + 19 × 2)\n⇒ 17.000 × (12 + 38)\n⇒ 17.000 × 50\n⇒ 850.000\n</item>
+        <item>1 jam = 3.600 detik\n3 jam = 3 x 3.600 detik\n3 jam = 10.800 detik\n</item>
+        <item>1 liter = 1000 cm³\n1.000 cm³ = 1 liter\n5.000 cm³  = 5 liter\n</item>
+        <item>1 liter = 1000 cc\n3 liter = 3 x 1000 cc\n3 liter = 3000 cc\n</item>
+        <item>1 m³ = 1.000 dm³\n20 m³ = 20 x 1.000 = 20.000 dm³\n</item>
+        <item>1 dm³ = 1.000 cm³\n75 dm³ =  75 x 1.000 = 75.000 dm³\n</item>
+        <item>1 cm³ = 0,001 dm³\n120.000 cm³ = 120.000 x 0,001 = 120 dm³ atau\n120.000 cm³ = 120.000 : 1.000 = 120 dm³\nMengubah menit ke detik dibagi 60\n120.000 cm³/menit = 120 : 60 = 2 dm³/detik\n</item>
+        <item>1 ml = 1 cc\n1.000 ml = 1.000 cc\nMengubah detik ke menit dikali 60\n1.000 ml/detik = 1.000 x 60 = 60.000 cc/menit\n</item>
+        <item>1 menit = 60 detik\nMengubah menit ke detik dibagi 60\n48.000 dm³/menit = 48.000 : 60 = 800 dm³/detik\n</item>
+        <item>1 cc = 1 cm³ = 1.000 mm³\n0,375 cc = 0,375 cm³ = 375 mm³\n</item>
+        <item>Mengubah menit ke detik dibagi 60\n3000 : 60 = 50\n</item>
+        <item>V = 9.000 l\nW = 15 menit\nD = V : W\nD = 9.000 l : 15 menit\nD = 600 l/menit\n</item>
+        <item>V = 24 m³ = 24.000 dm³ = 24.000 l\nD = 100 liter/menit\nW = V : D\nW = 24.000 : 100\nW = 240 menit\nW = 240 : 60\nW = 4 jam\n</item>
+        <item>V = 12.000 liter - 9.000 liter\nV = 3.000 liter = 3.000 dm³ = 3 m³\nW = 3 menit\nD = V : W\nD = 3 m³: 3 menit\nD = 1 m³/menit\n</item>
+        <item>V = 60 x 50 x 40\nV = 120.000 cm³ = 120 dm³\nD = 15 dm³/ menit\nW = V : W\nW = 120 dm³ : 15 dm³/ menit\nW = 8 menit\n</item>
+        <item>V = 3.250 liter\nD = 50 liter/menit\nW = V : D\nW = 3.250 liter : 50 liter/menit\nW = 65 menit\n</item>
+    </string-array>
+    <integer-array name="jawaban_ipa_latihan1">
+        <!--
+        <item>2</item>
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        -->
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+
+</resources>

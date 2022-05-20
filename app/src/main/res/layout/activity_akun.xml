@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/akunkuL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Akun">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/bg_atas"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/background"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="63dp"
+            android:layout_alignTop="@+id/bg_atas"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/logo"
+            android:gravity="center"
+            android:scaleType="fitXY" />
+
+
+        <TextView
+            android:id="@+id/Ruang_Ilmu_Judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:text="@string/RuangIlmu"
+            android:textSize="18sp"
+            android:fontFamily="@font/rapierzero"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/car4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="11dp"
+                android:background="#fff"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/car4"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center">
+
+
+                    <LinearLayout
+                        android:id="@+id/garis"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@id/btn_akun"
+                        android:layout_marginTop="10dp"
+                        android:background="#f0efef"
+                        android:orientation="horizontal" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/garis"
+                        android:layout_marginTop="1dp"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.50"
+                            android:background="?attr/selectableItemBackground"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/iconuser"
+                                android:layout_width="80dp"
+                                android:layout_height="70dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/profile" />
+
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="25dp"
+                            android:layout_weight="0.50"
+                            android:background="?attr/selectableItemBackground"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/namaAkun"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:gravity="center"
+                                android:text="Nama User"
+                                android:textColor="#000"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:id="@+id/levelpapan"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_below="@id/namaAkun"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginTop="-1dp"
+                                android:gravity="left"
+                                android:text="@string/app_name"
+                                android:textColor="#000"
+                                android:textSize="12dp"
+                                app:srcCompat="@drawable/level" />
+
+                            <ImageView
+                                android:id="@+id/level"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:layout_below="@id/levelpapan"
+                                android:text="@string/app_name"
+
+                                android:layout_centerHorizontal="true"
+                                app:srcCompat="@drawable/level1" />
+
+                            <ProgressBar
+                                android:id="@+id/progressbar_level"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/level"
+                                style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
+
+                            <!--  <TextView
+                                  android:id="@+id/namaAkun"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:gravity="center"
+                                  android:text="Nama User"
+                                  android:textColor="#000"
+                                  android:fontFamily="@font/attraction"
+                                  android:textSize="10dp" />
+
+
+                              <ImageView
+                                  android:id="@+id/levelpapan"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="25dp"
+                                  android:layout_below="@id/namaAkun"
+                                  android:gravity="left"
+                                  android:textColor="#000"
+                                  android:textSize="12dp"
+                                  app:srcCompat="@drawable/level" />
+
+
+                              <ImageView
+                                  android:id="@+id/level"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="20dp"
+                                  android:layout_below="@id/levelpapan"
+                                  android:text="@string/app_name"
+                                  android:textColor="#000"
+                                  android:layout_centerHorizontal="true"
+                                  android:textSize="12dp"
+                                  app:srcCompat="@drawable/level1" />
+
+                                  -->
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="8.0dip">
+            <!--Nilai Latihan-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/NilaiLatihan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="Nilai Latihan"
+                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/rapierzero"
+                    />
+
+
+                <LinearLayout
+                    android:id="@+id/garisNilaiLatihan"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/NilaiLatihan"
+                    android:layout_marginTop="10dp"
+                    android:background="#f0efef"
+                    android:orientation="horizontal" />
+
+            </RelativeLayout>
+
+            <!--Nilai Latihan IPA-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/Ipa"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/margotregular"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.33"
+                        android:clickable="true"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="1dp"
+                                android:orientation="horizontal">
+
+                                <!--Bagian IPA Latihan 1 & 2-->
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.50"
+                                    android:background="?attr/selectableItemBackground"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:orientation="horizontal"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true">
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.30"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/gbripalat1"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:src="@drawable/ipa_lat1" />
+
+
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.70"
+                                            android:gravity="center">
+                                            <TextView
+                                                android:id="@+id/score_ipa_latihan1"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="10"
+                                                android:textColor="@color/colorFont"
+                                                android:textSize="30sp"
+                                                android:textStyle="bold"
+                                                android:fontFamily="@font/smilen"/>
+                                        </RelativeLayout>
+
+                                    </LinearLayout>
+
+
+
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.50"
+                                    android:background="?attr/selectableItemBackground"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:orientation="horizontal"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true">
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.30"
+                                            android:gravity="center">
+                                            <ImageView
+                                                android:id="@+id/gbripalat2"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:src="@drawable/ipa_lat2" />
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.70"
+                                            android:gravity="center">
+                                            <TextView
+                                                android:id="@+id/score_ipa_latihan2"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="10"
+                                                android:textColor="@color/colorFont"
+                                                android:textSize="30sp"
+                                                android:textStyle="bold"
+                                                android:fontFamily="@font/smilen"/>
+                                        </RelativeLayout>
+
+                                    </LinearLayout>
+
+
+
+                                </RelativeLayout>
+                            </LinearLayout>
+
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Nilai Latihan MTK-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/Mtk"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/margotregular"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.33"
+                        android:clickable="true"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="1dp"
+                                android:orientation="horizontal">
+
+                                <!--Bagian IPA Latihan 1 & 2-->
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.50"
+                                    android:background="?attr/selectableItemBackground"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:orientation="horizontal"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true">
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.30"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/gbrmtklat1"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:src="@drawable/mtk_lat1" />
+
+
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.70"
+                                            android:gravity="center">
+                                            <TextView
+                                                android:id="@+id/score_mtk_latihan1"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="10"
+                                                android:textColor="@color/colorFont"
+                                                android:textSize="30sp"
+                                                android:textStyle="bold"
+                                                android:fontFamily="@font/smilen"/>
+                                        </RelativeLayout>
+
+
+
+                                    </LinearLayout>
+
+
+
+
+
+
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.50"
+                                    android:background="?attr/selectableItemBackground"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:orientation="horizontal"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true">
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.30"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/gbrmtklat2"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:src="@drawable/mtk_lat2" />
+
+
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.70"
+                                            android:gravity="center">
+                                            <TextView
+                                                android:id="@+id/score_mtk_latihan2"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="10"
+                                                android:textColor="@color/colorFont"
+                                                android:textSize="30sp"
+                                                android:textStyle="bold"
+                                                android:fontFamily="@font/smilen"/>
+                                        </RelativeLayout>
+
+                                    </LinearLayout>
+
+
+
+
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Nilai Latihan INDO-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/Indo"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/margotregular"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.33"
+                        android:clickable="true"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="1dp"
+                                android:orientation="horizontal">
+
+                                <!--Bagian IPA Latihan 1 & 2-->
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.50"
+                                    android:background="?attr/selectableItemBackground"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:orientation="horizontal"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true">
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.30"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/gbrindolat1"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:src="@drawable/indo_lat1" />
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.70"
+                                            android:gravity="center">
+                                            <TextView
+                                                android:id="@+id/score_indo_latihan1"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="10"
+                                                android:textColor="@color/colorFont"
+                                                android:textSize="30sp"
+                                                android:textStyle="bold"
+                                                android:fontFamily="@font/smilen"/>
+                                        </RelativeLayout>
+
+
+
+                                    </LinearLayout>
+
+
+
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.50"
+                                    android:background="?attr/selectableItemBackground"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:orientation="horizontal"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true">
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.30"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:id="@+id/gbrindolat2"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_alignParentStart="true"
+                                                android:layout_alignParentTop="true"
+                                                android:src="@drawable/indo_lat2" />
+                                        </RelativeLayout>
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.70"
+                                            android:gravity="center">
+                                            <TextView
+                                                android:id="@+id/score_indo_latihan2"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="10"
+                                                android:textColor="@color/colorFont"
+                                                android:textSize="30sp"
+                                                android:textStyle="bold"
+                                                android:fontFamily="@font/smilen"/>
+                                        </RelativeLayout>
+
+                                    </LinearLayout>
+
+
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Nilai Ujian-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="8.0dip">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/NilaiUjian"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:text="Nilai Ujian"
+                        android:textColor="#000"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/rapierzero"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/garisNilaiUjian"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@id/NilaiUjian"
+                        android:layout_marginTop="10dp"
+                        android:background="#f0efef"
+                        android:orientation="horizontal" />
+
+                </RelativeLayout>
+
+                <!--Ujian IPA-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:text="@string/Ipa"
+                        android:textColor="#000"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/margotregular"/>
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.33"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="1dp"
+                                    android:orientation="horizontal">
+
+                                    <!--Bagian IPA UJIAN -->
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.50"
+                                        android:background="?attr/selectableItemBackground"
+                                        android:gravity="center">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="70dp"
+                                            android:orientation="horizontal"
+                                            android:layout_alignParentStart="true"
+                                            android:layout_alignParentTop="true">
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.30"
+                                                android:gravity="center">
+                                                <ImageView
+                                                    android:id="@+id/gbripaujian"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:src="@drawable/ipa_ujian" />
+
+                                            </RelativeLayout>
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.70"
+                                                android:gravity="center">
+                                                <TextView
+                                                    android:id="@+id/score_ipa_ujian"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="10"
+                                                    android:gravity="center"
+                                                    android:textColor="@color/colorFont"
+                                                    android:textSize="30sp"
+                                                    android:textStyle="bold"
+                                                    android:fontFamily="@font/smilen"/>
+                                            </RelativeLayout>
+                                        </LinearLayout>
+
+                                    </RelativeLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--Ujian MTK-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:text="@string/Mtk"
+                        android:textColor="#000"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/margotregular"/>
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.33"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="1dp"
+                                    android:orientation="horizontal">
+
+                                    <!--Bagian IPA UJIAN -->
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.50"
+                                        android:background="?attr/selectableItemBackground"
+                                        android:gravity="center">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="70dp"
+                                            android:orientation="horizontal"
+                                            android:layout_alignParentStart="true"
+                                            android:layout_alignParentTop="true">
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.30"
+                                                android:gravity="center">
+
+                                                <ImageView
+                                                    android:id="@+id/gbrmtkujian"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:src="@drawable/mtk_ujian" />
+
+
+                                            </RelativeLayout>
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="0.70"
+                                                android:gravity="center">
+                                                <TextView
+                                                    android:id="@+id/score_mtk_ujian"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="10"
+                                                    android:gravity="center"
+                                                    android:textColor="@color/colorFont"
+                                                    android:textSize="30sp"
+                                                    android:textStyle="bold"
+                                                    android:fontFamily="@font/smilen"/>
+                                            </RelativeLayout>
+
+
+
+                                        </LinearLayout>
+
+
+
+
+
+                                    </RelativeLayout>
+
+
+
+
+                                </LinearLayout>
+
+
+
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--Ujian INDO-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:text="@string/Indo"
+                        android:textColor="#000"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/margotregular"/>
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.33"
+                        android:clickable="true"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?attr/selectableItemBackground">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="1dp"
+                                android:orientation="horizontal">
+
+                                <!--Bagian INDO UJIAN -->
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.50"
+                                    android:background="?attr/selectableItemBackground"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:orientation="horizontal"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true">
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.30"
+                                            android:gravity="center">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:src="@drawable/indo_ujian" />
+
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.70"
+                                            android:gravity="center">
+                                            <TextView
+                                                android:id="@+id/score_indo_ujian"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="10"
+                                                android:gravity="center"
+                                                android:textColor="@color/colorFont"
+                                                android:textSize="30sp"
+                                                android:textStyle="bold"
+                                                android:fontFamily="@font/smilen"/>
+                                        </RelativeLayout>
+
+                                    </LinearLayout>
+
+
+                                </RelativeLayout>
+
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

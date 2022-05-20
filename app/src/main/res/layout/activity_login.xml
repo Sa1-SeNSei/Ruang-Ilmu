@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/logoAku"
+        android:layout_width="261dp"
+        android:layout_height="268dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/logo_ruang_ilmu" />
+
+    <TextView
+        android:id="@+id/namaTeks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/info_nama"
+        android:textColor="@color/colorText"
+
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/inputNama"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="181dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/namaku"
+        android:ems="10"
+        android:hint="Nama Anda"
+        android:inputType="textPersonName"
+        android:maxLength="8"
+        android:paddingLeft="55dp"
+        android:textColor="@color/colorFont"
+        android:textColorHint="@color/colorFont"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/btn_lanjut"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/bgtombol"
+        android:onClick="lanjutClick"
+        android:text="Lanjut"
+        android:textColor="@color/colorText"
+        android:textSize="24sp" />
+
+
+
+</LinearLayout>

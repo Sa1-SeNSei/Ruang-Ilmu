@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".MenuKuisBelajar">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/bg_atas"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/background"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="63dp"
+            android:layout_alignTop="@+id/bg_atas"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/logo"
+            android:gravity="center"
+            android:scaleType="fitXY" />
+
+
+        <TextView
+            android:id="@+id/greeting_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:gravity="center"
+            android:textColor="#FFFF"
+            android:text="@string/RuangIlmu"
+            android:fontFamily="@font/rapierzero"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/car4"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="11dp"
+                android:background="#fff"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/car4"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/InfoUser"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:id="@+id/btn_akun"
+                        android:layout_width="131dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="40dp"
+                        android:text="@string/LihatDetail"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:background="@android:color/transparent"
+                        android:textSize="12sp" />
+
+
+                    <LinearLayout
+                        android:id="@+id/garis"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@id/btn_akun"
+                        android:layout_marginTop="10dp"
+                        android:background="#f0efef"
+                        android:orientation="horizontal" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/garis"
+                        android:layout_marginTop="1dp"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.50"
+                            android:gravity="center">
+
+
+                            <ImageView
+                                android:id="@+id/iconuser"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginTop="0dp"
+                                android:src="@drawable/profile" />
+
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="25dp"
+                            android:layout_weight="0.50"
+                            android:background="?attr/selectableItemBackground"
+                            android:gravity="center">
+
+
+                            <TextView
+                                android:id="@+id/akun"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:gravity="center"
+                                android:text="Nama User"
+                                android:textColor="#000"
+                                android:textSize="12dp" />
+
+                            <ImageView
+                                android:id="@+id/levelpapan"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_below="@id/akun"
+                                android:gravity="left"
+                                android:text="@string/app_name"
+                                android:textColor="#000"
+                                android:textSize="12dp"
+                                app:srcCompat="@drawable/level" />
+
+                            <ImageView
+                                android:id="@+id/level"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:layout_below="@id/levelpapan"
+                                android:text="@string/app_name"
+                                android:textColor="#000"
+                                android:textSize="12dp"
+                                android:layout_centerHorizontal="true"
+                                app:srcCompat="@drawable/level1" />
+
+                            <ProgressBar
+                                android:id="@+id/progressbar_level"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/level"
+                                style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
+
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="8.0dip">
+
+            <!--layer IPA-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/Ipa"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <!--Kuis materi IPA-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="1">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/home_mRide"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.33"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <Button
+                                    android:id="@+id/btnLatihan1_IPA"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:background="@drawable/ipa_lat1"
+                                    android:padding="10dp"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:scaleType="fitCenter"
+                                    android:textColor="@color/colorText" />
+                                <!--
+
+                                <ImageView
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_above="@+id/textView3"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginBottom="5dp"
+                                    android:padding="10dp"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/btnmateri" />
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginBottom="5dp"
+                                    android:maxLines="1"
+                                    android:text="@string/Latihan1"
+                                    android:textColor="#000"
+                                    android:textStyle="bold" />
+-->
+
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/home_mSend"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.33"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+
+                                <Button
+                                    android:id="@+id/btnLatihan2_IPA"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:background="@drawable/ipa_lat2"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:padding="10dp"
+                                    android:scaleType="fitCenter"
+                                    android:textColor="@color/colorText"/>
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/home_mCar"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.33"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+                                <Button
+                                    android:id="@+id/btnUjian_IPA"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:background="@drawable/ipa_ujian"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:padding="10dp"
+                                    android:scaleType="fitCenter"
+                                    android:textColor="@color/colorText"/>
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.33"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+
+                                <Button
+                                    android:id="@+id/btnPembahasan_IPA"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:background="@drawable/ipa_pembahasan"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:padding="10dp"
+                                    android:scaleType="fitCenter"
+                                    android:textColor="@color/colorText"/>
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <!--layer MTK-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/Mtk"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+            <!--Kuis materi MTK-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="1">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="0.33"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+                                <Button
+                                    android:id="@+id/btnLatihan1_MTK"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:background="@drawable/mtk_lat1"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:padding="10dp"
+                                    android:scaleType="fitCenter"
+                                    android:textColor="@color/colorText"/>
+
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="0.33"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+                                <Button
+                                    android:id="@+id/btnLatihan2_MTK"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:background="@drawable/mtk_lat2"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:padding="10dp"
+                                    android:scaleType="fitCenter"
+                                    android:textColor="@color/colorText"/>
+
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.33"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+
+                                <Button
+                                    android:id="@+id/btnUjian_MTK"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:background="@drawable/mtk_ujian"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:padding="10dp"
+                                    android:scaleType="fitCenter"
+                                    android:textColor="@color/colorText"/>
+
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.33"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+
+                                <Button
+                                    android:id="@+id/btnPembahasan_MTK"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginEnd="0dp"
+                                    android:background="@drawable/mtk_pembahasan"
+                                    android:padding="10dp"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:scaleType="fitCenter"
+                                    android:textColor="@color/colorText" />
+
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+                    </LinearLayout>
+
+
+                </HorizontalScrollView>
+
+
+
+            </LinearLayout>
+            <!--layer Indo-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="@string/Indo"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+            <!--Kuis materi Indo-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="1">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/home_mFood"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="0.33"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+                                <Button
+                                    android:id="@+id/btnLatihan1_INDO"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:background="@drawable/indo_lat1"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:padding="10dp"
+                                    android:scaleType="fitCenter"
+                                    android:textColor="@color/colorText"/>
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/home_mLaundry"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="0.33"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+
+                                <Button
+                                    android:id="@+id/btnLatihan2_INDO"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:background="@drawable/indo_lat2"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:padding="10dp"
+                                    android:scaleType="fitCenter"
+                                    android:textColor="@color/colorText"/>
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/home_mBox"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.33"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+
+                                <Button
+                                    android:id="@+id/btnUjian_INDO"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:background="@drawable/indo_ujian"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:padding="10dp"
+                                    android:scaleType="fitCenter"
+                                    android:textColor="@color/colorText"/>
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.33"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="5dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?attr/selectableItemBackground">
+
+                                <Button
+                                    android:id="@+id/btnPembahasan_INDO"
+                                    android:layout_width="110dp"
+                                    android:layout_height="110dp"
+                                    android:background="@drawable/indo_pembahasan"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:padding="10dp"
+                                    android:scaleType="fitCenter"
+                                    android:textColor="@color/colorText"/>
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
