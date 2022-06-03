@@ -26,12 +26,10 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="230dp"
-            android:layout_height="48dp"
-            android:layout_marginEnd="8dp"
+            android:layout_height="71dp"
             android:layout_marginLeft="33dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginStart="33dp"
             android:layout_marginTop="2dp"
+            android:layout_marginRight="8dp"
             android:gravity="center"
             android:text="@string/materi2_mtk"
             android:textAlignment="center"
@@ -68,7 +66,7 @@
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp">
 
-                //A. Ciri – ciri khusus hewan dan tumbuhan
+                //A.	Satuan Kuantitas
 
                 <Button
                     android:id="@+id/spoiler1_mtk2_A"
@@ -113,13 +111,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="@string/SpoilerMateriIPA1_1_1"
+                        android:text="@string/SpoilerMateriMTK2_A1"
                         android:textColor="@color/colorText"
                         android:visibility="visible" />
 
                 </LinearLayout>
 
-                //B. Pengelompokan makhluk hidup
+                //B.	Satuan Berat
 
                 <Button
                     android:id="@+id/spoiler1_mtk2_B"
@@ -164,14 +162,19 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="@string/SpoilerMateriIPA1_2_1"
+                        android:text="@string/SpoilerMateriMTK2_B1"
                         android:textColor="@color/colorText"
                         android:visibility="visible" />
+                    <ImageView
+                        android:id="@+id/gbrmateri_mtk2_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        app:srcCompat="@drawable/gbr_mtklat2_1" />
 
 
                 </LinearLayout>
 
-                //C. Pentingnya pelestarian
+                //C.	Satuan Panjang
 
                 <Button
                     android:id="@+id/spoiler1_mtk2_C"
@@ -216,14 +219,21 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="@string/SpoilerMateriIPA1_3_1"
+                        android:text="@string/SpoilerMateriMTK2_C1"
                         android:textColor="@color/colorText"
                         android:visibility="visible" />
+                    <ImageView
+                        android:id="@+id/gbrmateri_mtk2_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        app:srcCompat="@drawable/gbr_mtklat2_2" />
+
+
 
                 </LinearLayout>
 
 
-                //D. Daur hidup
+                //D.	Satuan Waktu
 
                 <Button
                     android:id="@+id/spoiler1_mtk2_D"
@@ -265,47 +275,125 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="@string/SpoilerMateriIPA1_4_1"
+                        android:text="@string/SpoilerMateriMTK2_D1"
                         android:textColor="@color/colorText"
                         android:visibility="visible" />
 
-
-                    <ImageView
-                        android:id="@+id/gbrmateri_ipa1_1"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        app:srcCompat="@drawable/ipa1_1" />
-
-
-                    <me.biubiubiu.justifytext.library.JustifyTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="@string/SpoilerMateriIPA1_4_2"
-                        android:textColor="@color/colorText"
-                        android:visibility="visible" />
-
-                    <ImageView
-                        android:id="@+id/gbrmateri_ipa1_2"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        app:srcCompat="@drawable/ipa1_2" />
-
-                    <me.biubiubiu.justifytext.library.JustifyTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="@string/SpoilerMateriIPA1_4_3"
-                        android:textColor="@color/colorText"
-                        android:visibility="visible" />
-
-                    <ImageView
-                        android:id="@+id/gbrmateri_ipa1_3"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        app:srcCompat="@drawable/ipa1_3" />
 
                 </LinearLayout>
+
+                //E.	Waktu, Jarak dan Kecepatan
+
+                <Button
+                    android:id="@+id/spoiler1_mtk2_E"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/spoilermateri"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingRight="30dp"
+                    android:text="@string/SpoilerMateriMTK2_E"
+                    android:textColor="@color/colorText"
+                    android:textSize="12sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="@+id/text"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                <LinearLayout
+                    android:id="@+id/spoiler_layout_mtk2_E"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1.07"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:weightSum="1"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text">
+
+                    <ImageView
+                        android:id="@+id/gbrmateri_mtk2_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/gbr_mtklat2_3" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/SpoilerMateriMTK2_E1"
+                        android:textColor="@color/colorText"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+                //F.	Keleling dan Luas Bangun Datar
+                <Button
+                    android:id="@+id/spoiler1_mtk2_F"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/spoilermateri"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingRight="30dp"
+                    android:text="@string/SpoilerMateriMTK2_F"
+                    android:textColor="@color/colorText"
+                    android:textSize="12sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="@+id/text"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                <LinearLayout
+                    android:id="@+id/spoiler_layout_mtk2_F"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1.07"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:weightSum="1"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text">
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/SpoilerMateriMTK2_F1"
+                        android:textColor="@color/colorText"
+                        android:visibility="visible" />
+                    <ImageView
+                        android:id="@+id/gbrmateri_mtk2_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        app:srcCompat="@drawable/gbr_mtklat2_4" />
+
+
+                </LinearLayout>
+
 
 
                 <Space

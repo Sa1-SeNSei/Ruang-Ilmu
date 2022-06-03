@@ -27,6 +27,9 @@ public class fragmentMateriMTK2 extends Fragment {
         Button spoiler1_mtk2_B = (Button) fragmentLayout.findViewById(R.id.spoiler1_mtk2_B);
         Button spoiler1_mtk2_C = (Button) fragmentLayout.findViewById(R.id.spoiler1_mtk2_C);
         Button spoiler1_mtk2_D = (Button) fragmentLayout.findViewById(R.id.spoiler1_mtk2_D);
+        Button spoiler1_mtk2_E = (Button) fragmentLayout.findViewById(R.id.spoiler1_mtk2_E);
+        Button spoiler1_mtk2_F = (Button) fragmentLayout.findViewById(R.id.spoiler1_mtk2_F);
+
 
 
         spoiler1_mtk2_A.setOnClickListener(new View.OnClickListener() {
@@ -50,7 +53,7 @@ public class fragmentMateriMTK2 extends Fragment {
             @Override
             public void onClick(View view) {
 
-                LinearLayout spoilerLayout_mtk1_b = (LinearLayout) fragmentLayout.findViewById(R.id.spoiler_layout_mtk2_A);
+                LinearLayout spoilerLayout_mtk1_b = (LinearLayout) fragmentLayout.findViewById(R.id.spoiler_layout_mtk2_B);
 
                 if(spoilerLayout_mtk1_b.getVisibility() == View.VISIBLE){
                     spoilerLayout_mtk1_b.setVisibility(View.GONE);
@@ -92,6 +95,38 @@ public class fragmentMateriMTK2 extends Fragment {
                 else
                 {
                     spoilerLayout_mtk1_d.setVisibility(View.VISIBLE);
+                }
+            }
+
+        });
+        spoiler1_mtk2_E.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                LinearLayout spoilerLayout_mtk2_e = (LinearLayout) fragmentLayout.findViewById(R.id.spoiler_layout_mtk2_E);
+
+                if(spoilerLayout_mtk2_e.getVisibility() == View.VISIBLE){
+                    spoilerLayout_mtk2_e.setVisibility(View.GONE);
+                }
+                else
+                {
+                    spoilerLayout_mtk2_e.setVisibility(View.VISIBLE);
+                }
+            }
+
+        });
+        spoiler1_mtk2_F.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                LinearLayout spoilerLayout_mtk2_f = (LinearLayout) fragmentLayout.findViewById(R.id.spoiler_layout_mtk2_F);
+
+                if(spoilerLayout_mtk2_f.getVisibility() == View.VISIBLE){
+                    spoilerLayout_mtk2_f.setVisibility(View.GONE);
+                }
+                else
+                {
+                    spoilerLayout_mtk2_f.setVisibility(View.VISIBLE);
                 }
             }
 

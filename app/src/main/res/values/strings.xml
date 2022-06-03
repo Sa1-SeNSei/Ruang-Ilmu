@@ -10,11 +10,11 @@
     <string name="materi2_ipa">Hubungan Antar Makhluk Hidup Dalam Ekosistem \u0026 Energi</string>
 
 
-    <string name="materi1_indo">MEMBACA SASTRA \u0026 NONSASTRA</string>
-    <string name="materi2_indo">MENULIS TERBATAS \u0026 MEYUNTING</string>
+    <string name="materi1_indo">Membaca Sastra \u0026 NONSASTRA</string>
+    <string name="materi2_indo">Menulis Terbatas \u0026 MEYUNTING</string>
 
 
-    <string name="materi1_mtk">BILANGAN</string>
+    <string name="materi1_mtk">Bilangan</string>
     <string name="materi2_mtk">Geometri Dan Pengukuran</string>
 
 
@@ -294,27 +294,27 @@
     <!--Isi Materi MTK Lat. 1-->
     <string name="SpoilerMateriMTK1_A">A.	Jenis-jenis Bilangan</string>
     <string name="SpoilerMateriMTK1_A1">
-        Bilangan terbagi dalam beberapa macam sebagai berikut.\n
+        Bilangan terbagi dalam beberapa macam sebagai berikut.\n\n
         1. Bilangan Asli\n
         Yaitu bilangan positif yang dimulai dari angka satu.\n
-        Contoh: {1,2,3,4,5,…}\n
+        Contoh: {1,2,3,4,5,…}\n\n
         2. Bilangan Cacah\n
         Yaitu himpunan bilangan yang terdiri dari bilangan nol dan bilangan positif.\n
-        Contoh: {0,1,2,3,4,5,6,7,…}\n
+        Contoh: {0,1,2,3,4,5,6,7,…}\n\n
         3. Bilangan Bulat\n
         Bilangan ini terbagi menjadi bilangan bulat positif dan bilangan bulat negatif.\n
         a. Bilangan bulat positif\n
         Yaitu himpunan antara bilangan nol dan bilangan positif.\n
-        Contoh: {0,1,2,3,4,5,6,7,8,9,…}\n
+        Contoh: {0,1,2,3,4,5,6,7,8,9,…}\n\n
         b. Bilangan bulat negatif\n
         Yaitu himpunan antara bilangan negatif dan bilangan nol.\n
-        Contoh: {.-6,-5,-4,-3,-2,-1,0}\n
+        Contoh: {.-6,-5,-4,-3,-2,-1,0}\n\n
         4. Bilangan Nol\n
         Yaitu bilangan nol (0) itu sendiri.\n
-        Contoh: {0}\n
+        Contoh: {0}\n\n
         5. Bilangan Prima\n
         Yaitu bilangan-bilangan asli yang hanya bisa dibagi dirinya sendiri dan angka satu. Angka satu bukan bilangan prima.\n
-        Contoh: (2,3,5,7,11,13,17,19,...)\n
+        Contoh: (2,3,5,7,11,13,17,19,...)\n\n
     </string>
 
     <string name="SpoilerMateriMTK1_B">B.	Operasi Hitung Bilangan</string>
@@ -400,30 +400,26 @@
 
 
     <!--Isi Materi MTK Lat. 2-->
-    <string name="SpoilerMateriMTK2_A">
-        A.	Satuan Kuantitas
-        Merupakan satuan yang digunakan untuk menentukan jumlah (banyaknya) suatu
-        benda. Hubungan antara beberapa satuan kuantitas antara lain sebagai berikut.
-        1 lusin = 12 buah
-        1 gross = 12 lusin = 144 buah
-        1 kodi = 20 lembar
-        1 rim = 500 lembar
-        Contoh:
-        2 gross + 4 lusin = ... buah
-        \u000B \u000B= ((2 x 144) + (4 x 12)) buah
-        \u000B \u000B= (288 + 48) buah
-        \u000B \u000B= 363 buah
+    <string name="SpoilerMateriMTK2_A">A.	Satuan Kuantitas </string>
+    <string name="SpoilerMateriMTK2_A1">
+        A.	Satuan Kuantitas\n
+        Merupakan satuan yang digunakan untuk menentukan jumlah (banyaknya) suatu benda. Hubungan antara beberapa satuan kuantitas antara lain sebagai berikut.\n
+        1 lusin = 12 buah\n
+        1 gross = 12 lusin = 144 buah\n
+        1 kodi = 20 lembar\n
+        1 rim = 500 lembar\n
+        Contoh:\n
+        2 gross + 4 lusin = ... buah\n
+        \u000B \u000B= ((2 x 144) + (4 x 12)) buah\n
+        \u000B \u000B= (288 + 48) buah\n
+        \u000B \u000B= 363 buah\n
     </string>
-    <string name="SpoilerMateriMTK2_B">
-        B.	Satuan Berat\n
-        Merupakan satuan yang menyatakan berat suatu benda, umumnya menggunakan satuan gram. Adapun tangga satuan berat sebagai berikut.\n
-    </string>
-    <string name="SpoilerMateriMTK2_C">
-        C.	Satuan Panjang\n
-        Satuan panjang dalam SI (Satuan Internasional) adalah meter, sedangkan dalam CGS (Centimetre Gram Second) adalah centimeter (cm). Konversi tangga satuan panjang sebagai berikut.\n
-    </string>
-    <string name="SpoilerMateriMTK2_D">
-        D.	Satuan Waktu\n
+    <string name="SpoilerMateriMTK2_B">B.	Satuan Berat</string>
+    <string name="SpoilerMateriMTK2_B1">Merupakan satuan yang menyatakan berat suatu benda, umumnya menggunakan satuan gram. Adapun tangga satuan berat sebagai berikut.\n\n</string>
+    <string name="SpoilerMateriMTK2_C">C.	Satuan Panjang</string>
+    <string name="SpoilerMateriMTK2_C1">Satuan panjang dalam SI (Satuan Internasional) adalah meter, sedangkan dalam CGS (Centimetre Gram Second) adalah centimeter (cm). Konversi tangga satuan panjang sebagai berikut.\n</string>
+    <string name="SpoilerMateriMTK2_D">D.	Satuan Waktu</string>
+    <string name="SpoilerMateriMTK2_D1">
         Merupakan satuan yang digunakan untuk menyatakan waktu. Kesetaraan satuan waktu sebagai berikut.\n
         1 menit = 60 detik\n
         1 jam = 60 menit\n
@@ -439,23 +435,17 @@
         1 dekade = 10 tahun\n
         1 abad = 100 tahun\n
         1 milenium = 1000 tahun\n
-
     </string>
-    <string name="SpoilerMateriMTK2_E">
-        E.	Waktu, Jarak dan Kecepatan
-    </string>
+    <string name="SpoilerMateriMTK2_E">E.	Waktu, Jarak dan Kecepatan</string>
     <string name="SpoilerMateriMTK2_E1">
-        Keterangan:\n
+        Keterangan:\n\n
         Kecepatan (v), satuannya (m/s);\n
         Jarak (s), satuannya (m);\n
         Waktu (t), satuannya (seconds (s) atau detik).\n
     </string>
 
-    <string name="SpoilerMateriMTK2_F">
-        F.	Keleling dan Luas Bangun Datar\n
-        Tabel Rumus :
-
-    </string>
+    <string name="SpoilerMateriMTK2_F">F.	Keleling dan Luas Bangun Datar</string>
+    <string name="SpoilerMateriMTK2_F1">Tabel Rumus : \n</string>
 
 
     <!--Soal NOMOR Matematika 1-->

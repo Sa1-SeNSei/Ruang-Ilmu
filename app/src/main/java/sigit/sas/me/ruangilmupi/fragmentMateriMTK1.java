@@ -97,6 +97,23 @@ public class fragmentMateriMTK1 extends Fragment {
 
         });
 
+        spoiler1_mtk1_E.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                LinearLayout spoilerLayout_mtk1_e = (LinearLayout) fragmentLayout.findViewById(R.id.spoiler_layout_mtk1_E);
+
+                if(spoilerLayout_mtk1_e.getVisibility() == View.VISIBLE){
+                    spoilerLayout_mtk1_e.setVisibility(View.GONE);
+                }
+                else
+                {
+                    spoilerLayout_mtk1_e.setVisibility(View.VISIBLE);
+                }
+            }
+
+        });
+
         return fragmentLayout;
     }
 }

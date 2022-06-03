@@ -68,10 +68,10 @@ public class LayoutMateri extends AppCompatActivity {
                 bukaKuis.putExtra(getString(R.string.KuisFragmentIPA), MenuKuisBelajar.FragmentToLaunch.Materi_MTK_1);
                 break;
             case Materi_MTK_2:
-                fragmentMateriMTK1 fragMateriMTK2 = new fragmentMateriMTK1();
-                fragmentTransaction.add(R.id.fragment_container,fragMateriMTK2,"MATERI_1_FRAGMENT_MTK");
+                fragmentMateriMTK2 fragMateriMTK2 = new fragmentMateriMTK2();
+                fragmentTransaction.add(R.id.fragment_container,fragMateriMTK2,"MATERI_2_FRAGMENT_MTK");
                 bukaKuis = new Intent(getApplicationContext(), Kuis.class);
-                bukaKuis.putExtra(getString(R.string.KuisFragmentIPA), MenuKuisBelajar.FragmentToLaunch.Materi_MTK_1);
+                bukaKuis.putExtra(getString(R.string.KuisFragmentIPA), MenuKuisBelajar.FragmentToLaunch.Materi_MTK_2);
                 break;
 
             case Materi_INDO_1:

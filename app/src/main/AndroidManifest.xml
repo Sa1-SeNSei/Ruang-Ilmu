@@ -11,25 +11,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
-        <activity android:name=".About" />
-        <activity android:name=".Akun" />
-        <activity android:name=".BukuMateri" />
-        <activity android:name=".BukuMateriIndonesia" />
-        <activity android:name=".BukuMateriMTK" />
-        <activity android:name=".fragmentKuisIPA1" />
-        <activity android:name=".fragmentMateriIPA1" />
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".About"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Akun"
+            android:screenOrientation="portrait" />
+        <activity android:name=".BukuMateri"
+            android:screenOrientation="portrait" />
+        <activity android:name=".BukuMateriIndonesia"
+            android:screenOrientation="portrait" />
+        <activity android:name=".BukuMateriMTK"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentKuisIPA1"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentMateriIPA1"
+            android:screenOrientation="portrait" />
         <activity android:name=".BukuMateriIPA" />
-        <activity android:name=".fragmentMateriIPA2" />
-        <activity android:name=".Kuis" />
-        <activity android:name=".LayoutMateri" />
+        <activity android:name=".fragmentMateriIPA2"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Kuis"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LayoutMateri"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Login"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".MenuKuisBelajar" />
-        <activity android:name=".Score" />
-        <activity android:name=".ScoreLulus" />
+        <activity android:name=".MenuKuisBelajar"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Score"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ScoreLulus"
+            android:screenOrientation="portrait" />
         <activity android:name=".SettingSound" />
         <activity
             android:name=".SplashScreen"
@@ -42,19 +57,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".fragmentKuisIPA2" />
-        <activity android:name=".fragmentKuisIPA_Ujian" />
-        <activity android:name=".KuisIPA_UjianPenjelasan" />
-        <activity android:name=".fragmentKuisMTK1" />
-        <activity android:name=".fragmentKuisMTK2" />
-        <activity android:name=".fragmentKuisINDO1" />
-        <activity android:name=".fragmentKuisINDO2" />
-        <activity android:name=".fragmentKuisMTK_Ujian" />
-        <activity android:name=".fragmentMateriMTK1" />
-        <activity android:name=".fragmentMateriMTK2" />
-        <activity android:name=".fragmentMateriINDO1" />
-        <activity android:name=".fragmentMateriINDO2" />
-        <activity android:name=".fragmentKuisINDO_Ujian"></activity>
+        <activity android:name=".fragmentKuisIPA2"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentKuisIPA_Ujian"
+            android:screenOrientation="portrait" />
+        <activity android:name=".KuisIPA_UjianPenjelasan"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentKuisMTK1"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentKuisMTK2"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentKuisINDO1"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentKuisINDO2"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentKuisMTK_Ujian"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentMateriMTK1"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentMateriMTK2"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentMateriINDO1"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentMateriINDO2"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fragmentKuisINDO_Ujian"
+            android:screenOrientation="portrait" >
+
+        </activity>
     </application>
 
 </manifest>

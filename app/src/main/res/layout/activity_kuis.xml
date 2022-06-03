@@ -97,7 +97,6 @@
                         android:text="100"
                         android:textColor="@color/colorText"
                         android:textSize="18sp" />
-
                 </RelativeLayout>
 
 
