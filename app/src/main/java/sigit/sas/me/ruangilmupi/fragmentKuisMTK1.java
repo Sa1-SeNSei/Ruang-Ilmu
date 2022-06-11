@@ -92,12 +92,17 @@ public class fragmentKuisMTK1 extends Fragment implements View.OnClickListener {
         buttonk.add(btnB);
         buttonk.add(btnC);
         buttonk.add(btnD);
-        soalString = getResources().getStringArray(R.array.soal1);
-        pilihan = getResources().getStringArray(R.array.pilihan1);
-        jumlahpilhan = getResources().getIntArray(R.array.jumlahpilihan1);
-        penjelasankuis = getResources().getStringArray(R.array.penjelasanjawaban1);
-        jawabanPiliihanKuis = getResources().getIntArray(R.array.jawabankuis1);
 
+        //soal
+        soalString = getResources().getStringArray(R.array.SoalMTK_Lat1);
+        //pilihan abcd
+        pilihan = getResources().getStringArray(R.array.ABC_MTK_Lat1);
+        //jumlah soal (biasanya 4)
+        jumlahpilhan = getResources().getIntArray(R.array.JumlahPilihanMTK_Lat1);
+        //penjelasan
+        penjelasankuis = getResources().getStringArray(R.array.PenjelasanJawabanMTK_Lat1);
+        //jawaban kuis
+        jawabanPiliihanKuis = getResources().getIntArray(R.array.JawabanKuisMTK_Lat1);
         soal = fragmentLayout.findViewById(R.id.soal);
 
         //mengambil bobot soal di string dengan array

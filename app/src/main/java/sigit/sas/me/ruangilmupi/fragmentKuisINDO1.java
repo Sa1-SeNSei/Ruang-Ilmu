@@ -94,11 +94,11 @@ public class fragmentKuisINDO1 extends Fragment implements View.OnClickListener 
         buttonk.add(btnB);
         buttonk.add(btnC);
         buttonk.add(btnD);
-        soalString = getResources().getStringArray(R.array.soal1);
-        pilihan = getResources().getStringArray(R.array.pilihan1);
-        jumlahpilhan = getResources().getIntArray(R.array.jumlahpilihan1);
-        penjelasankuis = getResources().getStringArray(R.array.penjelasanjawaban1);
-        jawabanPiliihanKuis = getResources().getIntArray(R.array.jawabankuis1);
+        soalString = getResources().getStringArray(R.array.SoalIndo_Lat1);
+        pilihan = getResources().getStringArray(R.array.ABC_Indo_Lat1);
+        jumlahpilhan = getResources().getIntArray(R.array.JumlahPilihanIndo_Lat1);
+        penjelasankuis = getResources().getStringArray(R.array.PenjelasanJawabanIndo_Lat1);
+        jawabanPiliihanKuis = getResources().getIntArray(R.array.JawabanKuisIndo_Lat1);
 
         soal = fragmentLayout.findViewById(R.id.soal);
 
@@ -324,7 +324,7 @@ public class fragmentKuisINDO1 extends Fragment implements View.OnClickListener 
             buttonk.get(jawaban).setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.bgpilihan3, null));
             buttonk.get(jawabanBenar).setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.bgpilihan2, null));
 
-            pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisIPA1), Gravity.CENTER, 0, 0);
+            pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisINDO1), Gravity.CENTER, 0, 0);
 
             btnnext.setEnabled(true);
             btnexplain.setEnabled(true);
@@ -381,7 +381,7 @@ public class fragmentKuisINDO1 extends Fragment implements View.OnClickListener 
                 break;
             case R.id.explain:
                 btnexplain.startAnimation(myAnim);
-                pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisIPA1), Gravity.CENTER, 0, 0);
+                pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisINDO1), Gravity.CENTER, 0, 0);
                 btnnext.setEnabled(true);
                 btnexplain.setEnabled(true);
                 btnnext.setAlpha(1f);
@@ -394,7 +394,7 @@ public class fragmentKuisINDO1 extends Fragment implements View.OnClickListener 
     public void updateNilai(){
 
 
-        editor.putInt(getString(R.string.SCORE_IPA_Latihan1), score_indo_lat1);
+        editor.putInt(getString(R.string.SCORE_INDO_Latihan1), score_indo_lat1);
         editor.putInt(getString(R.string.SCORE_UTAMANYA), score);
         editor.putInt(getString(R.string.QUIZ_AKU_LEVEL), levelku);
         editor.commit();

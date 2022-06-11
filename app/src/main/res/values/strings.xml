@@ -706,51 +706,536 @@
 
     <!--Soal IPA Latihan 1-->
     <string-array name="SoalIPA_Lat1">
-
+        <item>Fungsi bagian yang diberi tanda panah pada hewan di samping adalah untuk....</item>
+        <item>1. akar tidak menancap di dasar perairan \n2. akar lebat untuk menjaga keseimbangan \n3. seluruh batangnya terdapat rongga udara \nCiri-ciri tumbuhan tersebut dimiliki oleh….</item>
+        <item>Berdasarkan gambar di atas dampak negatif terhadap lingkungan yang terjadi adalah….</item>
+        <item>Perkembangbiakan hewan tersebut dilakukan dengan cara….</item>
+        <item>Proses penyesuaian diri makhluk hidup terhadap lingkungannya disebut ….</item>
+        <item>Ciri khusus yang dimiliki kelelawar adalah ….</item>
+        <item>Teratai dapat terapung di atas air karena memiliki ….</item>
+        <item>Hewan pemakan tumbuhan dinamakan ….</item>
+        <item>Hewan dapat hidup di berbagai tempat, kecuali ….</item>
+        <item>1.	Baterai\n2.	generator\n3.	bola lampu\n4.	setrika listrik \n5.	rice cooker\n6.	oven\nContoh-contoh benda yang mengalami perubahan energi yang sama ditunjukkan oleh nomor ...</item>
     </string-array>
     <integer-array name="JumlahPilihanIPA_Lat1">
-
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
     </integer-array>
+    <string-array name="ABC_IPA_Lat1">
+        <item>A. mengeluarkan tinta hitam</item>
+        <item>B. mengeluarkan bisa</item>
+        <item>C. mengelabuhi musuh</item>
+        <item>D. mengeluarkan duri tubuhnya</item>
+        <item>A. eceng gondok</item>
+        <item>B. teratai</item>
+        <item>C. kaktus</item>
+        <item>D. pohon mahoni</item>
+        <item>A. meluasnya resapan air</item>
+        <item>B. tempat tinggal makhluk hidup semakin luas</item>
+        <item>C. tanah kehilangan kesuburannya</item>
+        <item>D. pohon mudah ditanam</item>
+        <item>A. konjugasi</item>
+        <item>B. ovipar</item>
+        <item>C. vivipara</item>
+        <item>D. ovovivipar</item>
+        <item>A. Morfologi</item>
+        <item>B. Ekosistem</item>
+        <item>C. Adaptasi</item>
+        <item>D. Habitat</item>
+        <item>A. Pendengaran</item>
+        <item>B. Penglihatan</item>
+        <item>C. Perabaan</item>
+        <item>D. Pencengkraman</item>
+        <item>A. Batang yang kuat</item>
+        <item>B. Batang yang berongga</item>
+        <item>C. Daun yang runcing</item>
+        <item>D. Daun yang panjang</item>
+        <item>A. Herbivora</item>
+        <item>B. Karnivora</item>
+        <item>C. Omnivora</item>
+        <item>D. Insektivora</item>
+        <item>A. Di air</item>
+        <item>B. Di api</item>
+        <item>C. Di darat</item>
+        <item>D. Di darat dan air</item>
+        <item>A. 1, 2, dan 3</item>
+        <item>B. 2, 4, dan 5  </item>
+        <item>C. 1, 3, dan 6</item>
+        <item>D. 4, 5, dan 6</item>
+        <item>A.  14</item>
+        <item>B.  13</item>
+        <item>C. –13</item>
+        <item>D. –14</item>
+        <item>A.  9</item>
+        <item>B.  8</item>
+        <item>C.   7</item>
+        <item>D.  6</item>
+        <item>A. –280°</item>
+        <item>B.  –220°C</item>
+        <item>C. 220° C</item>
+        <item>D. 280° C</item>
+        <item>A.	Rp 2.100.000</item>
+        <item>B.	Rp 2.200.000</item>
+        <item>C.	Rp 4.100.000</item>
+        <item>D.	Rp 4.200.000</item>
+        <item>A.	Rp 480.000</item>
+        <item>B.	Rp 560.000</item>
+        <item>C.	Rp 850.000</item>
+        <item>D.	Rp 980.000</item>
+        <item>A. 180</item>
+        <item>B. 1.800</item>
+        <item>C. 10.800</item>
+        <item>D. 18.000</item>
+        <item>A. 0,5</item>
+        <item>B. 5</item>
+        <item>C. 50</item>
+        <item>D. 500</item>
+        <item>A. 3</item>
+        <item>B. 30</item>
+        <item>C. 300</item>
+        <item>D. 3.000</item>
+        <item>A. 200</item>
+        <item>B. 2.000</item>
+        <item>C. 20.000</item>
+        <item>D. 200.000</item>
+        <item>A. 750</item>
+        <item>B. 7.500</item>
+        <item>C. 75.000</item>
+        <item>D. 750.000</item>
+        <item>A. 2</item>
+        <item>B. 20</item>
+        <item>C. 12</item>
+        <item>D. 120</item>
+        <item>A. 0,6</item>
+        <item>B. 60</item>
+        <item>C. 6.000</item>
+        <item>D. 60.000</item>
+        <item>A. 80</item>
+        <item>B. 800</item>
+        <item>C. 8000</item>
+        <item>D. 2.880.000</item>
+        <item>A. 0,375</item>
+        <item>B. 3, 75</item>
+        <item>C. 37,5</item>
+        <item>D. 375</item>
+        <item>A. 0,5</item>
+        <item>B. 5</item>
+        <item>C. 50</item>
+        <item>D. 180.000</item>
+        <item>A. 600</item>
+        <item>B. 60</item>
+        <item>C. 10</item>
+        <item>D. 6</item>
+        <item>A. 3</item>
+        <item>B. 4</item>
+        <item>C. 5</item>
+        <item>D. 6</item>
+        <item>A. 1</item>
+        <item>B. 3</item>
+        <item>C. 5</item>
+        <item>D. 10</item>
+        <item>A. 4</item>
+        <item>B. 6</item>
+        <item>C. 8</item>
+        <item>D. 10</item>
+        <item>A. 45</item>
+        <item>B. 55</item>
+        <item>C. 60</item>
+        <item>D. 65</item>
+    </string-array>
     <string-array name="PenjelasanJawabanIPA_Lat1">
+        <item>Hewan di atas adalah cicak. Tubuh cicak terdiri atas kepala, badan, kaki, dan ekor. Ketika dalam keadaan bahaya, cicak dapat memutuskan ekornya untuk mengelabuhi musuh.</item>
+        <item>Ciri-ciri tersebut dimiliki oleh tumbuhan air yaitu eceng gondok. Eceng gondok memiliki struktur tubuh yang mendukung untuk mengapung di air. sedangkan teratai meskipun tumbuhan air namun memiliki ciri yang berbeda yaitu akarnya berada di dasar perairan, batangnya terdapat di dalam air, daunnya menyembul di permukaan, dan daunnya lebar serta tipis.</item>
+        <item>Pada gambar terlihat areal bekas pertambangan. Dampak negatif yang terjadi dari aktivitas pertambangan tersebuat adalah tanah kehilangan kesuburannya, terganggungnya habitat hewan, berkurangnya resapan air, serta pencemaran sungai karena limbah yang dihasilkan.</item>
+        <item>Hewan pada gambar adalah ikan pari, hewan ini berkembangbiak dengan cara ovovivipar telur yang ada dalam kandungan tidak langsung dikeluarkan dan dibiarkan menetas begitu saja. Akan tetapi, telur tersebut akan disimpan didalam tubuh ikan pari betina sampai embrionya tumbuh dan berkembang dalam kandungan hingga mencapai titik yang optimal.</item>
+        <item>Morfologi (biologi), adalah ilmu yang mempelajari tentang bentuk organisme. Ekosistem adalah suatu sistem ekologi yang terbentuk karena adanya hubungan timbal balik antara mahluk hidup dengan lingkungan. Adaptasi adalah cara bagaimana suatu organisme menyesuaikan diri dalam mengatasi tekanan lingkungan sekitarnya. Habitat itu artinya lingkungan alam di mana suatu organisme hidup. Jadi jawabannya yang benar ialah Adaptasi</item>
+        <item>Memiliki kemampuan ekolokasi yaitu mampu menggunakan gelombang bunyi (sonar) untuk mendeteksi keadaan disekitarnya. Kelelawar mampu mengeluarkan bunyi dengan frekuensi tinggi (bunyi utrasonik).</item>
+        <item>Batang dan akar teratai memiliki rongga-rongga udara. Rongga-rongga ini berfungsi membawa oksigen ke batang dan akar sehingga teratai dapat bernapas walaupun batang dan daun akar terendam dalam air.</item>
+        <item>Herbivora adalah hewan pemakan tumbuhan. Ciri-ciri hewan herbivora : berkaki empat, berdarah panas, vivipar (beranak), mamalia.</item>
+        <item>Tempat hidup bagi makhluk hidup terdiri dari 3 yaitu hidup di Darat, hidup di Air, hidup di Darat dan Air</item>
+        <item>Baterai contoh benda perpindahan energi kimia menjadi energi listrik. Generator contoh benda perpindahan energi gerak menjadi energi listrik. Bola lampu contoh perpindahan energi listrik menjadi energi cahaya. Setrika listrik, oven, dan rice cooker contoh perpindahan energi listrik menjadi energi panas</item>
+        <item>(12 + 8) + (–3n) = –22\n20 – 3n = – 22\n– 3n = – 22 – 20\n– 3n = – 42\nn = –3/–42 = 14\n</item>
+        <item>72 – (520 : 8) = 72 – 65\n= 7\n</item>
+        <item>Perubahan suhu  = 25°C – (–3°C)\n= 25°C + 3°C\n= 28°C\n</item>
+        <item>Harga 36 bola = 21.000 × 36 = 756.000\nHarga 32 bola = 42.000 × 32 = 1.344.000\nTotal uang yang harus dibayarkan:\n⇒ 756.000 + 1.344.000\n⇒ 2.100.000\nDengan demikian, uang yang harus dibayar Ali adalah Rp2.100.000,00.\n</item>
+        <item>Satu lusin gelas = 12 gelas\nUang yang harus dibayarkan adalah sebagai berikut.\n⇒ 12 × 17.000 + 19 × 34.000\n⇒ 12 × 17.000 + 19 × 2 × 17.000\n⇒ 17.000 × (12 + 19 × 2)\n⇒ 17.000 × (12 + 38)\n⇒ 17.000 × 50\n⇒ 850.000\n</item>
+        <item>1 jam = 3.600 detik\n3 jam = 3 x 3.600 detik\n3 jam = 10.800 detik\n</item>
+        <item>1 liter = 1000 cm³\n1.000 cm³ = 1 liter\n5.000 cm³  = 5 liter\n</item>
+        <item>1 liter = 1000 cc\n3 liter = 3 x 1000 cc\n3 liter = 3000 cc\n</item>
+        <item>1 m³ = 1.000 dm³\n20 m³ = 20 x 1.000 = 20.000 dm³\n</item>
+        <item>1 dm³ = 1.000 cm³\n75 dm³ =  75 x 1.000 = 75.000 dm³\n</item>
+        <item>1 cm³ = 0,001 dm³\n120.000 cm³ = 120.000 x 0,001 = 120 dm³ atau\n120.000 cm³ = 120.000 : 1.000 = 120 dm³\nMengubah menit ke detik dibagi 60\n120.000 cm³/menit = 120 : 60 = 2 dm³/detik\n</item>
+        <item>1 ml = 1 cc\n1.000 ml = 1.000 cc\nMengubah detik ke menit dikali 60\n1.000 ml/detik = 1.000 x 60 = 60.000 cc/menit\n</item>
+        <item>1 menit = 60 detik\nMengubah menit ke detik dibagi 60\n48.000 dm³/menit = 48.000 : 60 = 800 dm³/detik\n</item>
+        <item>1 cc = 1 cm³ = 1.000 mm³\n0,375 cc = 0,375 cm³ = 375 mm³\n</item>
+        <item>Mengubah menit ke detik dibagi 60\n3000 : 60 = 50\n</item>
+        <item>V = 9.000 l\nW = 15 menit\nD = V : W\nD = 9.000 l : 15 menit\nD = 600 l/menit\n</item>
+        <item>V = 24 m³ = 24.000 dm³ = 24.000 l\nD = 100 liter/menit\nW = V : D\nW = 24.000 : 100\nW = 240 menit\nW = 240 : 60\nW = 4 jam\n</item>
+        <item>V = 12.000 liter - 9.000 liter\nV = 3.000 liter = 3.000 dm³ = 3 m³\nW = 3 menit\nD = V : W\nD = 3 m³: 3 menit\nD = 1 m³/menit\n</item>
+        <item>V = 60 x 50 x 40\nV = 120.000 cm³ = 120 dm³\nD = 15 dm³/ menit\nW = V : W\nW = 120 dm³ : 15 dm³/ menit\nW = 8 menit\n</item>
+        <item>V = 3.250 liter\nD = 50 liter/menit\nW = V : D\nW = 3.250 liter : 50 liter/menit\nW = 65 menit\n</item>
 
     </string-array>
     <integer-array name="JawabanKuisIPA_Lat1">
+        <!--
+        <item>2</item>
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        -->
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
 
     </integer-array>
 
     <!--Soal IPA Latihan 2-->
     <string-array name="SoalIPA_Lat2">
-
+        <item>Lilin malam (plastisin) ditempelkan pada salah satu ijung batang besi dan tembaga yang memeiliki panjang sama. Ujung lain dari batang-batang logam tersebut dipanaskan oleh sumber api. Pada logam manakah lilin malam lebih cepat jatuh karena terpanaskan?</item>
+        <item>Perubahan wujud zat padat menjadi cair disebut …</item>
+        <item>Hubungan khusus dan erat antar dua makhluk hidup yang berlainan jenis disebut…</item>
+        <item>Bentuk hubungan antara kutu dan rambut manusia adalah…</item>
+        <item>Salah satu bentuk simbiosis mutualisme adalah…</item>
+        <item>1.	Bunga dan lebah\n
+            2.	Jalak dan kutu\n
+            3.	Ikan badut dan anemon laut\n
+            4.	Tali putri dan inangnya\n
+            Manakah yang merupakan contoh bentuk simbiosis mutualisme?\n
+        </item>
+        <item>Tumbuhan sirih akan merambat mengikuti tumbuhan inangnya untuk memperoleh sinar matahari yang akan digunakan untuk fotosintesis, di lain sisi tanaman inangnya tidak mendapatkan pengaruh apapun. Hubungan antara tumbuhan sirih dengan tumbuhan inangnya merupakan simbiosis ….</item>
+        <item>Di bawah ini yang merupakan hubungan dua makhluk hidup yang menunjukkan simbiosis parasitisme adalah …</item>
+        <item>Burung Plover mempunyai kebiasaan memakan kotoran atau sisa makanan yang terdapat di gigi buaya, sedangkan buaya terbebas dari penyakit mulut atau infeksi karena kebiasaan burung Plover.Hubungan antara burung Plover dengan buaya merupakan simbiosis …</item>
+        <item>Pegangan pada peralatan memasak haruslah dilapisi dengan bahan yang kuat dan dapat menahan hantaran panas. Manakah dari bahan-bahan berikut yang dapat digunakan untuk melapisi peralatan memasak?</item>
+        <item>Benda yang memiliki daya hantar kalor baik disebut …</item>
     </string-array>
-    <integer-array name="JumlahPilihanIPA_Lat2">
-
-    </integer-array>
+    <string-array name="ABC_IPA_Lat2">
+        <item>A. Besi, karena daya hantar panas besi lebih besar daripada tembaga</item>
+        <item>B. Tembaga, karena daya hantar panas tembaga lebih besar daripada besi</item>
+        <item>C. Besi, karena daya hantar panas besi lebih kecil daripada tembaga</item>
+        <item>D. Tembaga, karena daya hantar panas tembaga lebih kecil daripada besi</item>
+        <item>A.  membeku</item>
+        <item>B.  mencair</item>
+        <item>C.  menguap</item>
+        <item>D.  mengembun</item>
+        <item>A. Komunitas</item>
+        <item>B. Simbiosis</item>
+        <item>C. Pertemanan</item>
+        <item>D. Ekosistem</item>
+        <item>A.	pengurai dan produsen</item>
+        <item>B.	simbiosis mutualisme</item>
+        <item>C.	simbiosis komensalisme</item>
+        <item>D.	simbiosis parasitisme</item>
+        <item>A.	Ikan hiu dan ikan remora</item>
+        <item>B.	Kerbau dan kerbau lainnya</item>
+        <item>C.	Cacing pada usus manusia</item>
+        <item>D.	Anggrek dan pohon yang ditumpangi</item>
+        <item>A.	1) dan 3)</item>
+        <item>B.	3) dan 4)</item>
+        <item>C.	4) dan 1)</item>
+        <item>D.	1) dan 2)</item>
+        <item>A.	komensalisme</item>
+        <item>B.	mutualisme</item>
+        <item>C.	parasitisme</item>
+        <item>D.	dinamisme</item>
+        <item>A.	Ikan hiu dengan ikan remora</item>
+        <item>B.	bakteri rhizobium dengan akar tanaman polong-polongan</item>
+        <item>C.	cacing pita dengan manusia</item>
+        <item>D.	udang dengan mentimun laut</item>
+        <item>A.	komensalisme</item>
+        <item>B.	mutualisme</item>
+        <item>C.	parasitisme</item>
+        <item>D.	dinamisme</item>
+        <item>A. Karet, kayu, atau besi</item>
+        <item>B. Tembaga, kayu, atau kain</item>
+        <item>C. Plastisin, kayu, atau karet</item>
+        <item>D. Kayu, karet, atau kain</item>
+        <item>A.  isolator</item>
+        <item>B.  transistor</item>
+        <item>C.  konduktor</item>
+        <item>D.  radiator</item>
+    </string-array>
     <string-array name="PenjelasanJawabanIPA_Lat2">
-
+        <item>Tembaga mempunyai daya hantar panas yang lebih besar dari besi, sehingga lilin malam pada tembaga lebih cepat jatuh.\n
+            Jawaban: B
+        </item>
+        <item>Perubahan wujud zat padat ke cair adalah Mencair.</item>
+        <item>Simbiosis adalah hubungan yang erat dan khusus antara dua makhluk hidup. Jawaban (a) salah karena komunitas merupakan gabungan dari populasi yang berbeda dan saling berinteraksi sedangkan (d) yaitu ekosistem adalah interaksi makhluk hidup dengan lingkungannya. Jawaban (c) salah</item>
+        <item>Karena kutu hidup dengan memakan darah dari kepala manusia dan manusia dirugikan karena kepala menjadi gatal dan kotor. Jawaban (d) benar karena hal tersebut merupakan simbiosis parasitisme.</item>
+        <item>Ikan hiu diuntungkan karena ikan remora memakan sisa makanan pada mulut hiu sedangkan ikan remora mendapatkan keuntungan dengan berlindung dari pemangsa lewat tubuh hiu. Jawaban (b) salah karena tidak ada simbiosis, sedangkan (c) merupakan simbiosis parasitisme dan (d) adalah simbiosis komensalisme.</item>
+        <item>Lebah membantu bunga untuk dapat melakukan penyerbukan dan pembuahan sedangkan lebah mendapatkan madu dari bunga. Jawaban nomer 3 juga merupakan simbiosis mutualisme karena ikan badut mendapat perlindungan dari pemangsa dengan berlindung di anemone laut yang memiliki sengatan di tentakelnya. Anemone laut mendapatkan makanan dari ikan badut lewat sisa makanan yang dimakan oleh ikan badut.</item>
+        <item>Simbiosis dibedakan menjadi 3, yaitu simbiosis mutualisme, komensalisme, dan parasitisme.Mutualisme adalah hubungan antar makhluk hidup yang saling menguntungkan. Komensalisme adalah hubungan antar makhluk hidup, yang satu diuntungkan dan yang lain tidak diuntungkan serta tidak di rugikan. Parasitisme adalah hubungan antar makhluk hidup yang satu diuntungkan dan yang lain dirugikan. Tumbuhan sirih memperoleh keuntungan berupa memperoleh sinar matahari untuk fotosintesis, sedangkan tumbuhan inang tidak mendapatkan keuntungan maupun kerugian.Jadi, hubungan antara tumbuhan sirih dengan tumbuhan inangnya merupakan simbiosis komensalisme. </item>
+        <item>Simbiosis parasitisme adalah hubungan antar makhluk hidup yang satu diuntungkan dan yang lain dirugikan. cacing pita adalah sebagai makhluk yang diuntungkan karena mendapatkan makanan dengan tinggal di usus manusia, sedangkan manusia dirugikan karena asupan sari-sari makanan yang seharusnya digunakan untuk metabolisme tubuh manusia menjadi berkurang karena keberadaan cacing pita.Ikan hiu dengan ikan remora dan udang dengan mentimun laut menunjukkan simbiosis komensalisme.bakteri rhizobium dengan akar tanaman polong-polongan menunjukkan simbiosis mutualisme.</item>
+        <item>Simbiosis mutualisme adalah hubungan antar makhluk hidup yang saling menguntungkan. Burung Plover diuntungkan karena mendapatkan makanan secara gratis dari sisa-sisa makanan yang terdapat di gigi buaya.Buaya juga menjadi pihak yang diuntungkan karena dengan sisa-sisa makanannya dimakan burung Plover menyebabkan buaya terhindar dari penyakit mulut atau infeksi.Jadi hubungan antara burung Plover dengan buaya adalah hubungan yang saling menguntungkan.</item>
+        <item>Plastisin, kayu, dan karet adalah bahan isolator yaitu tidak menghantar panas, sehingga bahan ini lazim digunakan untuk melapisi pegangan peralatan masak.</item>
+        <item>Benda konduktor adalah benda-benda yang memiliki daya hantar kalor yang baik. Contohnya besi, tembaga,dll.</item>
     </string-array>
     <integer-array name="JawabanKuisIPA_Lat2">
-
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
     </integer-array>
 
     <!--Soal IPA Ujian-->
     <string-array name="SoalIPA_Ujian">
-
+        <item>Untuk mengelabuhi musuhnya, cicak memutuskan ekornya secara tiba-tiba. Kemampuan yang dimiliki oleh cicak ini disebut...</item>
+        <item>Gelombang bunyi berfrekuensi tinggi yang dipancarkan kelelawar melalui mulutnya yaitu...</item>
+        <item>Cagar alam digunakan untuk melindungi...</item>
+        <item>Perkembangbiakan makhluk hidup secara kawin disebut...</item>
+        <item>Hewan yang perkembangbiakannya dengan cara membelah diri adalah...</item>
+        <item>Para nelayan memanfaatkan bunyi pantul untuk ...</item>
+        <item>Alat music biola dimainkan dengan cara …</item>
+        <item>Untuk menjaga keseimbangan agar tidak terbawa arus air, tumbuhan eceng gondok memiliki keunikan berupa...</item>
+        <item>Sumber daya yang tidak dapatdiperbaharui adalah...</item>
+        <item>Benda-benda yang dapat digunakan untuk meredam bunyi adalah...</item>
+        <item>Ciri khusus tanaman kantong semar adalah mengeluarkan aroma manis (nectar) dengan tujuan...</item>
+        <item>Proses pernapasan yang terjadi ketika air masuk ke insang ikan adalah...</item>
+        <item>Sayuran berwarna hijau banyak mengandung zat besi yang diperlukan untuk membentuk...</item>
+        <item>Salah satu kegiatan manusia yang dapat mengubah pemukaan bumi adalah</item>
+        <item>Material letusan Gunung Kelud berupa pasir dan batu merupakan sumber daya alam yang dapat dimanfaatkan untuk...</item>
+        <item>Burung memanfaatkan ranting pohon sebagai tempat pembuatan sarang. Hal itu berhubungan dengan salah satu manfaat tumbuhan sebagai tempat …</item>
+        <item>Proses yang terjadi pada alat pernapasan hidung adalah...</item>
+        <item>Berikut ini yang termasuk sumber energi alternatif adalah ..</item>
+        <item>Tanah yang berasal dari letusan gunung berapi termasuk tanah...</item>
+        <item>Bahan berikut yang termasuk isolator panas adalah...</item>
     </string-array>
     <integer-array name="JumlahPilihanIPA_Ujian">
-
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
     </integer-array>
+    <string-array name="ABC_IPA_Ujian">
+        <item>A. Mimikri</item>
+        <item>B. Anatomi</item>
+        <item>C. Autotomy</item>
+        <item>D. Ekolokasi</item>
+        <item>A. Audiosonik</item>
+        <item>B. Infrasonic</item>
+        <item>C. Ultrasonic</item>
+        <item>D. Longitudinal</item>
+        <item>A. Hewan Langka</item>
+        <item>B. Tumbuhan Langka</item>
+        <item>C. Hewan Dan Tumbuhan Langka</item>
+        <item>D. Lingkungan Alam</item>
+        <item>A. Vegetative</item>
+        <item>B. Generative</item>
+        <item>C. Produktif</item>
+        <item>D. Proaktif</item>
+        <item>A. Cacing</item>
+        <item>B. Planaria</item>
+        <item>C. Protozoa</item>
+        <item>D. Hydra</item>
+        <item>A. Menentukan arah berlayar</item>
+        <item>B. Memperbanyak produksi ikar</item>
+        <item>C. Memutar arah perahu berlayar</item>
+        <item>D. Menentukan kedalaman laut</item>
+        <item>A.	Ditiup</item>
+        <item>B.	Dipukul</item>
+        <item>C.	Digesek</item>
+        <item>D.	Dipetik</item>
+        <item>A. Batang memiliki rongga</item>
+        <item>B. Akarnya pendek berserabut</item>
+        <item>C. Memiliki daun yang lebar</item>
+        <item>D. Warna bunganya mencolok</item>
+        <item>A. Air, tumbuhan</item>
+        <item>B. Hewan, udara</item>
+        <item>C. Nikel, emas</item>
+        <item>D. Angin, sinar matahari</item>
+        <item>A. Batu, keramik, dan marmer</item>
+        <item>B. Besi, seng, dan baja</item>
+        <item>C. Karpet, kain, dan spons</item>
+        <item>D. Kaca, asbes, dan tembok</item>
+        <item>A Menghasilkan cadangan makanan tumbuhan</item>
+        <item>B. Mencegah hadirnya serangga pengganggu</item>
+        <item>C. Menjebak serangga untuk dimakan</item>
+        <item>D. Memikat serangga untuk membantu penyerbukan</item>
+        <item>A. Pengikatan karbondioksida oleh tutup insang</item>
+        <item>B. Pengikatan oksigen oleh hemoglobin darah</item>
+        <item>C. Pelepasan oksigen oleh hemoglobin darah</item>
+        <item>D. Pelepasan karbondioksida oleh tutup insang</item>
+        <item>A. Sel-sel tubuh</item>
+        <item>B. Tulang dan gigi</item>
+        <item>C. Sel darah merah</item>
+        <item>D. Sel darah putih</item>
+        <item>A.	Melakukan sistem tebang pilih dihutan</item>
+        <item>B.	Memburu hewan liar di hutan lindung</item>
+        <item>C.	Petani membajak sawah untuk ditanami padi</item>
+        <item>D.	Mengepras bukit untuk mengurug pantai</item>
+        <item>A. Sumber energi</item>
+        <item>B. Pupuk organik</item>
+        <item>C. Bahan keramik</item>
+        <item>D. Bahan bangunan</item>
+        <item>A. Hidup</item>
+        <item>B. Merambat</item>
+        <item>C. Berlindung</item>
+        <item>D. Berkembang biak</item>
+        <item>A. Pertukaran antara gas karbondioksida dan oksigen </item>
+        <item>B. Tempat keluar masuknya udara pernapasan</item>
+        <item>C. Mengatur jumlah udara yang masuk dan keluar </item>
+        <item>D. Pengikatan oksigen oleh hemoglobin</item>
+        <item>A. Solar</item>
+        <item>B. Batu bara</item>
+        <item>C. Air</item>
+        <item>D. Elpiji</item>
+        <item>A. Lempung</item>
+        <item>В. Gambut</item>
+        <item>C. Laterit</item>
+        <item>D. Vulkanik </item>
+        <item>A. Alumunium</item>
+        <item>В. Каyu</item>
+        <item>C. Tembaga</item>
+        <item>D. Besi </item>
+    </string-array>
     <string-array name="PenjelasanJawabanIPA_Ujian">
-
+        <item>Autotomi digunakan oleh cicak agar terhindar dari pemangsa. Dengan melepaskan ekornya, maka pemangsa akan menangkap ekor ini, teralihkan perhatiannya, dam memberi kesempatan cicak untuk lepas.</item>
+        <item>Kelelawar terbang dan memandu arah menggunakan gelombang bunyi yang tidak dapat didengar oleh manusia, itulah gelombang ultrasonic. Dalam hal ini, gelombang ultrasonic merupakan gelombang ultra (diatas) frekuensi gelombang suara ( > 20.000 Hz) </item>
+        <item>Pengertian Cagar Alam adalah kawasan suaka alam yang memiliki kekhasan akan tumbuhan dan ekosistem tertentu yang harus dilindungi atau dilestarikan dan perkembangannya berlangsung secara alami sesuai dengan kondisi aslinya.</item>
+        <item>Secara umum, terdapat dua cara perkembangbiakan hewan, yaitu generatif (seksual) dan vegetatif (aseksual).\n
+            Generatif – Perkembangbiakan dengan jenis ini akan membentuk individu baru dengan cara kawin yaitu peleburan sel kelamin jantan dan juga sel kelamin betina.\n
+            Vegetatif  – Perkembangbiakan dengan cara vegetatif akan dilakukan oleh hewan yang memiliki tingkat rendah.\n
+        </item>
+        <item>Membelah diri dan bertunas merupakan cara perkembangbiakan hewan tanpa melalui proses perkawinan atau secara vegetatif.  Contoh hewan yang berkembang biak dengan membelah diri adalah jenis Protozoa, yaitu hewan yang bersel satu.</item>
+        <item>Para nelayan memanfaatkan bunyi pantul untuk :\n
+            •	Menemntukan kedalaman laut\n
+            •	Mengetahui apakah ada karang atau gunung es di sekitar laut\n
+        </item>
+        <item>Biola adalah alat music yang di mainkan dengan cara digesekkan anatara senar dengan gagang gesek biola.</item>
+        <item>Ciri khusus adalah ciri yang dimiliki oleh mahluk hidup tertentu dan tidak dimiliki oleh makhluk hidup lain. Salah ciri khusus yang dimiliki eceng gondok, yakni memiliki akar serabut yang sangat lebat dan batang yang berongga yang berguna menjaga keseimbangan agar posisinya di air tidak terbalik dan terbawa arus.
+        </item>
+        <item>Sumber daya alam yang tidak dapat diperbarui adalah sumber daya alam yang berjumlah terbatas dan dapat habis. Proses pembentukannya kembali membutuhkan waktu yang sangat panjang. Contohnya adalah nikel dan emas.</item>
+        <item>Benda-benda yang dapat digunakan untuk meredam bunyi adalah benda-benda yang bersifat lunak dan berpori, seperti karpet, kain, dan spons. Adapun benda-benda yang bersifat keras dan rapat dapat memantulkan bunyi, seperti batu, kaca, dan keramik.</item>
+        <item>Ciri khusus adalah ciri yang dimiliki oleh makhluk hidup tertentu dan tidak dimiliki oleh makhluk hidup lain. Kantong semar adalah tanaman pemakan serangga atau disebut insektivora.\n
+            Ciri-ciri khusus tumbuhan kantong semar adalah:\n
+            •	Memiliki cairan nektar pada bagian daun yang berbentuk piala yang dapat memikat serangga berkunjung.\n
+            •	Memiliki daun yang licin sehingga serangga jatuh ke dalam cairan. agar datang\n
+            Jadi, daun berbentuk piala pada kantong semar berguna untuk menjebak serangga untuk dimakan.\n
+        </item>
+        <item>Proses pernapasan yang terjadi ketika air masuk ke insang adalah terjadinya pertukaran udara pernapasan, yaitu hemoglobin darah mengikat oksigen yang larut dalam air dan melepaskan karbon dioksida.</item>
+        <item>Zat besi adalah mineral yang berguna untuk pembentukan sel sel darah merah. Zat ini banyak mengandung dalam daging, hati, kedelai, dan sayuran hijau. Kekurangan zat besi dapat mengakibatkan kekurangan darah atau anemia.\n
+            Jadi, sayuran hijau berguna untuk pembentukan sel darah merah.
+        </item>
+        <item>Kegiatan yang dapat mengubah permukaan bumi adalah mengepras bukit untuk mengurug pantai karena bukit yang awalnya dataran tingai akan berubah menjadi dataran rendah. sedangkan pantai yang terurug oleh tanah bukit akan menjadi pulau baru yang berakibat permukaan bumi berubah</item>
+        <item>Material letusan Gunung Kelud berupa pasir dan batu merupakan sumber daya alam yang dapat dimanfaatkan untuk bahan bangunan.</item>
+        <item>Salah satu manfaat tumbuhan adalah sebagai tempat berkembang biak. Contohnya ranting pohon yang dimanfaatkan burung sebagai tempat pembuatan sarang. Sarang merupakan tempat burung bertelur dan menyimpan telurnya.</item>
+        <item>Alat pernapasan hidung merupakan tempat keluar masuknya udara pernapasan. Pada saat menarik napas, udara masuk melalui hidung. Pada saat mengembuskan napas, udara keluar dari hidung.</item>
+        <item>Energi alternatif adalah energi baru yang diciptakan dengan tujuan menggantikan energi yang tidak dapat diperbarui (minyak tanah, bensin, solar, gas, dan lainnya) sudah hampir habis. Contoh dari energi alternatif adalah air, geotermal (panas bumi), biodisel, biogas, sel surya, dan lainnya.</item>
+        <item>Tanah vulkanik adalah tanah yang terbentuk dari letusan gunung api, berwarna hitam, dan mengandung unsur hara yang banyak</item>
+        <item>Bahan isolator panas adalah bahan yang tidak mampu menghantarkan panas dengan baik, seperti kayu plastik. Bahan isolator panas cocok digunakan sebagai pegangan atau lapisan peralatan listrik atau masak. Adapun aluminium, tembaga, dan besi termasuk bahan konduktor panas.</item>
     </string-array>
     <integer-array name="JawabanKuisIPA_Ujian">
-
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
     </integer-array>
 
     <!--Soal MTK Latihan 1-->
     <string-array name="SoalMTK_Lat1">
         <item>\nMenurut prakiraan cuaca, suhu di Kp. Tarogong adalah 300C, sedangkan suhu di Kp. Cikandang -100C, selisih suhu dari kedua Kampung tersebut adalah…\n</item>
         <item>Hasil dari 15 x 50 ÷ 30 adalah....</item>
-        <item>Hasil dari 17 – 152 adalah....</item>
+        <item>Hasil dari 17\u00B2 – 15\u00B2 adalah....</item>
         <item>1 ¾ diubah ke persen menjadi....</item>
         <item>Hasil dari 70 – (–25) adalah....</item>
         <item>FPB dari 48, 72 dan 96 adalah....</item>
@@ -1002,17 +1487,18 @@
 
     <!--Soal MTK Latihan 2-->
     <string-array name="SoalMTK_Lat2">
-        <item>3 jam = ..... detik</item>
+        <item>3 jam = ... detik</item>
         <item>5000 cm\u00B3 = ..... liter</item>
         <item>3 liter = ..... cc</item>
         <item>Satuan debit 20 m\u00B3/menit = ..... dm\u00B3/menit</item>
         <item>75 dm\u00B3/menit = ..... cm\u00B3/menit</item>
-        <item> 120.000 cm\u00B3/menit = ..... dm\u00B3/detik</item>
+        <item>120.000 cm\u00B3/menit = ..... dm\u00B3/detik</item>
         <item>1.000 ml/detik = ..... cc/menit</item>
         <item>48.000 dm\u00B3/menit = ..... dm\u00B3/detik</item>
         <item>0,375 cc/detik = ..... mm\u00B3/detik</item>
-        <item>Jika debit air 3.000 liter/menit maka volume air yang mengalir tiap detik adalah ..... liter.</item>
+        <item>Jika debit air 3.000 liter/menit maka volume air yang mengalir tiap detik adalah ... liter.</item>
         <item>Dalam sebuah bak mandi terdapat 9.000 liter air. Karena akan dibersihkan, bak dapat dikosongkan dalam waktu 15 menit. Debit air tersebut adalah . . . .liter/menit.</item>
+
     </string-array>
     <integer-array name="JumlahPilihanMTK_Lat2">
         <item>4</item>
@@ -1334,7 +1820,6 @@
             Baca buku rajin belajar\n
             Tingkah laku pun dijaga juga.\n\n
             Pesan yang terkandung dalam pantun tersebut adalah ...\n
-
         </item>
         <item>
             Aku bersujud kepadamu\n
@@ -1610,18 +2095,63 @@
         <item>3</item>
     </integer-array>
 
-    <!--Soal IPA Ujian-->
+    <!--Soal INDO Ujian-->
     <string-array name="SoalIndo_Ujian">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Paman membeli sepeda motor secara kredit. Antonim dari kredit adalah …</item>
+        <item>
+            (1)Ayahku tidak pernah mengalami kesulitan tidur. (2) Ia bisa tidur di mana saja. (3) Sambil duduk pun, Ayah bisa tidur. (4) Jika di kasur, belum sepuluh menit berbaring, ia sudah mendengkur keras.\n
+            Kalimat utama paragraf tersebut ditandai dengan nomor ...
+        </item>
+        <item>
+            Hadiah ini hanya … saja sebagai tanda persahabatan.\n
+            Kata baku yang tepat untuk melengkapi kalimat tersebut adalah …\n
+        </item>
+        <item>
+            Manusia jangan melangit tinggi.\n
+            Makna melangit pada kalimat tersebut adalah ....
+        </item>
+        <item>
+            Pohon itu kelihatan pendek\n
+            Antonim kata pendek dalam kalimat tersebut adalah ….
+        </item>
+        <item>Sebelum menanggapi isi berita / informasi, kita harus dapat …</item>
+        <item>
+            Syafa membeli obat di apotik dengan menggunakan resep dokter.\n
+            Perbaikan kata yang dicetak tebal di atas adalah…
+        </item>
+        <item>
+            Pedagang grosir itu membuatkan kuwitansi pembelian satu kuwintal gula inport. Penulisan kata kuitansi, kuwintal, dan inport yang tepat untuk kalimat tersebut adalah ...
+        </item>
+        <item>Pemakaian tanda baca yang sempurna terdapat pada ...</item>
+        <item>Kalimat yang tepat di bawah ini yaitu ...</item>
+        <item>
+            Sebaiknya, brokoli dimasak atau direbus dengan air mendidih dalam kondisi setengah matang. Tambahkan garam untuk membunuh kuman, lalu tiriskan sebentar! Siram dengan air dingin! Fungsi air dingin untuk mempertahankan warna dan memperlambat proses pemasakan brokoli. Dalam kondisi seperti ini, brokoli dapat disimpan 2—3 hari dalam lemari pendingin dan aman dikonsumsi.\n
+            Ide pokok paragraf tersebut adalah...
+        </item>
+        <item>
+            Dewasa ini kita tidak asing lagi mendengar kata internet. Penggunaan internet berkembang dengan pesat. Sekarang masyarakat dapat dengan mudah mengakses internet di warnet atau melalui laptop dengan modem ataupun wireless-connected bahkan lewat HP. Jumlah pengguna interenet pun akan terus bertaambah.\n
+            Arti istilah pesat dalam paragraf tersebut adalah ….
+        </item>
+        <item>
+            Aku bersyukur kepada Tuhan karena dia telah berubah. Aku pun memaafkannya, meskipun sampai saat ini aku belum bertemu dia lagi. Aku berharap suatu hari nanti kami akan menjalin persahabatan lagi.\n
+            Penggalan cerpen di atas merupakan bagian …
+        </item>
+        <item>
+            Matahari mulai tenggelam, anak katak yang nakal itu tidak juga pulang. Ibu katak sangat khawatir. Ia kemudian mencari anak katak. Ternyata anak katak masih asyik bermain dengan teman-temannya. Ibu katak mengajak anaknya pulang. Dengan berat hati, katak menyudahi dan mengikuti ibunya pulang.\n
+            Kata ‘matahari yang mulai tenggelam” tersebut mengandung makna …
+        </item>
+        <item>
+            Penduduk desa binaan PKK provinsi mulai membajak sawah. Mereka akan menanam padi karena musim hujan sudah hadir.\n
+            Penggunaan kata yang tidak tepat pada paragraf di atas adalah …
+        </item>
+        <item>
+            Kedelai termasuk bahan pangan yang dapat dibuat segala makanan seperti tahu, tempe, dan tauco.\n
+            Penggunaan kata yang tidak tepat pada paragraf di atas adalah ….
+        </item>
+        <item>Apa yang dimaksud dengan Prosa …</item>
+        <item>Cara pengucapan bunyi bahasa pada sebuah puisi disebut ….</item>
+        <item>Dalam membaca puisi yang perlu diperhatikan adalah ….</item>
+        <item>Agar dalam penyampaian puisi bisa lebih menghayati, digunakan gerak anggota tubuh yang disebut ….</item>
     </string-array>
     <integer-array name="JumlahPilihanIndo_Ujian">
         <item>4</item>
@@ -1634,53 +2164,113 @@
         <item>4</item>
         <item>4</item>
         <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
     </integer-array>
     <string-array name="ABC_Indo_Ujian">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>A.	Diangsur</item>
+        <item>B.	Tunai</item>
+        <item>C.	Potongan harga</item>
+        <item>D.	Diskon</item>
+        <item>A.	(1)</item>
+        <item>B.	(2)</item>
+        <item>C.	(3)</item>
+        <item>D.	(4)</item>
+        <item>A.	Sekadarmua</item>
+        <item>B.	Sekedarnya</item>
+        <item>C.	Sekidarnya</item>
+        <item>D.	Skidarnya</item>
+        <item>A. Mulia</item>
+        <item>B. hebat</item>
+        <item>C. angkuh</item>
+        <item>D. kaya</item>
+        <item>A. besar</item>
+        <item>B. tinggi</item>
+        <item>C. panjang</item>
+        <item>D. rimbun</item>
+        <item>a. mencatat pokok-pokok informasi</item>
+        <item>b. melewatkan pokok informasi</item>
+        <item>c. mengabaikan pesan informasi</item>
+        <item>d. merubah pokok-pokok informasi</item>
+        <item>A. apotik</item>
+        <item>B. apotic</item>
+        <item>C. avotek</item>
+        <item>D. apotek</item>
+        <item>A. kuitansi, kuintal, impor</item>
+        <item>B. kwitansi, kuintal, inpor</item>
+        <item>C. kuitansi, kwintal, import</item>
+        <item>D. kwitansi, kuintal, import</item>
+        <item>A. Dian bertanya: "Siapa gadis itu?".</item>
+        <item>B. Rok "canda" sudah tidak terkenal lagi di Indonesia.</item>
+        <item>C. Lana tinggal di Jalan Hakim, Medan.</item>
+        <item>D. Rate of inflation, \u0027 laju inflasi\u0027, di Indonesia mulai menurun.</item>
+        <item>A. Para guru sedang rapat hari ini.</item>
+        <item>B. Para guru-guru sedang rapat hari ini.</item>
+        <item>C. Para bapak-bapak dan ibu-ibu guru sedang rapat hari ini.</item>
+        <item>D. Para semua guru sedang rapat hari ini.</item>
+        <item>A. cara menyimpan brokoli</item>
+        <item>B. fungsi garam dan penirisan brokoli</item>
+        <item>C. cara mempertahankan warna brokoli</item>
+        <item>D. daya tahan brokoli</item>
+        <item>A. Banyak</item>
+        <item>B. Lambat</item>
+        <item>C. Cepat</item>
+        <item>D. Kuat</item>
+        <item>A. Krisis</item>
+        <item>B. Resolusi</item>
+        <item>C. Orientasi</item>
+        <item>D. Komplikasi</item>
+        <item>A. Hari hampir sore</item>
+        <item>B. Hari hampir pagi</item>
+        <item>C. Hari hampir malam</item>
+        <item>D. Hari hampir siang</item>
+        <item>A. Binaan</item>
+        <item>B. Membajak</item>
+        <item>C. Musim</item>
+        <item>D. Hadir</item>
+        <item>A. Bahan</item>
+        <item>B. Pangan</item>
+        <item>C. Dibuat</item>
+        <item>D. Segala</item>
+        <item>a. Karangan yang tidak terikat bait dan rima</item>
+        <item>b. Karangan tak berjudul</item>
+        <item>c. Karangan yang tidak terkait dengan tempat dan waktu</item>
+        <item>d. Karangan yang bersifat fiktif</item>
+        <item>a. lafal</item>
+        <item>b. intonasi</item>
+        <item>c. ekspresi</item>
+        <item>d. notasi</item>
+        <item>a. gaya dan jeda</item>
+        <item>b. gaya, ekspresi, jeda</item>
+        <item>c. intonasi, jeda, ekspresi</item>
+        <item>d. intonasi dan tanda baca</item>
+        <item>a. Ekspresi</item>
+        <item>b. Intonasi</item>
+        <item>c. Menari</item>
+        <item>d. lafal</item>
     </string-array>
     <string-array name="PenjelasanJawabanIndo_Ujian">
 
     </string-array>
     <integer-array name="JawabanKuisIndo_Ujian">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
         <item>3</item>
         <item>3</item>
         <item>3</item>
@@ -1823,7 +2413,6 @@
         <item>Sebuah mobil pemadam kebakaran menyemprotkan air ke lokasi kebakaran. Persediaan air yang dibawa adalah 12.000 liter. Setelah 3 menit air tinggal 9.000 liter. Debit air yang dipakai dalam m³/menit adalah ...\n</item>
         <item>Debit air kran di rumah paman 15 dm³/menit. Jika bak mandi berukuran 60 cm x 50 cm x 40 cm akan diisi sampai penuh. Maka waktu yang diperlukan adalah ..... menit.\n</item>
         <item>Waktu yang dibutuhkan untuk mengosongkan akuarium dengan volume 3.250 liter dengan debit kran pembuangan air 50 liter/menit adalah ..... menit.\n</item>
-
     </string-array>
     <string-array name="ipa_latihan1_pilihan">
         <item>A. mengeluarkan tinta hitam</item>

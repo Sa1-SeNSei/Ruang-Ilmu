@@ -40,12 +40,15 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
     Button btnA, btnB, btnC, btnD;
     LinkedList<Button> buttonk = new LinkedList<Button>();
 
-    ImageButton btnexit, btnnext;
-
+    ImageButton btnexit, btnnext, btnexplain;
+    private ImageView bpw;
+    private PopupWindow pw;
+    ViewGroup.LayoutParams layoutParams;
 
     JustifyTextView soal;
     TextView restNumber;
     TextView currentNumber;
+    TextView penjelasan;
 
     String[] pilihan;
     String[] penjelasankuis;
@@ -69,11 +72,8 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
 
     Integer score_ipa_ujian;
 
-    public TextView skore;
 
-    private RecyclerView recyclerViewImageSoal;
-    private ImageSoalAdapter imageSoalAdapter;
-    private List<List<Drawable>> imageSoalList = new ArrayList<>();
+    public TextView skore;
 
 
     public fragmentKuisIPA_Ujian(){}
@@ -87,11 +87,7 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
         btnD = fragmentLayout.findViewById(R.id.D);
         btnexit = fragmentLayout.findViewById(R.id.exit);
         btnnext = fragmentLayout.findViewById(R.id.next);
-        recyclerViewImageSoal = fragmentLayout.findViewById(R.id.recycler_image);
-
-        imageSoalAdapter = new ImageSoalAdapter();
-        recyclerViewImageSoal.setLayoutManager(new LinearLayoutManager(getContext()));
-        recyclerViewImageSoal.setAdapter(imageSoalAdapter);
+        btnexplain = fragmentLayout.findViewById(R.id.explain);
 
         View kuisku = inflater.inflate(R.layout.activity_kuis,container, false);
 
@@ -102,12 +98,17 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
         buttonk.add(btnB);
         buttonk.add(btnC);
         buttonk.add(btnD);
-        soalString = getResources().getStringArray(R.array.soal1);
-        pilihan = getResources().getStringArray(R.array.pilihan1);
-        jumlahpilhan = getResources().getIntArray(R.array.jumlahpilihan1);
-        penjelasankuis = getResources().getStringArray(R.array.penjelasanjawaban1);
-        jawabanPiliihanKuis = getResources().getIntArray(R.array.jawabankuis1);
 
+        //soal
+        soalString = getResources().getStringArray(R.array.SoalIPA_Ujian);
+        //pilihan abcd
+        pilihan = getResources().getStringArray(R.array.ABC_IPA_Ujian);
+        //jumlah soal (biasanya 4)
+        jumlahpilhan = getResources().getIntArray(R.array.JumlahPilihanIPA_Ujian);
+        //penjelasan
+        penjelasankuis = getResources().getStringArray(R.array.PenjelasanJawabanIPA_Ujian);
+        //jawaban kuis
+        jawabanPiliihanKuis = getResources().getIntArray(R.array.JawabanKuisIPA_Ujian);
         soal = fragmentLayout.findViewById(R.id.soal);
 
         //mengambil bobot soal di string dengan array
@@ -124,8 +125,6 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
         restNumb = 10;//Ganti ini sesuai jumlah soal
         currentNumb =0;
 
-        initImageSoal();
-
         myAnim = AnimationUtils.loadAnimation(getContext(),R.anim.grind);
 
 
@@ -137,8 +136,30 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
 
         btnexit.setOnClickListener(this);
         btnnext.setOnClickListener(this);
+        btnexplain.setOnClickListener(this);
 
+        View fragmentPopup = inflater.inflate(R.layout.popup_penjelasan,container,false);
 
+        penjelasan = fragmentPopup.findViewById(R.id.teksPenjelasan);
+        layoutParams = fragmentPopup.getLayoutParams();
+
+        layout = inflater.inflate(R.layout.popup_penjelasan,
+                (ViewGroup) fragmentPopup.findViewById(R.id.popupanswer));
+
+        pw = new PopupWindow(layout, layoutParams.width, layoutParams.height, true);
+
+        bpw = fragmentPopup.findViewById(R.id.close);
+
+        bpw.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Animation animated;
+                animated = AnimationUtils.loadAnimation(getContext(),R.anim.grind);
+                bpw.startAnimation(animated);
+
+                pw.dismiss();
+            }
+        });
 
 
 
@@ -152,7 +173,7 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
 
         levelku = userData.getInt(getString(R.string.QUIZ_AKU_LEVEL), 0);
         namaTersimpan = userData.getString(getString(R.string.QUIZ_AKU_USERNAME),"0");
-        soalDikerjakan = userData.getInt(getString(R.string.QUIZ_AKU_SOAL1),-1);
+        soalDikerjakan = userData.getInt(getString(R.string.Dikerjakan_IPA_Ujian),-1);
         int nomorSoalterakhir = soalDikerjakan +1;
 
 
@@ -170,17 +191,6 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
         return fragmentLayout;
     }
 
-    private void initImageSoal() {
-        imageSoalList.add(new ArrayList<Drawable>());
-
-        if (imageSoalList.size() < restNumb) {
-            int sisa_gambar = restNumb - imageSoalList.size();
-            for (int i = 0; i < sisa_gambar; i++) {
-                imageSoalList.add(new ArrayList<Drawable>());
-            }
-        }
-    }
-
 
 
     public void cleanButton(){
@@ -188,11 +198,10 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
         btnexit.setAlpha(1f);
         btnexit.setEnabled(true);
 
-
-
         btnnext.setEnabled(false);
-
+        btnexplain.setEnabled(false);
         btnnext.setAlpha(0.5f);
+        btnexplain.setAlpha(0.5f);
         for (int i =0; i < buttonk.size();i++)
         {
             buttonk.get(i).setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.bgpilihan1, null));
@@ -235,9 +244,7 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
 //        Current soal bertambah +1
                 Integer current = nomor + 1;
                 currentNumber.setText(current.toString());
-
-                //Load Image
-                imageSoalAdapter.submitList(imageSoalList.get(nomor) != null ? imageSoalList.get(nomor) : new ArrayList<Drawable>());
+                penjelasan.setText(penjelasankuis[nomor]);
 //        Memasukan Pilhan
 
                 int x = 0;
@@ -310,12 +317,14 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
             updateNilai();
 
             btnnext.setEnabled(true);
-
+            btnexplain.setEnabled(true);
             btnnext.setAlpha(1f);
-
+            btnexplain.setAlpha(1f);
             playMenang();
         }
         else {
+
+
 
             updateNilai();
 
@@ -323,11 +332,18 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
 
             buttonk.get(jawaban).setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.bgpilihan3, null));
             buttonk.get(jawabanBenar).setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.bgpilihan2, null));
+
+            pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisIPA_Ujian), Gravity.CENTER, 0, 0);
+
             btnnext.setEnabled(true);
+            btnexplain.setEnabled(true);
             btnnext.setAlpha(1f);
+            btnexplain.setAlpha(1f);
 
         }
 
+        btnexplain.setEnabled(true);
+        btnexplain.setAlpha(1f);
         btnexit.setEnabled(false);
         btnexit.setAlpha(0.5f);
 
@@ -372,10 +388,21 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
                 currentNumb++;
                 changeIsiKuis(currentNumb);
                 break;
+            case R.id.explain:
+                btnexplain.startAnimation(myAnim);
+                pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisIPA_Ujian), Gravity.CENTER, 0, 0);
+                btnnext.setEnabled(true);
+                btnexplain.setEnabled(true);
+                btnnext.setAlpha(1f);
+                btnexplain.setAlpha(1f);
+                break;
+
         }
     }
 
     public void updateNilai(){
+
+
         editor.putInt(getString(R.string.SCORE_IPA_Ujian), score_ipa_ujian);
         editor.putInt(getString(R.string.SCORE_UTAMANYA), score);
         editor.putInt(getString(R.string.QUIZ_AKU_LEVEL), levelku);

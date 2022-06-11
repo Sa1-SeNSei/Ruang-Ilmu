@@ -65,7 +65,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
     String namaTersimpan ;
 
 
-    Integer score_mtk_lat1;
+    Integer score_mtk_ujian;
 
 
     public TextView skore;
@@ -93,11 +93,11 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
         buttonk.add(btnB);
         buttonk.add(btnC);
         buttonk.add(btnD);
-        soalString = getResources().getStringArray(R.array.soal1);
-        pilihan = getResources().getStringArray(R.array.pilihan1);
-        jumlahpilhan = getResources().getIntArray(R.array.jumlahpilihan1);
-        penjelasankuis = getResources().getStringArray(R.array.penjelasanjawaban1);
-        jawabanPiliihanKuis = getResources().getIntArray(R.array.jawabankuis1);
+        soalString = getResources().getStringArray(R.array.SoalMTK_Ujian);
+        pilihan = getResources().getStringArray(R.array.ABC_MTK_Ujian);
+        jumlahpilhan = getResources().getIntArray(R.array.JumlahPilihanMTK_Ujian);
+        penjelasankuis = getResources().getStringArray(R.array.PenjelasanJawabanMTK_Ujian);
+        jawabanPiliihanKuis = getResources().getIntArray(R.array.JawabanKuisMTK_Ujian);
 
         soal = fragmentLayout.findViewById(R.id.soal);
 
@@ -158,7 +158,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
         editor = userData.edit();
 
         score = userData.getInt(getString(R.string.SCORE_UTAMANYA), 0);
-        score_mtk_lat1 = userData.getInt(getString(R.string.SCORE_MTK_Ujian), 0);
+        score_mtk_ujian = userData.getInt(getString(R.string.SCORE_MTK_Ujian), 0);
 
 
         levelku = userData.getInt(getString(R.string.QUIZ_AKU_LEVEL), 0);
@@ -209,8 +209,8 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
         //resNumb ini jumlah soal dell jadi ketika resNumb udah sama dengan soal yg di kerjakan langsung cek levelnya 1 atau tidak
         if(nomor <= restNumb) {
             if ( nomor >= restNumb){
-                if (score >= score_mtk_lat1){
-                    score_mtk_lat1 = score;
+                if (score >= score_mtk_ujian){
+                    score_mtk_ujian = score;
                     updateNilai();
                     Intent intent;
                     intent = new Intent(getContext(), ScoreLulus.class);
@@ -323,7 +323,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
             buttonk.get(jawaban).setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.bgpilihan3, null));
             buttonk.get(jawabanBenar).setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.bgpilihan2, null));
 
-            pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisMTK1), Gravity.CENTER, 0, 0);
+            pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisMTK_Ujian), Gravity.CENTER, 0, 0);
 
             btnnext.setEnabled(true);
             btnexplain.setEnabled(true);
@@ -380,7 +380,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
                 break;
             case R.id.explain:
                 btnexplain.startAnimation(myAnim);
-                pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisMTK1), Gravity.CENTER, 0, 0);
+                pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisMTK_Ujian), Gravity.CENTER, 0, 0);
                 btnnext.setEnabled(true);
                 btnexplain.setEnabled(true);
                 btnnext.setAlpha(1f);
@@ -393,7 +393,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
     public void updateNilai(){
 
 
-        editor.putInt(getString(R.string.SCORE_MTK_Latihan1), score_mtk_lat1);
+        editor.putInt(getString(R.string.SCORE_MTK_Ujian), score_mtk_ujian);
         editor.putInt(getString(R.string.SCORE_UTAMANYA), score);
         editor.putInt(getString(R.string.QUIZ_AKU_LEVEL), levelku);
         editor.commit();

@@ -33,188 +33,162 @@ import java.util.List;
 import me.biubiubiu.justifytext.library.JustifyTextView;
 
 public class fragmentKuisIPA2 extends Fragment implements View.OnClickListener{
+    View fragmentLayout;
+    Animation myAnim;
+    View layout;
+    View mainlayout;
+    Button btnA, btnB, btnC, btnD;
+    LinkedList<Button> buttonk = new LinkedList<Button>();
 
-        View fragmentLayout;
-        Animation myAnim;
-        View layout;
-        View mainlayout;
-        Button btnA, btnB, btnC, btnD;
-        LinkedList<Button> buttonk = new LinkedList<Button>();
+    ImageButton btnexit, btnnext, btnexplain;
+    private ImageView bpw;
+    private PopupWindow pw;
+    ViewGroup.LayoutParams layoutParams;
 
-        ImageButton btnexit, btnnext, btnexplain;
-        private ImageView bpw;
-        private PopupWindow pw;
-        ViewGroup.LayoutParams layoutParams;
+    JustifyTextView soal;
+    TextView restNumber;
+    TextView currentNumber;
+    TextView penjelasan;
 
-        JustifyTextView soal;
-        TextView restNumber;
-        TextView currentNumber;
-        TextView penjelasan;
-
-        String[] pilihan;
-        String[] penjelasankuis;
-        int[] jumlahpilhan;
-        String[] soalString;
-        int[] jawabanPiliihanKuis;
-
-        //untuk bobot deklarasikan
-        int[] bobotkuissoal1;
-        public TextView textBobotKuis1;
-        Integer nilaibobot;
+    String[] pilihan;
+    String[] penjelasankuis;
+    int[] jumlahpilhan;
+    String[] soalString;
+    int[] jawabanPiliihanKuis;
 
 
-        Integer restNumb;
-        Integer currentNumb;
-        SharedPreferences userData;
+    Integer restNumb;
+    Integer currentNumb;
+    SharedPreferences userData;
 
-        int soalDikerjakan;
-        SharedPreferences.Editor editor;
+    int soalDikerjakan;
+    SharedPreferences.Editor editor;
 
-        Integer score ;
+    Integer score ;
 
-        int levelku;
-        String namaTersimpan ;
-
-        Integer score_perlayout1;
-        Integer score_ipa_lat2;
+    int levelku;
+    String namaTersimpan ;
 
 
-        public TextView skore_layout1;
-        public TextView skore;
+    Integer score_ipa_lat2;
 
-    private RecyclerView recyclerViewImageSoal;
-    private ImageSoalAdapter imageSoalAdapter;
-    private List<List<Drawable>> imageSoalList = new ArrayList<>();
+
+    public TextView skore;
 
 
     public fragmentKuisIPA2(){}
-        @Nullable
-        @Override
-        public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-            fragmentLayout = inflater.inflate(R.layout.activity_fragment_kuis_ipa2,container,false);
-            btnA = fragmentLayout.findViewById(R.id.A);
-            btnB = fragmentLayout.findViewById(R.id.B);
-            btnC = fragmentLayout.findViewById(R.id.C);
-            btnD = fragmentLayout.findViewById(R.id.D);
-            btnexit = fragmentLayout.findViewById(R.id.exit);
-            btnnext = fragmentLayout.findViewById(R.id.next);
-            btnexplain = fragmentLayout.findViewById(R.id.explain);
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        fragmentLayout = inflater.inflate(R.layout.activity_fragment_kuis_ipa2,container,false);
+        btnA = fragmentLayout.findViewById(R.id.A);
+        btnB = fragmentLayout.findViewById(R.id.B);
+        btnC = fragmentLayout.findViewById(R.id.C);
+        btnD = fragmentLayout.findViewById(R.id.D);
+        btnexit = fragmentLayout.findViewById(R.id.exit);
+        btnnext = fragmentLayout.findViewById(R.id.next);
+        btnexplain = fragmentLayout.findViewById(R.id.explain);
+
+        View kuisku = inflater.inflate(R.layout.activity_kuis,container, false);
 
 
-            View kuisku = inflater.inflate(R.layout.activity_kuis,container, false);
+        skore = (TextView) kuisku.findViewById(R.id.score);
 
+        buttonk.add(btnA);
+        buttonk.add(btnB);
+        buttonk.add(btnC);
+        buttonk.add(btnD);
 
-            skore = (TextView) kuisku.findViewById(R.id.score);
+        //soal
+        soalString = getResources().getStringArray(R.array.SoalIPA_Lat2);
+        //pilihan abcd
+        pilihan = getResources().getStringArray(R.array.ABC_IPA_Lat2);
+        //jumlah soal (biasanya 4)
+        jumlahpilhan = getResources().getIntArray(R.array.jumlahpilihan1);
+        //penjelasan
+        penjelasankuis = getResources().getStringArray(R.array.PenjelasanJawabanIPA_Lat2);
+        //jawaban kuis
+        jawabanPiliihanKuis = getResources().getIntArray(R.array.JawabanKuisIPA_Lat2);
+        soal = fragmentLayout.findViewById(R.id.soal);
 
-            buttonk.add(btnA);
-            buttonk.add(btnB);
-            buttonk.add(btnC);
-            buttonk.add(btnD);
-            soalString = getResources().getStringArray(R.array.soal1);
-            pilihan = getResources().getStringArray(R.array.pilihan1);
-            jumlahpilhan = getResources().getIntArray(R.array.jumlahpilihan1);
-            penjelasankuis = getResources().getStringArray(R.array.penjelasanjawaban1);
-            jawabanPiliihanKuis = getResources().getIntArray(R.array.jawabankuis1);
-            recyclerViewImageSoal = fragmentLayout.findViewById(R.id.recycler_image);
+        //mengambil bobot soal di string dengan array
 
-            imageSoalAdapter = new ImageSoalAdapter();
-            recyclerViewImageSoal.setLayoutManager(new LinearLayoutManager(getContext()));
-            recyclerViewImageSoal.setAdapter(imageSoalAdapter);
+        //String[] bobotipa1 = getResources().getStringArray(R.array.bobotsoal1);
 
-            soal = fragmentLayout.findViewById(R.id.soal);
+        //bobotkuissoal1 = getResources().getIntArray(R.array.bobotsoal1);
 
-            //mengambil bobot soal di string dengan array
+        //Jumlah Soal
+        restNumber = fragmentLayout.findViewById(R.id.rest);
+        //Soal yang di kerjakan
+        currentNumber = fragmentLayout.findViewById(R.id.current);
 
-            //String[] bobotipa1 = getResources().getStringArray(R.array.bobotsoal1);
+        restNumb = 10;//Ganti ini sesuai jumlah soal
+        currentNumb =0;
 
-            //bobotkuissoal1 = getResources().getIntArray(R.array.bobotsoal1);
-
-            //Jumlah Soal
-            restNumber = fragmentLayout.findViewById(R.id.rest);
-            //Soal yang di kerjakan
-            currentNumber = fragmentLayout.findViewById(R.id.current);
-
-            restNumb = 20;//Ganti ini sesuai jumlah soal
-            currentNumb =0;
-
-            initImageSoal();
-
-            myAnim = AnimationUtils.loadAnimation(getContext(),R.anim.grind);
+        myAnim = AnimationUtils.loadAnimation(getContext(),R.anim.grind);
 
 
 //        Button spoiler11 = (Button) fragmentLayout.findViewById(R.id.spoiler1_1);
-            btnA.setOnClickListener(this);
-            btnB.setOnClickListener(this);
-            btnC.setOnClickListener(this);
-            btnD.setOnClickListener(this);
+        btnA.setOnClickListener(this);
+        btnB.setOnClickListener(this);
+        btnC.setOnClickListener(this);
+        btnD.setOnClickListener(this);
 
-            btnexit.setOnClickListener(this);
-            btnnext.setOnClickListener(this);
-            btnexplain.setOnClickListener(this);
+        btnexit.setOnClickListener(this);
+        btnnext.setOnClickListener(this);
+        btnexplain.setOnClickListener(this);
 
-            View fragmentPopup = inflater.inflate(R.layout.popup_penjelasan,container,false);
+        View fragmentPopup = inflater.inflate(R.layout.popup_penjelasan,container,false);
 
-            penjelasan = fragmentPopup.findViewById(R.id.teksPenjelasan);
-            layoutParams = fragmentPopup.getLayoutParams();
+        penjelasan = fragmentPopup.findViewById(R.id.teksPenjelasan);
+        layoutParams = fragmentPopup.getLayoutParams();
 
-            layout = inflater.inflate(R.layout.popup_penjelasan,
-                    (ViewGroup) fragmentPopup.findViewById(R.id.popupanswer));
+        layout = inflater.inflate(R.layout.popup_penjelasan,
+                (ViewGroup) fragmentPopup.findViewById(R.id.popupanswer));
 
-            pw = new PopupWindow(layout, layoutParams.width, layoutParams.height, true);
+        pw = new PopupWindow(layout, layoutParams.width, layoutParams.height, true);
 
+        bpw = fragmentPopup.findViewById(R.id.close);
 
-            bpw = fragmentPopup.findViewById(R.id.close);
+        bpw.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Animation animated;
+                animated = AnimationUtils.loadAnimation(getContext(),R.anim.grind);
+                bpw.startAnimation(animated);
 
-            bpw.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Animation animated;
-                    animated = AnimationUtils.loadAnimation(getContext(),R.anim.grind);
-                    bpw.startAnimation(animated);
-
-                    pw.dismiss();
-                }
-            });
-
-
-
-
-            userData = PreferenceManager.getDefaultSharedPreferences(getContext());
-            editor = userData.edit();
-
-            score = userData.getInt(getString(R.string.SCORE_UTAMANYA), 0);
-            score_ipa_lat2 = userData.getInt(getString(R.string.SCORE_IPA_Latihan2), 0);
-
-
-            levelku = userData.getInt(getString(R.string.QUIZ_AKU_LEVEL), 0);
-            namaTersimpan = userData.getString(getString(R.string.QUIZ_AKU_USERNAME),"0");
-            soalDikerjakan = userData.getInt(getString(R.string.QUIZ_AKU_SOAL1),-1);
-            int nomorSoalterakhir = soalDikerjakan +1;
-
-
-            if(nomorSoalterakhir<restNumb)
-            {
-                currentNumb = nomorSoalterakhir;
-            }else {currentNumb=0;}
-
-
-            changeIsiKuis(currentNumb);
-
-            score = 0;
-            updateNilai();
-
-            return fragmentLayout;
-        }
-
-    private void initImageSoal() {
-        imageSoalList.add(new ArrayList<Drawable>());
-
-        if (imageSoalList.size() < restNumb) {
-            int sisa_gambar = restNumb - imageSoalList.size();
-            for (int i = 0; i < sisa_gambar; i++) {
-                imageSoalList.add(new ArrayList<Drawable>());
+                pw.dismiss();
             }
-        }
+        });
+
+
+
+
+        userData = PreferenceManager.getDefaultSharedPreferences(getContext());
+        editor = userData.edit();
+
+        score = userData.getInt(getString(R.string.SCORE_UTAMANYA), 0);
+        score_ipa_lat2 = userData.getInt(getString(R.string.SCORE_IPA_Latihan2), 0);
+
+
+        levelku = userData.getInt(getString(R.string.QUIZ_AKU_LEVEL), 0);
+        namaTersimpan = userData.getString(getString(R.string.QUIZ_AKU_USERNAME),"0");
+        soalDikerjakan = userData.getInt(getString(R.string.Dikerjakan_MTK_Latihan1),-1);
+        int nomorSoalterakhir = soalDikerjakan +1;
+
+
+        if(nomorSoalterakhir<restNumb)
+        {
+            currentNumb = nomorSoalterakhir;
+        }else {currentNumb=0;}
+
+
+        changeIsiKuis(currentNumb);
+
+        score = 0;
+        updateNilai();
+
+        return fragmentLayout;
     }
 
 
@@ -223,8 +197,6 @@ public class fragmentKuisIPA2 extends Fragment implements View.OnClickListener{
 
         btnexit.setAlpha(1f);
         btnexit.setEnabled(true);
-
-
 
         btnnext.setEnabled(false);
         btnexplain.setEnabled(false);
@@ -273,9 +245,6 @@ public class fragmentKuisIPA2 extends Fragment implements View.OnClickListener{
                 Integer current = nomor + 1;
                 currentNumber.setText(current.toString());
                 penjelasan.setText(penjelasankuis[nomor]);
-
-                //Load Image
-                imageSoalAdapter.submitList(imageSoalList.get(nomor) != null ? imageSoalList.get(nomor) : new ArrayList<Drawable>());
 //        Memasukan Pilhan
 
                 int x = 0;
@@ -433,13 +402,11 @@ public class fragmentKuisIPA2 extends Fragment implements View.OnClickListener{
 
     public void updateNilai(){
 
+
         editor.putInt(getString(R.string.SCORE_IPA_Latihan2), score_ipa_lat2);
         editor.putInt(getString(R.string.SCORE_UTAMANYA), score);
-
         editor.putInt(getString(R.string.QUIZ_AKU_LEVEL), levelku);
-
         editor.commit();
-
         ((Kuis) getActivity()).cekProfil();
 
     }

@@ -100,11 +100,11 @@ public class fragmentKuisMTK2 extends Fragment implements View.OnClickListener{
         buttonk.add(btnB);
         buttonk.add(btnC);
         buttonk.add(btnD);
-        soalString = getResources().getStringArray(R.array.soal1);
-        pilihan = getResources().getStringArray(R.array.pilihan1);
-        jumlahpilhan = getResources().getIntArray(R.array.jumlahpilihan1);
-        penjelasankuis = getResources().getStringArray(R.array.penjelasanjawaban1);
-        jawabanPiliihanKuis = getResources().getIntArray(R.array.jawabankuis1);
+        soalString = getResources().getStringArray(R.array.SoalMTK_Lat2);
+        pilihan = getResources().getStringArray(R.array.ABC_MTK_Lat2);
+        jumlahpilhan = getResources().getIntArray(R.array.JumlahPilihanMTK_Lat2);
+        penjelasankuis = getResources().getStringArray(R.array.PenjelasanJawabanMTK_Lat2);
+        jawabanPiliihanKuis = getResources().getIntArray(R.array.JawabanKuisMTK_Lat2);
 
         soal = fragmentLayout.findViewById(R.id.soal);
 
@@ -390,7 +390,7 @@ public class fragmentKuisMTK2 extends Fragment implements View.OnClickListener{
                 break;
             case R.id.explain:
                 btnexplain.startAnimation(myAnim);
-                pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisIPA2), Gravity.CENTER, 0, 0);
+                pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisMTK2), Gravity.CENTER, 0, 0);
                 btnnext.setEnabled(true);
                 btnexplain.setEnabled(true);
                 btnnext.setAlpha(1f);

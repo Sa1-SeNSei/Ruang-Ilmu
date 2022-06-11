@@ -38,7 +38,7 @@
         app:layout_constraintLeft_toRightOf="@+id/current"
         app:layout_constraintTop_toTopOf="@+id/current" />
 
-    <android.support.v4.widget.NestedScrollView
+    <ScrollView
         android:layout_width="328dp"
         android:layout_height="101dp"
         android:layout_marginLeft="21dp"
@@ -53,34 +53,21 @@
         app:layout_constraintTop_toTopOf="@+id/contentGambar"
         app:layout_constraintVertical_bias="1.0">
 
-        <LinearLayout
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/soal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:orientation="vertical">
-
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/recycler_image"
-                app:layout_behavior="@string/appbar_scrolling_view_behavior"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-            </android.support.v7.widget.RecyclerView>
-
-            <me.biubiubiu.justifytext.library.JustifyTextView
-                android:id="@+id/soal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Coba"
-                android:textColor="@color/colorFont"
-                app:layout_constraintBottom_toBottomOf="@+id/contentGambar"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintLeft_toLeftOf="@+id/contentGambar"
-                app:layout_constraintRight_toRightOf="@+id/contentGambar"
-                app:layout_constraintTop_toTopOf="@+id/contentGambar"
-                app:layout_constraintVertical_bias="0.641" />
-        </LinearLayout>
-    </android.support.v4.widget.NestedScrollView>
+            android:text="Coba"
+            android:textColor="@color/colorFont"
+            app:layout_constraintBottom_toBottomOf="@+id/contentGambar"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@+id/contentGambar"
+            app:layout_constraintRight_toRightOf="@+id/contentGambar"
+            app:layout_constraintTop_toTopOf="@+id/contentGambar"
+            app:layout_constraintVertical_bias="0.641" />
+    </ScrollView>
 
 
     <Button

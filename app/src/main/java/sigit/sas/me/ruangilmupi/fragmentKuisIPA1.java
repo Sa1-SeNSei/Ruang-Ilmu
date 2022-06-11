@@ -107,11 +107,11 @@ public class fragmentKuisIPA1 extends Fragment implements View.OnClickListener {
         buttonk.add(btnB);
         buttonk.add(btnC);
         buttonk.add(btnD);
-        soalString = getResources().getStringArray(R.array.ipa_latihan1);
-        pilihan = getResources().getStringArray(R.array.ipa_latihan1_pilihan);
-        jumlahpilhan = getResources().getIntArray(R.array.jumlahpilihan1);
-        penjelasankuis = getResources().getStringArray(R.array.penjelasan_ipa_latihan1);
-        jawabanPiliihanKuis = getResources().getIntArray(R.array.jawaban_ipa_latihan1);
+        soalString = getResources().getStringArray(R.array.SoalIPA_Lat1);
+        pilihan = getResources().getStringArray(R.array.ABC_IPA_Lat1);
+        jumlahpilhan = getResources().getIntArray(R.array.JumlahPilihanIPA_Lat1);
+        penjelasankuis = getResources().getStringArray(R.array.PenjelasanJawabanIPA_Lat1);
+        jawabanPiliihanKuis = getResources().getIntArray(R.array.JawabanKuisIPA_Lat1);
 
         soal = fragmentLayout.findViewById(R.id.soal);
 
