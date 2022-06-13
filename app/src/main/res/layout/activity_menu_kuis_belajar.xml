@@ -28,7 +28,7 @@
 
         <ImageView
             android:layout_width="91dp"
-            android:layout_height="63dp"
+            android:layout_height="93dp"
             android:layout_alignTop="@+id/bg_atas"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="120dp"

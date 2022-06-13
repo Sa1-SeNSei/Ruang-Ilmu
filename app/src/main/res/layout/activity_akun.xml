@@ -8,6 +8,7 @@
     android:orientation="vertical"
     android:background="@drawable/background"
     tools:context=".Akun">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="220dp"
@@ -26,7 +27,7 @@
 
         <ImageView
             android:layout_width="91dp"
-            android:layout_height="63dp"
+            android:layout_height="83dp"
             android:layout_alignTop="@+id/bg_atas"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="120dp"
@@ -159,40 +160,7 @@
                                 android:layout_below="@+id/level"
                                 style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
 
-                            <!--  <TextView
-                                  android:id="@+id/namaAkun"
-                                  android:layout_width="match_parent"
-                                  android:layout_height="wrap_content"
-                                  android:gravity="center"
-                                  android:text="Nama User"
-                                  android:textColor="#000"
-                                  android:fontFamily="@font/attraction"
-                                  android:textSize="10dp" />
 
-
-                              <ImageView
-                                  android:id="@+id/levelpapan"
-                                  android:layout_width="match_parent"
-                                  android:layout_height="25dp"
-                                  android:layout_below="@id/namaAkun"
-                                  android:gravity="left"
-                                  android:textColor="#000"
-                                  android:textSize="12dp"
-                                  app:srcCompat="@drawable/level" />
-
-
-                              <ImageView
-                                  android:id="@+id/level"
-                                  android:layout_width="match_parent"
-                                  android:layout_height="20dp"
-                                  android:layout_below="@id/levelpapan"
-                                  android:text="@string/app_name"
-                                  android:textColor="#000"
-                                  android:layout_centerHorizontal="true"
-                                  android:textSize="12dp"
-                                  app:srcCompat="@drawable/level1" />
-
-                                  -->
 
                         </RelativeLayout>
 
@@ -227,11 +195,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:gravity="center"
-                    android:text="Nilai Latihan"
+                    android:text="Nilai Rapot Pelajaran"
                     android:textColor="#000"
                     android:textSize="16dp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/rapierzero"
+                    android:fontFamily="@font/ebg_aramond"
                     />
 
 
@@ -295,9 +263,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="1dp"
-                                android:orientation="horizontal">
+                                android:orientation="vertical">
 
-                                <!--Bagian IPA Latihan 1 & 2-->
+                                <!--Bagian IPA Latihan 1-->
+
                                 <RelativeLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -317,11 +286,16 @@
                                             android:layout_weight="0.30"
                                             android:gravity="center">
 
-                                            <ImageView
-                                                android:id="@+id/gbripalat1"
+                                            <TextView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/ipa_lat1" />
+                                                android:text="@string/Latihan1"
+                                                android:fontFamily="@font/ebg_aramond"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/black"
+                                                android:textSize="16dp"/>
 
 
                                         </RelativeLayout>
@@ -347,7 +321,7 @@
 
                                 </RelativeLayout>
 
-
+                                <!--Bagian IPA Latihan 2-->
                                 <RelativeLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -366,11 +340,17 @@
                                             android:layout_height="match_parent"
                                             android:layout_weight="0.30"
                                             android:gravity="center">
-                                            <ImageView
-                                                android:id="@+id/gbripalat2"
+                                            <TextView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/ipa_lat2" />
+                                                android:text="@string/Latihan2"
+                                                android:fontFamily="@font/ebg_aramond"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/black"
+                                                android:textSize="16dp"/>
+
                                         </RelativeLayout>
                                         <RelativeLayout
                                             android:layout_width="match_parent"
@@ -393,6 +373,62 @@
 
 
                                 </RelativeLayout>
+
+
+                                <!--Bagian IPA Ujian-->
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.50"
+                                    android:background="?attr/selectableItemBackground"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:orientation="horizontal"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true">
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.30"
+                                            android:gravity="center">
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:text="@string/UjianIPA"
+                                                android:fontFamily="@font/ebg_aramond"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/black"
+                                                android:textSize="16dp"/>
+
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.70"
+                                            android:gravity="center">
+                                            <TextView
+                                                android:id="@+id/score_ipa_ujian"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="10"
+                                                android:textColor="@color/colorFont"
+                                                android:textSize="30sp"
+                                                android:textStyle="bold"
+                                                android:fontFamily="@font/smilen"/>
+                                        </RelativeLayout>
+
+                                    </LinearLayout>
+
+
+
+                                </RelativeLayout>
+
+
                             </LinearLayout>
 
                         </RelativeLayout>
@@ -450,9 +486,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="1dp"
-                                android:orientation="horizontal">
+                                android:orientation="vertical">
 
-                                <!--Bagian IPA Latihan 1 & 2-->
+                                <!--Bagian IPA Latihan 1-->
+
                                 <RelativeLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -472,11 +509,16 @@
                                             android:layout_weight="0.30"
                                             android:gravity="center">
 
-                                            <ImageView
-                                                android:id="@+id/gbrmtklat1"
+                                            <TextView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/mtk_lat1" />
+                                                android:text="@string/Latihan1"
+                                                android:fontFamily="@font/ebg_aramond"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/black"
+                                                android:textSize="16dp"/>
 
 
                                         </RelativeLayout>
@@ -496,18 +538,13 @@
                                                 android:fontFamily="@font/smilen"/>
                                         </RelativeLayout>
 
-
-
                                     </LinearLayout>
-
-
-
 
 
 
                                 </RelativeLayout>
 
-
+                                <!--Bagian IPA Latihan 2-->
                                 <RelativeLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -526,13 +563,16 @@
                                             android:layout_height="match_parent"
                                             android:layout_weight="0.30"
                                             android:gravity="center">
-
-                                            <ImageView
-                                                android:id="@+id/gbrmtklat2"
+                                            <TextView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/mtk_lat2" />
-
+                                                android:text="@string/Latihan2"
+                                                android:fontFamily="@font/ebg_aramond"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/black"
+                                                android:textSize="16dp"/>
 
                                         </RelativeLayout>
                                         <RelativeLayout
@@ -555,8 +595,63 @@
 
 
 
+                                </RelativeLayout>
+
+
+                                <!--Bagian IPA Ujian-->
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.50"
+                                    android:background="?attr/selectableItemBackground"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:orientation="horizontal"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true">
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.30"
+                                            android:gravity="center">
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:text="@string/UjianMTK"
+                                                android:fontFamily="@font/ebg_aramond"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/black"
+                                                android:textSize="16dp"/>
+
+                                        </RelativeLayout>
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0.70"
+                                            android:gravity="center">
+                                            <TextView
+                                                android:id="@+id/score_mtk_ujian"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:text="10"
+                                                android:textColor="@color/colorFont"
+                                                android:textSize="30sp"
+                                                android:textStyle="bold"
+                                                android:fontFamily="@font/smilen"/>
+                                        </RelativeLayout>
+
+                                    </LinearLayout>
+
+
 
                                 </RelativeLayout>
+
+
 
                             </LinearLayout>
 
@@ -621,9 +716,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="1dp"
-                                android:orientation="horizontal">
+                                android:orientation="vertical">
 
-                                <!--Bagian IPA Latihan 1 & 2-->
+                                <!--Bagian IPA Latihan 1-->
+
                                 <RelativeLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -643,11 +739,18 @@
                                             android:layout_weight="0.30"
                                             android:gravity="center">
 
-                                            <ImageView
-                                                android:id="@+id/gbrindolat1"
+                                            <TextView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/indo_lat1" />
+                                                android:text="@string/Latihan1"
+                                                android:fontFamily="@font/ebg_aramond"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/black"
+                                                android:textSize="16dp"/>
+
+
                                         </RelativeLayout>
                                         <RelativeLayout
                                             android:layout_width="match_parent"
@@ -665,15 +768,13 @@
                                                 android:fontFamily="@font/smilen"/>
                                         </RelativeLayout>
 
-
-
                                     </LinearLayout>
 
 
 
                                 </RelativeLayout>
 
-
+                                <!--Bagian IPA Latihan 2-->
                                 <RelativeLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -692,16 +793,18 @@
                                             android:layout_height="match_parent"
                                             android:layout_weight="0.30"
                                             android:gravity="center">
-
-                                            <ImageView
-                                                android:id="@+id/gbrindolat2"
+                                            <TextView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:layout_alignParentStart="true"
-                                                android:layout_alignParentTop="true"
-                                                android:src="@drawable/indo_lat2" />
-                                        </RelativeLayout>
+                                                android:text="@string/Latihan2"
+                                                android:fontFamily="@font/ebg_aramond"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/black"
+                                                android:textSize="16dp"/>
 
+                                        </RelativeLayout>
                                         <RelativeLayout
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
@@ -721,332 +824,11 @@
                                     </LinearLayout>
 
 
+
                                 </RelativeLayout>
 
-                            </LinearLayout>
 
-                        </RelativeLayout>
-
-                    </android.support.v7.widget.CardView>
-
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <!--Nilai Ujian-->
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:orientation="vertical"
-                android:padding="8.0dip">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center_vertical">
-
-                    <TextView
-                        android:id="@+id/NilaiUjian"
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:gravity="center"
-                        android:text="Nilai Ujian"
-                        android:textColor="#000"
-                        android:textSize="16dp"
-                        android:textStyle="bold"
-                        android:fontFamily="@font/rapierzero"
-                        />
-
-                    <LinearLayout
-                        android:id="@+id/garisNilaiUjian"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:layout_below="@id/NilaiUjian"
-                        android:layout_marginTop="10dp"
-                        android:background="#f0efef"
-                        android:orientation="horizontal" />
-
-                </RelativeLayout>
-
-                <!--Ujian IPA-->
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center_vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:gravity="center"
-                        android:text="@string/Ipa"
-                        android:textColor="#000"
-                        android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:fontFamily="@font/margotregular"/>
-
-                </RelativeLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:baselineAligned="false"
-                    android:orientation="horizontal"
-                    android:weightSum="1">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <android.support.v7.widget.CardView
-                            android:layout_width="0dp"
-                            android:layout_height="100dp"
-                            android:layout_margin="10dp"
-                            android:layout_marginLeft="5dp"
-                            android:layout_weight="0.33"
-                            android:clickable="true"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="5dp">
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:background="?attr/selectableItemBackground">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginTop="1dp"
-                                    android:orientation="horizontal">
-
-                                    <!--Bagian IPA UJIAN -->
-                                    <RelativeLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:layout_weight="0.50"
-                                        android:background="?attr/selectableItemBackground"
-                                        android:gravity="center">
-
-                                        <LinearLayout
-                                            android:layout_width="match_parent"
-                                            android:layout_height="70dp"
-                                            android:orientation="horizontal"
-                                            android:layout_alignParentStart="true"
-                                            android:layout_alignParentTop="true">
-                                            <RelativeLayout
-                                                android:layout_width="match_parent"
-                                                android:layout_height="match_parent"
-                                                android:layout_weight="0.30"
-                                                android:gravity="center">
-                                                <ImageView
-                                                    android:id="@+id/gbripaujian"
-                                                    android:layout_width="match_parent"
-                                                    android:layout_height="wrap_content"
-                                                    android:src="@drawable/ipa_ujian" />
-
-                                            </RelativeLayout>
-                                            <RelativeLayout
-                                                android:layout_width="match_parent"
-                                                android:layout_height="match_parent"
-                                                android:layout_weight="0.70"
-                                                android:gravity="center">
-                                                <TextView
-                                                    android:id="@+id/score_ipa_ujian"
-                                                    android:layout_width="match_parent"
-                                                    android:layout_height="wrap_content"
-                                                    android:text="10"
-                                                    android:gravity="center"
-                                                    android:textColor="@color/colorFont"
-                                                    android:textSize="30sp"
-                                                    android:textStyle="bold"
-                                                    android:fontFamily="@font/smilen"/>
-                                            </RelativeLayout>
-                                        </LinearLayout>
-
-                                    </RelativeLayout>
-
-                                </LinearLayout>
-
-                            </RelativeLayout>
-
-                        </android.support.v7.widget.CardView>
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <!--Ujian MTK-->
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center_vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:gravity="center"
-                        android:text="@string/Mtk"
-                        android:textColor="#000"
-                        android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:fontFamily="@font/margotregular"/>
-
-                </RelativeLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:baselineAligned="false"
-                    android:orientation="horizontal"
-                    android:weightSum="1">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <android.support.v7.widget.CardView
-                            android:layout_width="0dp"
-                            android:layout_height="100dp"
-                            android:layout_margin="10dp"
-                            android:layout_marginLeft="5dp"
-                            android:layout_weight="0.33"
-                            android:clickable="true"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="5dp">
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:background="?attr/selectableItemBackground">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginTop="1dp"
-                                    android:orientation="horizontal">
-
-                                    <!--Bagian IPA UJIAN -->
-                                    <RelativeLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:layout_weight="0.50"
-                                        android:background="?attr/selectableItemBackground"
-                                        android:gravity="center">
-
-                                        <LinearLayout
-                                            android:layout_width="match_parent"
-                                            android:layout_height="70dp"
-                                            android:orientation="horizontal"
-                                            android:layout_alignParentStart="true"
-                                            android:layout_alignParentTop="true">
-                                            <RelativeLayout
-                                                android:layout_width="match_parent"
-                                                android:layout_height="match_parent"
-                                                android:layout_weight="0.30"
-                                                android:gravity="center">
-
-                                                <ImageView
-                                                    android:id="@+id/gbrmtkujian"
-                                                    android:layout_width="match_parent"
-                                                    android:layout_height="match_parent"
-                                                    android:src="@drawable/mtk_ujian" />
-
-
-                                            </RelativeLayout>
-                                            <RelativeLayout
-                                                android:layout_width="match_parent"
-                                                android:layout_height="match_parent"
-                                                android:layout_weight="0.70"
-                                                android:gravity="center">
-                                                <TextView
-                                                    android:id="@+id/score_mtk_ujian"
-                                                    android:layout_width="match_parent"
-                                                    android:layout_height="wrap_content"
-                                                    android:text="10"
-                                                    android:gravity="center"
-                                                    android:textColor="@color/colorFont"
-                                                    android:textSize="30sp"
-                                                    android:textStyle="bold"
-                                                    android:fontFamily="@font/smilen"/>
-                                            </RelativeLayout>
-
-
-
-                                        </LinearLayout>
-
-
-
-
-
-                                    </RelativeLayout>
-
-
-
-
-                                </LinearLayout>
-
-
-
-                            </RelativeLayout>
-
-                        </android.support.v7.widget.CardView>
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <!--Ujian INDO-->
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center_vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="20dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:gravity="center"
-                        android:text="@string/Indo"
-                        android:textColor="#000"
-                        android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:fontFamily="@font/margotregular"/>
-
-                </RelativeLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <android.support.v7.widget.CardView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_margin="10dp"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="0.33"
-                        android:clickable="true"
-                        app:cardCornerRadius="10dp"
-                        app:cardElevation="5dp">
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="?attr/selectableItemBackground">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginTop="1dp"
-                                android:orientation="horizontal">
-
-                                <!--Bagian INDO UJIAN -->
+                                <!--Bagian IPA Ujian-->
                                 <RelativeLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -1065,11 +847,16 @@
                                             android:layout_height="match_parent"
                                             android:layout_weight="0.30"
                                             android:gravity="center">
-
-                                            <ImageView
+                                            <TextView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/indo_ujian" />
+                                                android:text="@string/UjianINDO"
+                                                android:fontFamily="@font/ebg_aramond"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginRight="10dp"
+                                                android:textStyle="bold"
+                                                android:textColor="@color/black"
+                                                android:textSize="16dp"/>
 
                                         </RelativeLayout>
                                         <RelativeLayout
@@ -1082,7 +869,6 @@
                                                 android:layout_width="match_parent"
                                                 android:layout_height="wrap_content"
                                                 android:text="10"
-                                                android:gravity="center"
                                                 android:textColor="@color/colorFont"
                                                 android:textSize="30sp"
                                                 android:textStyle="bold"
@@ -1092,7 +878,9 @@
                                     </LinearLayout>
 
 
+
                                 </RelativeLayout>
+
 
 
                             </LinearLayout>
@@ -1101,9 +889,12 @@
 
                     </android.support.v7.widget.CardView>
 
+
                 </LinearLayout>
 
             </LinearLayout>
+
+
 
         </LinearLayout>
 
