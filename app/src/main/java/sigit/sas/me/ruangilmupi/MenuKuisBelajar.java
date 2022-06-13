@@ -121,7 +121,7 @@ public class MenuKuisBelajar extends AppCompatActivity {
         btnImagesMTK.add(ResourcesCompat.getDrawable(getResources(),R.drawable.mtk_lat1,null));
         btnImagesMTK.add(ResourcesCompat.getDrawable(getResources(),R.drawable.mtk_lat2,null));
         btnImagesMTK.add(ResourcesCompat.getDrawable(getResources(),R.drawable.mtk_ujian,null));
-        btnImagesMTK.add(ResourcesCompat.getDrawable(getResources(),R.drawable.mtk_ujian,null));
+        btnImagesMTK.add(ResourcesCompat.getDrawable(getResources(),R.drawable.mtk_pembahasan,null));
 
         btnImagesINDO.add(ResourcesCompat.getDrawable(getResources(),R.drawable.indo_lat1,null));
         btnImagesINDO.add(ResourcesCompat.getDrawable(getResources(),R.drawable.indo_lat2,null));
@@ -269,7 +269,7 @@ public class MenuKuisBelajar extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 btnMateri4_ipa.startAnimation(myAnim);
-                    Intent intent=new Intent(getApplicationContext(), BukuMateriIPA.class);
+                    Intent intent=new Intent(getApplicationContext(), KuisPembahasanIPA_Ujian.class);
                     startActivity(intent);
             }
         });
@@ -310,7 +310,7 @@ public class MenuKuisBelajar extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 btnMateri4_mtk.startAnimation(myAnim);
-                Intent intent=new Intent(getApplicationContext(), BukuMateriIPA.class);
+                Intent intent=new Intent(getApplicationContext(), KuisPembahasanMTK_Ujian.class);
                 startActivity(intent);
             }
         });
@@ -351,7 +351,7 @@ public class MenuKuisBelajar extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 btnMateri4_mtk.startAnimation(myAnim);
-                Intent intent=new Intent(getApplicationContext(), BukuMateriIPA.class);
+                Intent intent=new Intent(getApplicationContext(), KuisPembahasanINDO_Ujian.class);
                 startActivity(intent);
             }
         });

@@ -35,9 +35,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
     Button btnA, btnB, btnC, btnD;
     LinkedList<Button> buttonk = new LinkedList<Button>();
 
-    ImageButton btnexit, btnnext, btnexplain;
-    private ImageView bpw;
-    private PopupWindow pw;
+    ImageButton btnexit, btnnext;
     ViewGroup.LayoutParams layoutParams;
 
     JustifyTextView soal;
@@ -46,7 +44,6 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
     TextView penjelasan;
 
     String[] pilihan;
-    String[] penjelasankuis;
     int[] jumlahpilhan;
     String[] soalString;
     int[] jawabanPiliihanKuis;
@@ -82,7 +79,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
         btnD = fragmentLayout.findViewById(R.id.D);
         btnexit = fragmentLayout.findViewById(R.id.exit);
         btnnext = fragmentLayout.findViewById(R.id.next);
-        btnexplain = fragmentLayout.findViewById(R.id.explain);
+
 
         View kuisku = inflater.inflate(R.layout.activity_kuis,container, false);
 
@@ -96,7 +93,6 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
         soalString = getResources().getStringArray(R.array.SoalMTK_Ujian);
         pilihan = getResources().getStringArray(R.array.ABC_MTK_Ujian);
         jumlahpilhan = getResources().getIntArray(R.array.JumlahPilihanMTK_Ujian);
-        penjelasankuis = getResources().getStringArray(R.array.PenjelasanJawabanMTK_Ujian);
         jawabanPiliihanKuis = getResources().getIntArray(R.array.JawabanKuisMTK_Ujian);
 
         soal = fragmentLayout.findViewById(R.id.soal);
@@ -126,7 +122,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
 
         btnexit.setOnClickListener(this);
         btnnext.setOnClickListener(this);
-        btnexplain.setOnClickListener(this);
+
 
         View fragmentPopup = inflater.inflate(R.layout.popup_penjelasan,container,false);
 
@@ -135,21 +131,6 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
 
         layout = inflater.inflate(R.layout.popup_penjelasan,
                 (ViewGroup) fragmentPopup.findViewById(R.id.popupanswer));
-
-        pw = new PopupWindow(layout, layoutParams.width, layoutParams.height, true);
-
-        bpw = fragmentPopup.findViewById(R.id.close);
-
-        bpw.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Animation animated;
-                animated = AnimationUtils.loadAnimation(getContext(),R.anim.grind);
-                bpw.startAnimation(animated);
-
-                pw.dismiss();
-            }
-        });
 
 
 
@@ -189,9 +170,9 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
         btnexit.setEnabled(true);
 
         btnnext.setEnabled(false);
-        btnexplain.setEnabled(false);
+
         btnnext.setAlpha(0.5f);
-        btnexplain.setAlpha(0.5f);
+
         for (int i =0; i < buttonk.size();i++)
         {
             buttonk.get(i).setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.bgpilihan1, null));
@@ -234,7 +215,6 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
 //        Current soal bertambah +1
                 Integer current = nomor + 1;
                 currentNumber.setText(current.toString());
-                penjelasan.setText(penjelasankuis[nomor]);
 //        Memasukan Pilhan
 
                 int x = 0;
@@ -307,9 +287,9 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
             updateNilai();
 
             btnnext.setEnabled(true);
-            btnexplain.setEnabled(true);
+
             btnnext.setAlpha(1f);
-            btnexplain.setAlpha(1f);
+
             playMenang();
         }
         else {
@@ -323,17 +303,14 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
             buttonk.get(jawaban).setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.bgpilihan3, null));
             buttonk.get(jawabanBenar).setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.bgpilihan2, null));
 
-            pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisMTK_Ujian), Gravity.CENTER, 0, 0);
 
             btnnext.setEnabled(true);
-            btnexplain.setEnabled(true);
+
             btnnext.setAlpha(1f);
-            btnexplain.setAlpha(1f);
+
 
         }
 
-        btnexplain.setEnabled(true);
-        btnexplain.setAlpha(1f);
         btnexit.setEnabled(false);
         btnexit.setAlpha(0.5f);
 
@@ -378,15 +355,6 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
                 currentNumb++;
                 changeIsiKuis(currentNumb);
                 break;
-            case R.id.explain:
-                btnexplain.startAnimation(myAnim);
-                pw.showAtLocation(fragmentLayout.findViewById(R.id.kuisMTK_Ujian), Gravity.CENTER, 0, 0);
-                btnnext.setEnabled(true);
-                btnexplain.setEnabled(true);
-                btnnext.setAlpha(1f);
-                btnexplain.setAlpha(1f);
-                break;
-
         }
     }
 

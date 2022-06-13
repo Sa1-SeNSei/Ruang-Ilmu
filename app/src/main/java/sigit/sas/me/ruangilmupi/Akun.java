@@ -74,13 +74,13 @@ public class Akun extends AppCompatActivity {
         score_ipa_lat2 = userData.getInt(getString(R.string.SCORE_IPA_Latihan2), 0);
         score_ipa_ujian = userData.getInt(getString(R.string.SCORE_IPA_Ujian), 0);
 
-        score_ipa_lat1 = userData.getInt(getString(R.string.SCORE_IPA_Latihan1), 0);
-        score_ipa_lat2 = userData.getInt(getString(R.string.SCORE_IPA_Latihan2), 0);
-        score_ipa_ujian = userData.getInt(getString(R.string.SCORE_IPA_Ujian), 0);
+        score_mtk_lat1 = userData.getInt(getString(R.string.SCORE_MTK_Latihan1), 0);
+        score_mtk_lat2 = userData.getInt(getString(R.string.SCORE_MTK_Latihan2), 0);
+        score_mtk_ujian = userData.getInt(getString(R.string.SCORE_MTK_Ujian), 0);
 
-        score_ipa_lat1 = userData.getInt(getString(R.string.SCORE_IPA_Latihan1), 0);
-        score_ipa_lat2 = userData.getInt(getString(R.string.SCORE_IPA_Latihan2), 0);
-        score_ipa_ujian = userData.getInt(getString(R.string.SCORE_IPA_Ujian), 0);
+        score_indo_lat1 = userData.getInt(getString(R.string.SCORE_INDO_Latihan1), 0);
+        score_indo_lat2 = userData.getInt(getString(R.string.SCORE_INDO_Latihan2), 0);
+        score_indo_ujian = userData.getInt(getString(R.string.SCORE_INDO_Ujian), 0);
 
 
         //Progress bar EXP point
@@ -111,6 +111,13 @@ public class Akun extends AppCompatActivity {
         skore_ipa_lat2.setText(score_ipa_lat2.toString());
         skore_ipa_ujian.setText(score_ipa_ujian.toString());
 
+        skore_mtk_lat1.setText(score_mtk_lat1.toString());
+        skore_mtk_lat2.setText(score_mtk_lat2.toString());
+        skore_mtk_ujian.setText(score_mtk_ujian.toString());
+
+        skore_indo_lat1.setText(score_indo_lat1.toString());
+        skore_indo_lat2.setText(score_indo_lat2.toString());
+        skore_indo_ujian.setText(score_indo_ujian.toString());
 
 
         switch (levelku)
