@@ -192,6 +192,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
             if ( nomor >= restNumb){
                 if (score >= score_mtk_ujian){
                     score_mtk_ujian = score;
+                    levelku +=1;
                     updateNilai();
                     Intent intent;
                     intent = new Intent(getContext(), ScoreLulus.class);

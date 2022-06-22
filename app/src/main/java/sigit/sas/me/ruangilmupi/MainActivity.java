@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         final Button btnModul = (Button) findViewById(R.id.btn_modul);
         final Button btnQuiz = (Button) findViewById(R.id.btn_kuis);
         final Button btnSetting = (Button) findViewById(R.id.btn_setting);
-        final Button btnAbout = (Button) findViewById(R.id.btn_about);
+        //final Button btnAbout = (Button) findViewById(R.id.btn_about);
         final Button btnNama = (Button) findViewById(R.id.btn_akun);
         final  Button btn_aboutme = (Button) findViewById(R.id.btn_aboutme);
         final Button btnExit = (Button) findViewById(R.id.btn_exit);
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
                 popUpReset.dismiss();
             }
         });
-
+/*
         btnAbout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+*/
         btnModul.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -189,6 +189,7 @@ public class fragmentKuisINDO_Ujian extends Fragment implements View.OnClickList
                 if ( nomor >= restNumb){
                     if (score >= score_indo_ujian){
                         score_indo_ujian = score;
+                        levelku +=1;
                         updateNilai();
                         Intent intent;
                         intent = new Intent(getContext(), ScoreLulus.class);

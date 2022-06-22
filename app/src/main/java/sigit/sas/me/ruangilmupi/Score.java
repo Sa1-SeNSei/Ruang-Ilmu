@@ -20,12 +20,14 @@ public class Score extends AppCompatActivity {
 
     SharedPreferences userData;
 
-    TextView life, score, score_perlayout1,score_perlayout2,score_perlayout3,score_perlayout4,score_perlayout5,score_perlayout6,score_perlayout7;
+    TextView score;
     Integer score_ipa_lat1,score_ipa_lat2,score_ipa_ujian;
     Integer score_mtk_lat1,score_mtk_lat2,score_mtk_ujian;
     Integer score_indo_lat1,score_indo_lat2,score_indo_ujian;
 
     ImageView levelImage;
+
+    Integer levelku;
 
     LinkedList<Drawable> level = new LinkedList<Drawable>();
 

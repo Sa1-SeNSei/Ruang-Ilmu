@@ -642,7 +642,7 @@
         <item>172 – 152 = (17 x 17) – (15 x 15)\n= 289 – 225\n= 64\n</item>
         <item>Ubah pecahan campurannya ke percahan biasa\n1 74 kalikan dengan 100%\n= \n</item>
         <item>Ketika tanda negatif (–) bertemu dengan negatif (–), maka operasi bilangannya akan berubah menjadi positif (+), sehingga:\n70 – (–25) = 70 + 25\n= 95\n</item>
-        <item>Maka FPB nya adalah = 23×3</item>
+        <item>Maka FPB nya adalah = 2³ × 3</item>
         <item>21 : (3 – 10) + 4 × (–2)\n= 21 : – 7 – 8\n= – 3 – 8\n= – 11\n</item>
         <item>28  +  7 × (–5)\n= 28 – 35\n= – 7\n</item>
         <item>–12 + 20 × 4 – (–6) : 3\n= –12 + 80 + 6 : 3\n= 68 + 2\n= 70\n</item>
@@ -704,16 +704,16 @@
 
     <!--Soal IPA Latihan 1-->
     <string-array name="SoalIPA_Lat1">
-        <item>Fungsi bagian yang diberi tanda panah pada hewan di samping adalah untuk....</item>
-        <item>1. akar tidak menancap di dasar perairan \n2. akar lebat untuk menjaga keseimbangan \n3. seluruh batangnya terdapat rongga udara \nCiri-ciri tumbuhan tersebut dimiliki oleh….</item>
-        <item>Berdasarkan gambar di atas dampak negatif terhadap lingkungan yang terjadi adalah….</item>
-        <item>Perkembangbiakan hewan tersebut dilakukan dengan cara….</item>
-        <item>Proses penyesuaian diri makhluk hidup terhadap lingkungannya disebut ….</item>
+        <item>Fungsi bagian yang diberi tanda panah pada hewan di samping adalah untuk ...</item>
+        <item>1. akar tidak menancap di dasar perairan \n2. akar lebat untuk menjaga keseimbangan \n3. seluruh batangnya terdapat rongga udara \nCiri-ciri tumbuhan tersebut dimiliki oleh...</item>
+        <item>Berdasarkan gambar di atas dampak negatif terhadap lingkungan yang terjadi adalah ...</item>
+        <item>Perkembangbiakan hewan tersebut dilakukan dengan cara...</item>
+        <item>Proses penyesuaian diri makhluk hidup terhadap lingkungannya disebut ...</item>
         <item>Ciri khusus yang dimiliki kelelawar adalah ….</item>
         <item>Teratai dapat terapung di atas air karena memiliki ….</item>
         <item>Hewan pemakan tumbuhan dinamakan ….</item>
         <item>Hewan dapat hidup di berbagai tempat, kecuali ….</item>
-        <item>1.	Baterai\n2.	generator\n3.	bola lampu\n4.	setrika listrik \n5.	rice cooker\n6.	oven\nContoh-contoh benda yang mengalami perubahan energi yang sama ditunjukkan oleh nomor ...</item>
+        <item>1.	Baterai\n2.	Generator\n3.	Bola lampu\n4.	Setrika listrik \n5.	Rice cooker\n6.	Oven\n\nContoh-contoh benda yang mengalami perubahan energi yang sama ditunjukkan oleh nomor ...</item>
     </string-array>
     <integer-array name="JumlahPilihanIPA_Lat1">
         <item>4</item>

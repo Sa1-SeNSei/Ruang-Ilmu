@@ -214,7 +214,7 @@ public class fragmentKuisINDO2 extends Fragment implements View.OnClickListener 
                     score_indo_lat2 = score;
                     updateNilai();
                     Intent intent;
-                    intent = new Intent(getContext(), ScoreLulus.class);
+                    intent = new Intent(getContext(), Score.class);
                     startActivity(intent);
                     Toast.makeText(getContext(), "Score yang anda dapat " + Integer.toString(score), Toast.LENGTH_SHORT).show();
                 }else {
