@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 public class SplashScreen extends AppCompatActivity {
 
-    @Override
+       @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
@@ -17,7 +17,7 @@ public class SplashScreen extends AppCompatActivity {
                 startActivity(i);
                 finish();
             }
-        }, 1000);// waktu delay 5 detik
+        }, 3000);// waktu delay 3 detik
     }
 
 }
