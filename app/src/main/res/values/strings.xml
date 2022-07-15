@@ -448,258 +448,6 @@
     <string name="SpoilerMateriMTK2_F1">Tabel Rumus : \n</string>
 
 
-    <!--Soal NOMOR Matematika 1-->
-    <string-array name="soal1">
-        <item>Menurut prakiraan cuaca, suhu di Kp. Tarogong adalah 300C, sedangkan suhu di Kp. Cikandang -100C, selisih suhu dari kedua Kampung tersebut adalah…\n</item>
-        <item>Hasil dari 15 x 50 ÷ 30 adalah....</item>
-        <item>Hasil dari 17 – 152 adalah....</item>
-        <item>1 ¾ diubah ke persen menjadi....</item>
-        <item>Hasil dari 70 – (–25) adalah....</item>
-        <item>FPB dari 48, 72 dan 96 adalah....</item>
-        <item>Hasil dari  21 : (3 – 10) + 4 × (–2)  = …</item>
-        <item>Hasil dari  28  +  7 × (–5) adalah ... </item>
-        <item>Hasil dari –12 + 20 × 4 – (–6) : 3 = ...</item>
-        <item>Hasil dari 14 + (18: (–3)) – ((–2)  × 3) adalah ...</item>
-        <item>Nilai n yang memenuhi (12 + 8) + (–3n) = –22 adalah ...</item>
-        <item>72 – (520 : 8) = ...</item>
-        <item>Suhu mula-mula suatu ruangan adalah 250° C. Ruangan tersebut akan digunakan untuk menyimpan ikan sehinga suhunya diturunkan menjadi –30° C. Besar perubahan suhu pada ruangan tersebut adalah ...\n</item>
-        <item>Ali membeli 36 bola dengan harga Rp21.000 per buah dan bola yang lain sebanyak 32 buah dengan harga masing-masing Rp42.000 per buah. Berapakah uang yang harus dibayar Ali untuk bola-bola tersebut?\n</item>
-        <item>Santi membeli selusin gelas dengan harga Rp17.000,00 per gelas. Kemudian ia membeli 19 gelas lagi dengan harga Rp34.000,00 per gelas. Berapakah uang yang harus dibayarkan untuk gelas-gelas tersebut?\n</item>
-        <item>3 jam = ... detik\n</item>
-        <item>5000 cm³ = ... liter\n</item>
-        <item>3 liter = ... cc\n</item>
-        <item>Satuan debit 20 m³/menit = ... dm³/menit\n</item>
-        <item>75 dm³/menit = ... cm³/menit\n</item>
-        <item>120.000 cm³/menit = ... dm³/detik\n</item>
-        <item>1.000 ml/detik = ... cc/menit\n</item>
-        <item>48.000 dm³/menit = ... dm³/detik\n</item>
-        <item>0,375 cc/detik = ... mm³/detik\n</item>
-        <item>Jika debit air 3.000 liter/menit maka volume air yang mengalir tiap detik adalah ..... liter.\n</item>
-        <item>Dalam sebuah bak mandi terdapat 9.000 liter air. Karena akan dibersihkan, bak dapat dikosongkan dalam waktu 15 menit. Debit air tersebut adalah . . . .liter/menit.\n</item>
-        <item>Sebuah penampungan air berbentuk tabung dengan volume 24 m³. Tabung dialiri dengan debit 100 liter/menit. Maka tabung tersebut akan penuh dalam waktu .... jam\n</item>
-        <item>Sebuah mobil pemadam kebakaran menyemprotkan air ke lokasi kebakaran. Persediaan air yang dibawa adalah 12.000 liter. Setelah 3 menit air tinggal 9.000 liter. Debit air yang dipakai dalam m³/menit adalah ...\n</item>
-        <item>Debit air kran di rumah paman 15 dm³/menit. Jika bak mandi berukuran 60 cm x 50 cm x 40 cm akan diisi sampai penuh. Maka waktu yang diperlukan adalah ..... menit.\n</item>
-        <item>Waktu yang dibutuhkan untuk mengosongkan akuarium dengan volume 3.250 liter dengan debit kran pembuangan air 50 liter/menit adalah ..... menit.\n</item>
-
-    </string-array>
-    <integer-array name="jumlahpilihan1">
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-    </integer-array>
-    <string-array name="pilihan1">
-        <item>A.     20C</item>
-        <item>B.     5C</item>
-        <item>C.     40C</item>
-        <item>D.     30C</item>
-        <item>A. 25</item>
-        <item>B. 35</item>
-        <item>C. 45</item>
-        <item>D. 55</item>
-        <item>A. 4</item>
-        <item>B. 16</item>
-        <item>C. 64</item>
-        <item>D. 128</item>
-        <item>A. 125%</item>
-        <item>B. 145%</item>
-        <item>C. 165%</item>
-        <item>D. 175%</item>
-        <item>A. –95</item>
-        <item>B. –45 </item>
-        <item>C. 45</item>
-        <item>D. 95</item>
-        <item>A. 25 X 3</item>
-        <item>B. 24 X 3 </item>
-        <item>C. 23 X 3</item>
-        <item>D. 22 X 3</item>
-        <item>A.  –11</item>
-        <item>B.  –5</item>
-        <item>C.   5</item>
-        <item>D.  11</item>
-        <item>A. –175</item>
-        <item>B. –63</item>
-        <item>C. –7</item>
-        <item>D.   7</item>
-        <item>A.  110</item>
-        <item>B.  70</item>
-        <item>C. 34</item>
-        <item>D. 30</item>
-        <item>A.  –4</item>
-        <item>B.  2</item>
-        <item>C. 14</item>
-        <item>D. 42</item>
-        <item>A.  14</item>
-        <item>B.  13</item>
-        <item>C. –13</item>
-        <item>D. –14</item>
-        <item>A.  9</item>
-        <item>B.  8</item>
-        <item>C.   7</item>
-        <item>D.  6</item>
-        <item>A. –280°</item>
-        <item>B.  –220°C</item>
-        <item>C. 220° C</item>
-        <item>D. 280° C</item>
-        <item>A.	Rp 2.100.000</item>
-        <item>B.	Rp 2.200.000</item>
-        <item>C.	Rp 4.100.000</item>
-        <item>D.	Rp 4.200.000</item>
-        <item>A.	Rp 480.000</item>
-        <item>B.	Rp 560.000</item>
-        <item>C.	Rp 850.000</item>
-        <item>D.	Rp 980.000</item>
-        <item>A. 180</item>
-        <item>B. 1.800</item>
-        <item>C. 10.800</item>
-        <item>D. 18.000</item>
-        <item>A. 0,5</item>
-        <item>B. 5</item>
-        <item>C. 50</item>
-        <item>D. 500</item>
-        <item>A. 3</item>
-        <item>B. 30</item>
-        <item>C. 300</item>
-        <item>D. 3.000</item>
-        <item>A. 200</item>
-        <item>B. 2.000</item>
-        <item>C. 20.000</item>
-        <item>D. 200.000</item>
-        <item>A. 750</item>
-        <item>B. 7.500</item>
-        <item>C. 75.000</item>
-        <item>D. 750.000</item>
-        <item>A. 2</item>
-        <item>B. 20</item>
-        <item>C. 12</item>
-        <item>D. 120</item>
-        <item>A. 0,6</item>
-        <item>B. 60</item>
-        <item>C. 6.000</item>
-        <item>D. 60.000</item>
-        <item>A. 80</item>
-        <item>B. 800</item>
-        <item>C. 8000</item>
-        <item>D. 2.880.000</item>
-        <item>A. 0,375</item>
-        <item>B. 3, 75</item>
-        <item>C. 37,5</item>
-        <item>D. 375</item>
-        <item>A. 0,5</item>
-        <item>B. 5</item>
-        <item>C. 50</item>
-        <item>D. 180.000</item>
-        <item>A. 600</item>
-        <item>B. 60</item>
-        <item>C. 10</item>
-        <item>D. 6</item>
-        <item>A. 3</item>
-        <item>B. 4</item>
-        <item>C. 5</item>
-        <item>D. 6</item>
-        <item>A. 1</item>
-        <item>B. 3</item>
-        <item>C. 5</item>
-        <item>D. 10</item>
-        <item>A. 4</item>
-        <item>B. 6</item>
-        <item>C. 8</item>
-        <item>D. 10</item>
-        <item>A. 45</item>
-        <item>B. 55</item>
-        <item>C. 60</item>
-        <item>D. 65</item>
-    </string-array>
-    <string-array name="penjelasanjawaban1">
-        <item>Untuk menyelesaikan soal maka perlu diuraikan terlebih dahulu konsep penghuitungannya  menjadi sebagai berikut :\nSelisih suhu = Suhu Kp. Tarogong – Suhu Kp. Cikandang\nSelisih suhu = 300C – (-100C)\n= 30 + 10\n= 400C\n</item>
-        <item>15 x 50 ÷ 30 =   =   = 25</item>
-        <item>172 – 152 = (17 x 17) – (15 x 15)\n= 289 – 225\n= 64\n</item>
-        <item>Ubah pecahan campurannya ke percahan biasa\n1 74 kalikan dengan 100%\n= \n</item>
-        <item>Ketika tanda negatif (–) bertemu dengan negatif (–), maka operasi bilangannya akan berubah menjadi positif (+), sehingga:\n70 – (–25) = 70 + 25\n= 95\n</item>
-        <item>Maka FPB nya adalah = 2³ × 3</item>
-        <item>21 : (3 – 10) + 4 × (–2)\n= 21 : – 7 – 8\n= – 3 – 8\n= – 11\n</item>
-        <item>28  +  7 × (–5)\n= 28 – 35\n= – 7\n</item>
-        <item>–12 + 20 × 4 – (–6) : 3\n= –12 + 80 + 6 : 3\n= 68 + 2\n= 70\n</item>
-        <item>14 + (18: (–3)) – ((–2) × 3)\n= 14 – 6 – (–6)\n= 8 + 6\n= 14\n</item>
-        <item>(12 + 8) + (–3n) = –22\n20 – 3n = – 22\n– 3n = – 22 – 20\n– 3n = – 42\nn = –3/–42 = 14\n</item>
-        <item>72 – (520 : 8) = 72 – 65\n= 7\n</item>
-        <item>Perubahan suhu  = 25°C – (–3°C)\n= 25°C + 3°C\n= 28°C\n</item>
-        <item>Harga 36 bola = 21.000 × 36 = 756.000\nHarga 32 bola = 42.000 × 32 = 1.344.000\nTotal uang yang harus dibayarkan:\n⇒ 756.000 + 1.344.000\n⇒ 2.100.000\nDengan demikian, uang yang harus dibayar Ali adalah Rp2.100.000,00.\n</item>
-        <item>Satu lusin gelas = 12 gelas\nUang yang harus dibayarkan adalah sebagai berikut.\n⇒ 12 × 17.000 + 19 × 34.000\n⇒ 12 × 17.000 + 19 × 2 × 17.000\n⇒ 17.000 × (12 + 19 × 2)\n⇒ 17.000 × (12 + 38)\n⇒ 17.000 × 50\n⇒ 850.000\n</item>
-        <item>1 jam = 3.600 detik\n3 jam = 3 x 3.600 detik\n3 jam = 10.800 detik\n</item>
-        <item>1 liter = 1000 cm³\n1.000 cm³ = 1 liter\n5.000 cm³  = 5 liter\n</item>
-        <item>1 liter = 1000 cc\n3 liter = 3 x 1000 cc\n3 liter = 3000 cc\n</item>
-        <item>1 m³ = 1.000 dm³\n20 m³ = 20 x 1.000 = 20.000 dm³\n</item>
-        <item>1 dm³ = 1.000 cm³\n75 dm³ =  75 x 1.000 = 75.000 dm³\n</item>
-        <item>1 cm³ = 0,001 dm³\n120.000 cm³ = 120.000 x 0,001 = 120 dm³ atau\n120.000 cm³ = 120.000 : 1.000 = 120 dm³\nMengubah menit ke detik dibagi 60\n120.000 cm³/menit = 120 : 60 = 2 dm³/detik\n</item>
-        <item>1 ml = 1 cc\n1.000 ml = 1.000 cc\nMengubah detik ke menit dikali 60\n1.000 ml/detik = 1.000 x 60 = 60.000 cc/menit\n</item>
-        <item>1 menit = 60 detik\nMengubah menit ke detik dibagi 60\n48.000 dm³/menit = 48.000 : 60 = 800 dm³/detik\n</item>
-        <item>1 cc = 1 cm³ = 1.000 mm³\n0,375 cc = 0,375 cm³ = 375 mm³\n</item>
-        <item>Mengubah menit ke detik dibagi 60\n3000 : 60 = 50\n</item>
-        <item>V = 9.000 l\nW = 15 menit\nD = V : W\nD = 9.000 l : 15 menit\nD = 600 l/menit\n</item>
-        <item>V = 24 m³ = 24.000 dm³ = 24.000 l\nD = 100 liter/menit\nW = V : D\nW = 24.000 : 100\nW = 240 menit\nW = 240 : 60\nW = 4 jam\n</item>
-        <item>V = 12.000 liter - 9.000 liter\nV = 3.000 liter = 3.000 dm³ = 3 m³\nW = 3 menit\nD = V : W\nD = 3 m³: 3 menit\nD = 1 m³/menit\n</item>
-        <item>V = 60 x 50 x 40\nV = 120.000 cm³ = 120 dm³\nD = 15 dm³/ menit\nW = V : W\nW = 120 dm³ : 15 dm³/ menit\nW = 8 menit\n</item>
-        <item>V = 3.250 liter\nD = 50 liter/menit\nW = V : D\nW = 3.250 liter : 50 liter/menit\nW = 65 menit\n</item>
-    </string-array>
-    <integer-array name="jawabankuis1">
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-    </integer-array>
 
 
     <!--Soal IPA Latihan 1-->
@@ -902,18 +650,7 @@
         <item>3</item>
         <item>3</item>
         <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
+
         -->
         <item>3</item>
         <item>3</item>
@@ -1231,12 +968,10 @@
 
     <!--Soal MTK Latihan 1-->
     <string-array name="SoalMTK_Lat1">
-        <item>\nMenurut prakiraan cuaca, suhu di Kp. Tarogong adalah 300C, sedangkan suhu di Kp. Cikandang -100C, selisih suhu dari kedua Kampung tersebut adalah…\n</item>
-        <item>Hasil dari 15 x 50 ÷ 30 adalah....</item>
+        <item>\nMenurut prakiraan cuaca, suhu di Kp. Tarogong adalah 30°C, sedangkan suhu di Kp. Cikandang -10°C, selisih suhu dari kedua Kampung tersebut adalah…\n</item>
         <item>Hasil dari 17\u00B2 – 15\u00B2 adalah....</item>
-        <item>1 ¾ diubah ke persen menjadi....</item>
         <item>Hasil dari 70 – (–25) adalah....</item>
-        <item>FPB dari 48, 72 dan 96 adalah....</item>
+        <item>KPK dari 15, 20, dan 60 = ...</item>
         <item>Hasil dari  21 : (3 – 10) + 4 × (–2)  = …</item>
         <item>Hasil dari  28  +  7 × (–5) adalah ... </item>
         <item>Hasil dari –12 + 20 × 4 – (–6) : 3 = ...</item>
@@ -1244,23 +979,6 @@
         <item>Nilai n yang memenuhi (12 + 8) + (–3n) = –22 adalah ...</item>
         <item>72 – (520 : 8) = ...</item>
         <item>Suhu mula-mula suatu ruangan adalah 250° C. Ruangan tersebut akan digunakan untuk menyimpan ikan sehinga suhunya diturunkan menjadi –30° C. Besar perubahan suhu pada ruangan tersebut adalah ...\n</item>
-        <item>Ali membeli 36 bola dengan harga Rp21.000 per buah dan bola yang lain sebanyak 32 buah dengan harga masing-masing Rp42.000 per buah. Berapakah uang yang harus dibayar Ali untuk bola-bola tersebut?\n</item>
-        <item>Santi membeli selusin gelas dengan harga Rp17.000,00 per gelas. Kemudian ia membeli 19 gelas lagi dengan harga Rp34.000,00 per gelas. Berapakah uang yang harus dibayarkan untuk gelas-gelas tersebut?\n</item>
-        <item>3 jam = ... detik\n</item>
-        <item>5000 cm³ = ... liter\n</item>
-        <item>3 liter = ... cc\n</item>
-        <item>Satuan debit 20 m³/menit = ... dm³/menit\n</item>
-        <item>75 dm³/menit = ... cm³/menit\n</item>
-        <item>120.000 cm³/menit = ... dm³/detik\n</item>
-        <item>1.000 ml/detik = ... cc/menit\n</item>
-        <item>48.000 dm\00B3/menit = ... dm\u00B3/detik\n</item>
-        <item>0,375 cc/detik = ... mm\u00B3/detik\n</item>
-        <item>Jika debit air 3.000 liter/menit maka volume air yang mengalir tiap detik adalah ..... liter.\n</item>
-        <item>Dalam sebuah bak mandi terdapat 9.000 liter air. Karena akan dibersihkan, bak dapat dikosongkan dalam waktu 15 menit. Debit air tersebut adalah . . . .liter/menit.\n</item>
-        <item>Sebuah penampungan air berbentuk tabung dengan volume 24 m³. Tabung dialiri dengan debit 100 liter/menit. Maka tabung tersebut akan penuh dalam waktu .... jam\n</item>
-        <item>Sebuah mobil pemadam kebakaran menyemprotkan air ke lokasi kebakaran. Persediaan air yang dibawa adalah 12.000 liter. Setelah 3 menit air tinggal 9.000 liter. Debit air yang dipakai dalam m³/menit adalah ...\n</item>
-        <item>Debit air kran di rumah paman 15 dm³/menit. Jika bak mandi berukuran 60 cm x 50 cm x 40 cm akan diisi sampai penuh. Maka waktu yang diperlukan adalah ..... menit.\n</item>
-        <item>Waktu yang dibutuhkan untuk mengosongkan akuarium dengan volume 3.250 liter dengan debit kran pembuangan air 50 liter/menit adalah ..... menit.\n</item>
     </string-array>
 
     <integer-array name="JumlahPilihanMTK_Lat1">
@@ -1275,52 +993,25 @@
         <item>4</item>
         <item>4</item>
         <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
-        <item>4</item>
     </integer-array>
 
     <string-array name="ABC_MTK_Lat1">
-        <item>A.     20C</item>
-        <item>B.     5C</item>
-        <item>C.     40C</item>
-        <item>D.     30C</item>
-        <item>A. 25</item>
-        <item>B. 35</item>
+        <item>A.     20°C</item>
+        <item>B.     50°C</item>
+        <item>C.     40°C</item>
+        <item>D.     30°C</item>
+        <item>A.	4</item>
+        <item>B.	16</item>
+        <item>C.	64</item>
+        <item>D.	128</item>
+        <item>A. –95 </item>
         <item>C. 45</item>
-        <item>D. 55</item>
-        <item>A. 4</item>
-        <item>B. 16</item>
-        <item>C. 64</item>
-        <item>D. 128</item>
-        <item>A. 125%</item>
-        <item>B. 145%</item>
-        <item>C. 165%</item>
-        <item>D. 175%</item>
-        <item>A. –95</item>
         <item>B. –45 </item>
-        <item>C. 45</item>
-        <item>D. 95</item>
-        <item>A. 25 X 3</item>
-        <item>B. 24 X 3 </item>
-        <item>C. 23 X 3</item>
-        <item>D. 22 X 3</item>
+        <item> D. 95</item>
+        <item>A. 5</item>
+        <item>B. 15</item>
+        <item>C. 30</item>
+        <item>D. 60</item>
         <item>A.  –11</item>
         <item>B.  –5</item>
         <item>C.   5</item>
@@ -1338,139 +1029,62 @@
         <item>C. 14</item>
         <item>D. 42</item>
         <item>A.  14</item>
-        <item>B.  13</item>
+        <item>B.  13 </item>
         <item>C. –13</item>
         <item>D. –14</item>
-        <item>A.  9</item>
-        <item>B.  8</item>
+        <item>A.  9  </item>
+        <item>B.  8 </item>
         <item>C.   7</item>
         <item>D.  6</item>
-        <item>A. –280°</item>
-        <item>B.  –220°C</item>
-        <item>C. 220° C</item>
+        <item>A. –280° C</item>
+        <item>B.  –220° C</item>
+        <item>C. 220° C </item>
         <item>D. 280° C</item>
-        <item>A.	Rp 2.100.000</item>
-        <item>B.	Rp 2.200.000</item>
-        <item>C.	Rp 4.100.000</item>
-        <item>D.	Rp 4.200.000</item>
-        <item>A.	Rp 480.000</item>
-        <item>B.	Rp 560.000</item>
-        <item>C.	Rp 850.000</item>
-        <item>D.	Rp 980.000</item>
-        <item>A. 180</item>
-        <item>B. 1.800</item>
-        <item>C. 10.800</item>
-        <item>D. 18.000</item>
-        <item>A. 0,5</item>
-        <item>B. 5</item>
-        <item>C. 50</item>
-        <item>D. 500</item>
-        <item>A. 3</item>
-        <item>B. 30</item>
-        <item>C. 300</item>
-        <item>D. 3.000</item>
-        <item>A. 200</item>
-        <item>B. 2.000</item>
-        <item>C. 20.000</item>
-        <item>D. 200.000</item>
-        <item>A. 750</item>
-        <item>B. 7.500</item>
-        <item>C. 75.000</item>
-        <item>D. 750.000</item>
-        <item>A. 2</item>
-        <item>B. 20</item>
-        <item>C. 12</item>
-        <item>D. 120</item>
-        <item>A. 0,6</item>
-        <item>B. 60</item>
-        <item>C. 6.000</item>
-        <item>D. 60.000</item>
-        <item>A. 80</item>
-        <item>B. 800</item>
-        <item>C. 8000</item>
-        <item>D. 2.880.000</item>
-        <item>A. 0,375</item>
-        <item>B. 3, 75</item>
-        <item>C. 37,5</item>
-        <item>D. 375</item>
-        <item>A. 0,5</item>
-        <item>B. 5</item>
-        <item>C. 50</item>
-        <item>D. 180.000</item>
-        <item>A. 600</item>
-        <item>B. 60</item>
-        <item>C. 10</item>
-        <item>D. 6</item>
-        <item>A. 3</item>
-        <item>B. 4</item>
-        <item>C. 5</item>
-        <item>D. 6</item>
-        <item>A. 1</item>
-        <item>B. 3</item>
-        <item>C. 5</item>
-        <item>D. 10</item>
-        <item>A. 4</item>
-        <item>B. 6</item>
-        <item>C. 8</item>
-        <item>D. 10</item>
-        <item>A. 45</item>
-        <item>B. 55</item>
-        <item>C. 60</item>
-        <item>D. 65</item>
     </string-array>
     <string-array name="PenjelasanJawabanMTK_Lat1">
-        <item>Untuk menyelesaikan soal maka perlu diuraikan terlebih dahulu konsep penghuitungannya  menjadi sebagai berikut :\nSelisih suhu = Suhu Kp. Tarogong – Suhu Kp. Cikandang\nSelisih suhu = 300C – (-100C)\n= 30 + 10\n= 400C\n</item>
-        <item>15 x 50 ÷ 30 =   =   = 25</item>
-        <item>172 – 152 = (17 x 17) – (15 x 15)\n= 289 – 225\n= 64\n</item>
-        <item>Ubah pecahan campurannya ke percahan biasa\n1 74 kalikan dengan 100%\n= \n</item>
-        <item>Ketika tanda negatif (–) bertemu dengan negatif (–), maka operasi bilangannya akan berubah menjadi positif (+), sehingga:\n70 – (–25) = 70 + 25\n= 95\n</item>
-        <item>Maka FPB nya adalah = 23×3</item>
-        <item>21 : (3 – 10) + 4 × (–2)\n= 21 : – 7 – 8\n= – 3 – 8\n= – 11\n</item>
-        <item>28  +  7 × (–5)\n= 28 – 35\n= – 7\n</item>
-        <item>–12 + 20 × 4 – (–6) : 3\n= –12 + 80 + 6 : 3\n= 68 + 2\n= 70\n</item>
-        <item>14 + (18: (–3)) – ((–2) × 3)\n= 14 – 6 – (–6)\n= 8 + 6\n= 14\n</item>
-        <item>(12 + 8) + (–3n) = –22\n20 – 3n = – 22\n– 3n = – 22 – 20\n– 3n = – 42\nn = –3/–42 = 14\n</item>
-        <item>72 – (520 : 8) = 72 – 65\n= 7\n</item>
-        <item>Perubahan suhu  = 25°C – (–3°C)\n= 25°C + 3°C\n= 28°C\n</item>
-        <item>Harga 36 bola = 21.000 × 36 = 756.000\nHarga 32 bola = 42.000 × 32 = 1.344.000\nTotal uang yang harus dibayarkan:\n⇒ 756.000 + 1.344.000\n⇒ 2.100.000\nDengan demikian, uang yang harus dibayar Ali adalah Rp2.100.000,00.\n</item>
-        <item>Satu lusin gelas = 12 gelas\nUang yang harus dibayarkan adalah sebagai berikut.\n⇒ 12 × 17.000 + 19 × 34.000\n⇒ 12 × 17.000 + 19 × 2 × 17.000\n⇒ 17.000 × (12 + 19 × 2)\n⇒ 17.000 × (12 + 38)\n⇒ 17.000 × 50\n⇒ 850.000\n</item>
-        <item>1 jam = 3.600 detik\n3 jam = 3 x 3.600 detik\n3 jam = 10.800 detik\n</item>
-        <item>1 liter = 1000 cm³\n1.000 cm³ = 1 liter\n5.000 cm³  = 5 liter\n</item>
-        <item>1 liter = 1000 cc\n3 liter = 3 x 1000 cc\n3 liter = 3000 cc\n</item>
-        <item>1 m³ = 1.000 dm³\n20 m³ = 20 x 1.000 = 20.000 dm³\n</item>
-        <item>1 dm³ = 1.000 cm³\n75 dm³ =  75 x 1.000 = 75.000 dm³\n</item>
-        <item>1 cm³ = 0,001 dm³\n120.000 cm³ = 120.000 x 0,001 = 120 dm³ atau\n120.000 cm³ = 120.000 : 1.000 = 120 dm³\nMengubah menit ke detik dibagi 60\n120.000 cm³/menit = 120 : 60 = 2 dm³/detik\n</item>
-        <item>1 ml = 1 cc\n1.000 ml = 1.000 cc\nMengubah detik ke menit dikali 60\n1.000 ml/detik = 1.000 x 60 = 60.000 cc/menit\n</item>
-        <item>1 menit = 60 detik\nMengubah menit ke detik dibagi 60\n48.000 dm³/menit = 48.000 : 60 = 800 dm³/detik\n</item>
-        <item>1 cc = 1 cm³ = 1.000 mm³\n0,375 cc = 0,375 cm³ = 375 mm³\n</item>
-        <item>Mengubah menit ke detik dibagi 60\n3000 : 60 = 50\n</item>
-        <item>V = 9.000 l\nW = 15 menit\nD = V : W\nD = 9.000 l : 15 menit\nD = 600 l/menit\n</item>
-        <item>V = 24 m³ = 24.000 dm³ = 24.000 l\nD = 100 liter/menit\nW = V : D\nW = 24.000 : 100\nW = 240 menit\nW = 240 : 60\nW = 4 jam\n</item>
-        <item>V = 12.000 liter - 9.000 liter\nV = 3.000 liter = 3.000 dm³ = 3 m³\nW = 3 menit\nD = V : W\nD = 3 m³: 3 menit\nD = 1 m³/menit\n</item>
-        <item>V = 60 x 50 x 40\nV = 120.000 cm³ = 120 dm³\nD = 15 dm³/ menit\nW = V : W\nW = 120 dm³ : 15 dm³/ menit\nW = 8 menit\n</item>
-        <item>V = 3.250 liter\nD = 50 liter/menit\nW = V : D\nW = 3.250 liter : 50 liter/menit\nW = 65 menit\n</item>
+        <item>Untuk menyelesaikan soal maka perlu diuraikan terlebih dahulu konsep penghuitungannya  menjadi sebagai berikut :\n
+            Selisih suhu = Suhu Kp. Tarogong – Suhu Kp. Cikandang\n
+            Selisih suhu = 30°C – (-10°C)\n
+                              \t= 30 + 10\n
+                              \t= 40°C\n</item>
+        <item>17\u00B2 – 15\u00B2 = (17 x 17) – (15 x 15)\n
+            = 289 – 225\n
+            = 64\n</item>
+        <item>Ketika tanda negatif (–) bertemu dengan negatif (–), maka operasi bilangannya akan berubah menjadi positif (+), sehingga:\n
+            70 – (–25) = 70 + 25\n
+            \t= 95\n</item>
+        <item>Dengan menggunakan pohon faktor diperoleh faktorisasi prima sebagai berikut,\n
+            15 = 3 x 5\n
+            20 = 2\u00B2 x 5\n
+            60 = 2\u00B2 x 3 x 5\n
+            Berdasarkan faktorisasi di atas, jika ada angka yang sama diambil pangkat yang terbesar.\n
+            Maka, KPK  15, 20, dan 60 = 2\u00B2 x 3 x 5 = 60 (D).\n</item>
+        <item>21 : (3 – 10) + 4 × (–2)\n
+            \t= 21 : – 7 – 8\n
+            \t= – 3 – 8\n
+            \t= – 11\n</item>
+        <item>28  +  7 × (–5)\n
+            \t= 28 – 35\n
+            \t= – 7\n</item>
+        <item>–12 + 20 × 4 – (–6) : 3\n
+            \t= –12 + 80 + 6 : 3\n
+            \t= 68 + 2\n
+            \t= 70\n</item>
+        <item>14 + (18: (–3)) – ((–2) × 3)\n
+            \t= 14 – 6 – (–6)\n
+            \t= 8 + 6\n
+            \t= 14\n</item>
+        <item>(12 + 8) + (–3n) = –22\n
+               20 – 3n = – 22\n
+                \t – 3n = – 22 – 20\n
+                \t – 3n = – 42\n
+                n = –3/–42 = 14\n</item>
+        <item>72 – (520 : 8) = 72 - 65\n
+            \t\t = 7\n</item>
+        <item>Perubahan suhu  = 25°C – (–3°C)\n\t= 25°C + 3°C\n\t= 28°C</item>
+
     </string-array>
     <integer-array name="JawabanKuisMTK_Lat1">
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
         <item>3</item>
         <item>3</item>
         <item>3</item>
@@ -1654,8 +1268,37 @@
         <item>Volume prisma segitiga di bawah adalah ...cm³</item>
         <item>Volume tabung di atas adalah ...</item>
         <item>Sebuah bak berbentuk prisma segitiga berisi air setengah bagian. Tinggi prisma tersebut 150 cm. Panjang alas segitiga 100 cm dan tingginya 80 cm. Volume air yang ada dalam bak tersebut adalah …</item>
+
+        <item>Perhatikan gambar di bawah ini!</item>
+        <item>Bu Yani mempunyai 15 kg gula, 60 kg beras, dan 45 bungkus mie. Bahan makanan tersebut akan dibagikan kepada tetangga dengan jumlah dan jenis yang sama. Jumlah tetangga paling banyak yang memperoleh bahan makanan dari Bu Yani adalah ...</item>
+        <item>Soal matematika: Hasil dari 172 – 152 adalah….</item>
+        <item>Kebun Pak Warno berbentuk persegi panjang dengan ukuran panjang 4,2 dam dan lebar 370 dm. Keliling kebun Pak Warno adalah ... meter</item>
+        <item>Di sebuah tempat penyewaan peralatan pesta terdapat 6 gros piring. Sebanyak 4 lusin dipinjam oleh Bu Tuti dan sebanyak 2 gros dipinjam oleh Bu Ayu. Piring yang tersisa di tempat tersebut sebanyak ... buah</item>
+        <item>Perhatikan sifat-sifat bangun ruang di bawah ini!\n
+                    1.	Memiliki 6 sisi, di mana sisi-sisi yang sehadap sejajar dan sama luas\n
+                    2.	Memiliki 8 titik sudut\n
+                    3.	Memiliki 12 rusuk, di mana rusuk-rusuk yang sejajar sama panjang\n
+                    Bangun ruang yang memiliki sifat-sifat tersebut adalah ...\n</item>
+        <item>Perhatikan kalimat matematika berikut!\n
+            9 x n + 24 = 141\n
+            Nilai pengganti n yang tepat adalah...\n</item>
+        <item>Hasil dari -32+ (-12) x 5 : (22 -12) adalah….</item>
+        <item>Sebongkah es batu yang bersuhu -16⁰C diletakkan dalam suhu ruangan selama  beberapa saat. Es batu tersebut mencair dan suhunya menjadi 10⁰C. Berapa derajat kenaikan suhu yang dialami es batu tersebut?</item>
+        <item>Seekor burung terbang pada ketinggian 300 m. Tepat di bawah burung, seorang penyelam berenang pada kedalaman 152 m. Selisih antara burung dan penyelam adalah ...</item>
+
     </string-array>
     <integer-array name="JumlahPilihanMTK_Ujian">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+
         <item>4</item>
         <item>4</item>
         <item>4</item>
@@ -1709,89 +1352,60 @@
         <item>b.	200 liter</item>
         <item>c.	300.000 liter</item>
         <item>d.	300 liter</item>
+
+        <item>a. 121</item>
+        <item>b. 169</item>
+        <item>c. 225</item>
+        <item>d. 625</item>
+        <item>A.	10 orang</item>
+        <item>B.	15 orang</item>
+        <item>C.	30 orang</item>
+        <item>D.	25 orang</item>
+        <item>a. 4</item>
+        <item>b. 16</item>
+        <item>c. 64</item>
+        <item>d. 128</item>
+        <item>a. 82,4</item>
+        <item>b. 124</item>
+        <item>c. 158</item>
+        <item>d. 225</item>
+        <item>a. 528</item>
+        <item>b. 588</item>
+        <item>c. 628</item>
+        <item>d. 688</item>
+        <item>a. balok </item>
+        <item>b. kubus </item>
+        <item>c. tabung</item>
+        <item>d. kerucut</item>
+        <item>A. 19</item>
+        <item>B. 17</item>
+        <item>C. 15</item>
+        <item>D. 13</item>
+        <item>a.-38</item>
+        <item>b.-22</item>
+        <item>c.12</item>
+        <item>d.28</item>
+        <item>a.26⁰C</item>
+        <item>b.-26⁰C</item>
+        <item>c.6⁰C</item>
+        <item>d.-6⁰C</item>
+        <item>a.542 meter</item>
+        <item>b.452 meter</item>
+        <item>c.245 meter</item>
+        <item>d.242 meter</item>
     </string-array>
 
-    <string-array name="PenjelasanJawabanMTK_Ujian">
-        <item>
-            V = 24 m³ = 24.000 dm³\n
-            D = 100 liter/menit\n
-            W = V : D\n
-            W = 24.000 : 100\n
-            W = 240 menit\n
-            W = 240 : 60\n
-            W = 4 jam\n
-            Jawaban : b\n
-        </item>
-        <item>
-            V = 12.000 liter - 9.000 liter\n
-            V = 3.000 liter = 3.000 dm³ = 3 m³\n
-            W = 3 menit\n
-            D = V : W\n
-            D = 3 m³: 3 menit\n
-            D = 1 m³/menit\n
-            Jawaban : a\n
-        </item>
-        <item>
-            V = 60 x 50 x 40\n
-            V = 120.000 cm³ = 120 dm³\n
-            D = 15 dm³/ menit\n
-            W = V : W\n
-            W = 120 dm³ : 15 dm³/ menit\n
-            W = 8 menit\n
-        </item>
-        <item>
-            V = 3.250 liter\n
-            D = 50 liter/menit\n
-            W = V : D\n
-            W = 3.250 liter : 50 liter/menit\n
-            W = 65 menit\n
-            Jawaban : d\n
-        </item>
-        <item>
-            Rumus mencari luas trapesium adalah :  1/2 x tinggi x (alas atas +alas bawah)\n
-                       tinggi = 16 cm\n
-                       alas bawah = 35 + 12 + 12 = 59 cm\n
-                       alas atas  = 35 cm\n
-                       Luas = 1/2 x 16 x (35 + 59)\n
-                                = 1/2 x 16 x 94 = 752 cm2.\n
-            Jawaban B.
-        </item>
-        <item>
-            Luas Bangunan datar ABCD adalah  L = 1/2 x d1 x d2
-            L = 1/2 x 12 x 20 = 120 cm2.
-            Jawaban C.
-
-        </item>
-        <item>
-            Luas total = Luas 1 + luas 2
-                = 10 X 4  + 10 x 3
-                = 40 + 30 = 70 cm2.
-            Jawaban B
-
-        </item>
-        <item>
-            Volume Prisma = Alas x tinggi
-            = ½ x 16 x 8 x 21
-            = 8 x 8 x 21
-            = 64 x 21
-            = 1.344
-            Jadi, volume prisma segitiga adalah 1.344 cm³.
-        </item>
-        <item>
-            Volume tabung = luas lingkaran × tinggi tabung
-            = 22/7 × 10,5 × 10,5 × 5
-            = 1.732,5 cm³
-        </item>
-        <item>
-            Volume air = ½ x ½ x a x t x t
-            = ½ x ½ x 100 x 80 x 150
-            = 300.000 cm³
-            = 300 liter
-            Jadi, volume air dalam bak adalah 300 liter.
-        </item>
-
-    </string-array>
     <integer-array name="JawabanKuisMTK_Ujian">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
         <item>3</item>
         <item>3</item>
         <item>3</item>

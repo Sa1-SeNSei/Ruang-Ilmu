@@ -104,7 +104,7 @@ public class fragmentKuisIPA2 extends Fragment implements View.OnClickListener{
         //pilihan abcd
         pilihan = getResources().getStringArray(R.array.ABC_IPA_Lat2);
         //jumlah soal (biasanya 4)
-        jumlahpilhan = getResources().getIntArray(R.array.jumlahpilihan1);
+        jumlahpilhan = getResources().getIntArray(R.array.JumlahPilihanIPA_Lat1);
         //penjelasan
         penjelasankuis = getResources().getStringArray(R.array.PenjelasanJawabanIPA_Lat2);
         //jawaban kuis

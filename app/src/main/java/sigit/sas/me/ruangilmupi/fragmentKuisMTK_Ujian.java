@@ -2,6 +2,7 @@ package sigit.sas.me.ruangilmupi;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
@@ -9,6 +10,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,7 +25,9 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 import me.biubiubiu.justifytext.library.JustifyTextView;
 
@@ -48,7 +53,6 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
     String[] soalString;
     int[] jawabanPiliihanKuis;
 
-
     Integer restNumb;
     Integer currentNumb;
     SharedPreferences userData;
@@ -62,12 +66,13 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
     int levelku;
     String namaTersimpan ;
 
-
     Integer score_mtk_ujian;
-
 
     public TextView skore;
 
+    private RecyclerView recyclerViewImageSoal;
+    private ImageSoalAdapter imageSoalAdapter;
+    private List<List<Drawable>> imageSoalList = new ArrayList<>();
 
     public fragmentKuisMTK_Ujian(){}
     @Nullable
@@ -80,7 +85,11 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
         btnD = fragmentLayout.findViewById(R.id.D);
         btnexit = fragmentLayout.findViewById(R.id.exit);
         btnnext = fragmentLayout.findViewById(R.id.next);
+        recyclerViewImageSoal = fragmentLayout.findViewById(R.id.recycler_image);
 
+        imageSoalAdapter = new ImageSoalAdapter();
+        recyclerViewImageSoal.setLayoutManager(new LinearLayoutManager(getContext()));
+        recyclerViewImageSoal.setAdapter(imageSoalAdapter);
 
         View kuisku = inflater.inflate(R.layout.activity_kuis,container, false);
 
@@ -97,20 +106,13 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
         jawabanPiliihanKuis = getResources().getIntArray(R.array.JawabanKuisMTK_Ujian);
 
         soal = fragmentLayout.findViewById(R.id.soal);
-
-        //mengambil bobot soal di string dengan array
-
-        //String[] bobotipa1 = getResources().getStringArray(R.array.bobotsoal1);
-
-        //bobotkuissoal1 = getResources().getIntArray(R.array.bobotsoal1);
-
-        //Jumlah Soal
         restNumber = fragmentLayout.findViewById(R.id.rest);
-        //Soal yang di kerjakan
         currentNumber = fragmentLayout.findViewById(R.id.current);
 
-        restNumb = 10;//Ganti ini sesuai jumlah soal
+        restNumb = 20;//Ganti ini sesuai jumlah soal
         currentNumb =0;
+
+        initImageSoal();
 
         myAnim = AnimationUtils.loadAnimation(getContext(),R.anim.grind);
 
@@ -132,8 +134,6 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
 
         layout = inflater.inflate(R.layout.popup_penjelasan,
                 (ViewGroup) fragmentPopup.findViewById(R.id.popupanswer));
-
-
 
 
         userData = PreferenceManager.getDefaultSharedPreferences(getContext());
@@ -164,15 +164,54 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
         return fragmentLayout;
     }
 
+    private void initImageSoal() {
+        Drawable mtk_ujian_5 = getContext().getResources().getDrawable(R.drawable.mtk_ujian_5);
+        Drawable mtk_ujian_6 = getContext().getResources().getDrawable(R.drawable.mtk_ujian_6);
+        Drawable mtk_ujian_7 = getContext().getResources().getDrawable(R.drawable.mtk_ujian_7);
+        Drawable mtk_ujian_8 = getContext().getResources().getDrawable(R.drawable.mtk_ujian_8);
+        Drawable mtk_ujian_9 = getContext().getResources().getDrawable(R.drawable.mtk_ujian_9);
+        Drawable mtk_ujian_11 = getContext().getResources().getDrawable(R.drawable.mtk_ujian_11);
+
+        List<Drawable> soal5 = new ArrayList<>();
+        soal5.add(mtk_ujian_5);
+        List<Drawable> soal6 = new ArrayList<>();
+        soal6.add(mtk_ujian_6);
+        List<Drawable> soal7 = new ArrayList<>();
+        soal7.add(mtk_ujian_7);
+        List<Drawable> soal8 = new ArrayList<>();
+        soal8.add(mtk_ujian_8);
+        List<Drawable> soal9 = new ArrayList<>();
+        soal9.add(mtk_ujian_9);
+        List<Drawable> soal11 = new ArrayList<>();
+        soal11.add(mtk_ujian_11);
+
+        imageSoalList.add(new ArrayList<Drawable>());
+        imageSoalList.add(new ArrayList<Drawable>());
+        imageSoalList.add(new ArrayList<Drawable>());
+        imageSoalList.add(new ArrayList<Drawable>());
+        imageSoalList.add(soal5);
+        imageSoalList.add(soal6);
+        imageSoalList.add(soal7);
+        imageSoalList.add(soal8);
+        imageSoalList.add(soal9);
+        imageSoalList.add(new ArrayList<Drawable>());
+        imageSoalList.add(soal11);
+
+        if (imageSoalList.size() < restNumb) {
+            int sisa_gambar = restNumb - imageSoalList.size();
+            for (int i = 0; i < sisa_gambar; i++) {
+                imageSoalList.add(new ArrayList<Drawable>());
+            }
+        }
+    }
+
 
 
     public void cleanButton(){
 
         btnexit.setAlpha(1f);
         btnexit.setEnabled(true);
-
         btnnext.setEnabled(false);
-
         btnnext.setAlpha(0.5f);
 
         for (int i =0; i < buttonk.size();i++)
@@ -265,6 +304,9 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
                 currentNumber.setText(current.toString());
 //        Memasukan Pilhan
 
+                //Load Image
+                imageSoalAdapter.submitList(imageSoalList.get(nomor) != null ? imageSoalList.get(nomor) : new ArrayList<Drawable>());
+
                 int x = 0;
 
                 //Jumlah Button Pilihan sebanyak berapa di string
@@ -324,7 +366,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
             if(nomor > soalDikerjakan) {
                 soalDikerjakan++;
                 //Menggunakan array bobot soal ke score
-                score = score + 10;
+                score = score + 5;
 
                 //score = score + bobotkuissoal1[nomor];
 
@@ -333,30 +375,18 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
             else if (nomor<=soalDikerjakan){}
 
             updateNilai();
-
             btnnext.setEnabled(true);
-
             btnnext.setAlpha(1f);
-
             playMenang();
         }
         else {
 
-
-
             updateNilai();
-
             playKalah();
-
             buttonk.get(jawaban).setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.bgpilihan3, null));
             buttonk.get(jawabanBenar).setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.bgpilihan2, null));
-
-
             btnnext.setEnabled(true);
-
             btnnext.setAlpha(1f);
-
-
         }
 
         btnexit.setEnabled(false);
