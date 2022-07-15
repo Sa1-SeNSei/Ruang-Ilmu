@@ -173,7 +173,7 @@ public class fragmentKuisIPA2 extends Fragment implements View.OnClickListener{
 
         levelku = userData.getInt(getString(R.string.QUIZ_AKU_LEVEL), 0);
         namaTersimpan = userData.getString(getString(R.string.QUIZ_AKU_USERNAME),"0");
-        soalDikerjakan = userData.getInt(getString(R.string.Dikerjakan_MTK_Latihan1),-1);
+        soalDikerjakan = userData.getInt(getString(R.string.Dikerjakan_IPA_Latihan2),-1);
         int nomorSoalterakhir = soalDikerjakan +1;
 
 
@@ -219,18 +219,33 @@ public class fragmentKuisIPA2 extends Fragment implements View.OnClickListener{
         //resNumb ini jumlah soal dell jadi ketika resNumb udah sama dengan soal yg di kerjakan langsung cek levelnya 1 atau tidak
         if(nomor <= restNumb) {
             if ( nomor >= restNumb){
-                if (score >= score_ipa_lat2){
+                if (score >= score_ipa_lat2) {
                     score_ipa_lat2 = score;
                     updateNilai();
                     Intent intent;
-                    intent = new Intent(getContext(), Score.class);
-                    startActivity(intent);
-                    Toast.makeText(getContext(), "Score yang anda dapat " + Integer.toString(score), Toast.LENGTH_SHORT).show();
-                }else {
+                    if (score >= 80){
+
+                        intent = new Intent(getContext(), ScoreDiAtas80.class);
+                        startActivity(intent);
+                        Toast.makeText(getContext(), "Kerjakan Latihan 1 & 2 Minimal 80\n Dapat Membuaka Soal Ujian", Toast.LENGTH_LONG).show();
+                    }else{
+                        intent = new Intent(getContext(), ScoreDiBawah80.class);
+                        startActivity(intent);
+                        Toast.makeText(getContext(), "Yuk Pahami lagi materinya (*^_^*)", Toast.LENGTH_LONG).show();
+                    }
+                }
+                if(score < score_ipa_lat2){
                     updateNilai();
                     Intent intent;
-                    intent = new Intent(getContext(), Score.class);
-                    startActivity(intent);
+                    if (score >= 80){
+                        intent = new Intent(getContext(), ScoreDiAtas80.class);
+                        startActivity(intent);
+                        Toast.makeText(getContext(), "Kerjakan Latihan 1 & 2 Minimal 80\n Dapat Membuaka Soal Ujian", Toast.LENGTH_LONG).show();
+                    }else{
+                        intent = new Intent(getContext(), ScoreDiBawah80.class);
+                        startActivity(intent);
+                        Toast.makeText(getContext(), "Yuk Pahami lagi materinya (*^_^*)", Toast.LENGTH_LONG).show();
+                    }
                 }
             }
             else {

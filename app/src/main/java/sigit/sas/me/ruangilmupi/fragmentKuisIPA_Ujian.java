@@ -36,12 +36,10 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
     View fragmentLayout;
     Animation myAnim;
     View layout;
-    View mainlayout;
     Button btnA, btnB, btnC, btnD;
     LinkedList<Button> buttonk = new LinkedList<Button>();
 
     ImageButton btnexit, btnnext;
-
     ViewGroup.LayoutParams layoutParams;
 
     JustifyTextView soal;
@@ -54,25 +52,20 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
     String[] soalString;
     int[] jawabanPiliihanKuis;
 
-
     Integer restNumb;
     Integer currentNumb;
     SharedPreferences userData;
 
     int soalDikerjakan;
+    int levelupIPA;
     SharedPreferences.Editor editor;
 
     Integer score ;
-
     int levelku;
     String namaTersimpan ;
-
-
     Integer score_ipa_ujian;
 
-
     public TextView skore;
-
 
     public fragmentKuisIPA_Ujian(){}
     @Nullable
@@ -96,15 +89,10 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
         buttonk.add(btnC);
         buttonk.add(btnD);
 
-        //soal
-        soalString = getResources().getStringArray(R.array.SoalIPA_Ujian);
-        //pilihan abcd
-        pilihan = getResources().getStringArray(R.array.ABC_IPA_Ujian);
-        //jumlah soal (biasanya 4)
-        jumlahpilhan = getResources().getIntArray(R.array.JumlahPilihanIPA_Ujian);
-        //penjelasan
 
-        //jawaban kuis
+        soalString = getResources().getStringArray(R.array.SoalIPA_Ujian);
+        pilihan = getResources().getStringArray(R.array.ABC_IPA_Ujian);
+        jumlahpilhan = getResources().getIntArray(R.array.JumlahPilihanIPA_Ujian);
         jawabanPiliihanKuis = getResources().getIntArray(R.array.JawabanKuisIPA_Ujian);
         soal = fragmentLayout.findViewById(R.id.soal);
 
@@ -119,7 +107,7 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
         //Soal yang di kerjakan
         currentNumber = fragmentLayout.findViewById(R.id.current);
 
-        restNumb = 10;//Ganti ini sesuai jumlah soal
+        restNumb = 20;//Ganti ini sesuai jumlah soal
         currentNumb =0;
 
         myAnim = AnimationUtils.loadAnimation(getContext(),R.anim.grind);
@@ -140,20 +128,14 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
         penjelasan = fragmentPopup.findViewById(R.id.teksPenjelasan);
         layoutParams = fragmentPopup.getLayoutParams();
 
-
-
-
-
-
-
         userData = PreferenceManager.getDefaultSharedPreferences(getContext());
         editor = userData.edit();
 
         score = userData.getInt(getString(R.string.SCORE_UTAMANYA), 0);
         score_ipa_ujian = userData.getInt(getString(R.string.SCORE_IPA_Ujian), 0);
 
-
         levelku = userData.getInt(getString(R.string.QUIZ_AKU_LEVEL), 0);
+        levelupIPA =  userData.getInt(getString(R.string.Level_IPA_UP), 0);
         namaTersimpan = userData.getString(getString(R.string.QUIZ_AKU_USERNAME),"0");
         soalDikerjakan = userData.getInt(getString(R.string.Dikerjakan_IPA_Ujian),-1);
         int nomorSoalterakhir = soalDikerjakan +1;
@@ -181,7 +163,6 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
         btnexit.setEnabled(true);
 
         btnnext.setEnabled(false);
-
         btnnext.setAlpha(0.5f);
 
         for (int i =0; i < buttonk.size();i++)
@@ -201,19 +182,64 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
         //resNumb ini jumlah soal dell jadi ketika resNumb udah sama dengan soal yg di kerjakan langsung cek levelnya 1 atau tidak
         if(nomor <= restNumb) {
             if ( nomor >= restNumb){
-                if (score >= score_ipa_ujian){
-                    score_ipa_ujian = score;
-                    levelku +=1;
+                if (levelupIPA==0) {
+                    levelupIPA += 100;
+                    levelku += 1;
                     updateNilai();
                     Intent intent;
-                    intent = new Intent(getContext(), ScoreLulus.class);
-                    startActivity(intent);
-                    Toast.makeText(getContext(), "Score yang anda dapat " + Integer.toString(score), Toast.LENGTH_SHORT).show();
-                }else {
-                    updateNilai();
+                    if (score >= score_ipa_ujian) {
+                        score_ipa_ujian = score;
+                        updateNilai();
+                        if (score >= 80){
+                            intent = new Intent(getContext(), ScoreLulus.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Hebat...\nKamu Lulus !", Toast.LENGTH_LONG).show();
+                        }else{
+                            intent = new Intent(getContext(), ScoreDiBawah80.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Yuk Pahami lagi materinya (*^_^*)", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                    if(score < score_ipa_ujian){
+                        updateNilai();
+                        if (score >= 80){
+                            intent = new Intent(getContext(), ScoreLulus.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Hebat...\nKamu Lulus !", Toast.LENGTH_LONG).show();
+                        }else{
+                            intent = new Intent(getContext(), ScoreDiBawah80.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Yuk Pahami lagi materinya (*^_^*)", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                }
+                if(levelupIPA>=1){
                     Intent intent;
-                    intent = new Intent(getContext(), ScoreLulus.class);
-                    startActivity(intent);
+                    if (score >= score_ipa_ujian) {
+                        score_ipa_ujian = score;
+                        updateNilai();
+                        if (score >= 80){
+                            intent = new Intent(getContext(), ScoreLulus.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Hebat...\nKamu Lulus !", Toast.LENGTH_LONG).show();
+                        }else{
+                            intent = new Intent(getContext(), ScoreDiBawah80.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Yuk Pahami lagi materinya (*^_^*)", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                    if(score < score_ipa_ujian){
+                        updateNilai();
+                        if (score >= 80){
+                            intent = new Intent(getContext(), ScoreLulus.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Hebat...\nKamu Lulus !", Toast.LENGTH_LONG).show();
+                        }else{
+                            intent = new Intent(getContext(), ScoreDiBawah80.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Yuk Pahami lagi materinya (*^_^*)", Toast.LENGTH_LONG).show();
+                        }
+                    }
                 }
             }
             else {
@@ -278,7 +304,6 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
 
 
     public void checker(int jawaban, int nomor){
-// jika soal ini telah di kerjakan maka gk akan dpt nilai
 
 //        Jika jawaban benar maka Button akan berganti warna menjadi emas
         int jawabanBenar = jawabanPiliihanKuis[nomor];
@@ -289,7 +314,7 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
             if(nomor > soalDikerjakan) {
                 soalDikerjakan++;
                 //Menggunakan array bobot soal ke score
-                score = score + 10;
+                score = score + 5;
 
                 //score = score + bobotkuissoal1[nomor];
 
@@ -368,7 +393,7 @@ public class fragmentKuisIPA_Ujian extends Fragment implements View.OnClickListe
 
     public void updateNilai(){
 
-
+        editor.putInt(getString(R.string.Level_IPA_UP), levelupIPA);
         editor.putInt(getString(R.string.SCORE_IPA_Ujian), score_ipa_ujian);
         editor.putInt(getString(R.string.SCORE_UTAMANYA), score);
         editor.putInt(getString(R.string.QUIZ_AKU_LEVEL), levelku);

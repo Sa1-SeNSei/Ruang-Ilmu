@@ -5,20 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".ScoreLulus">
+    tools:context=".ScoreDiBawah80">
+
 
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="248dp"
+        android:layout_width="314dp"
         android:layout_height="279dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:src="@drawable/brain_lulus"
+        android:src="@drawable/brain_nilaikurang"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/view" />
 
     <TextView
         android:id="@+id/textKataPencapaian"
@@ -26,9 +27,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:fontFamily="@font/margotregular"
+        android:fontFamily="@font/ebg_aramond"
         android:lineSpacingExtra="4dp"
-        android:text="Selamat Kamu Telah\nLulus Ujian !"
+        android:text="Yahhh Belajar lagi yuk..."
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#160E2C"
@@ -38,9 +39,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
+
+
+
     <android.support.v7.widget.CardView
         android:id="@+id/car4"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="100dp"
         android:layout_margin="11dp"
         android:layout_marginStart="8dp"
@@ -57,38 +61,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:weightSum="2">
-            <LinearLayout
-                android:gravity="center"
-                android:orientation="vertical"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="match_parent">
+            android:weightSum="1">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="33dp"
-                    android:layout_marginTop="0dp"
-                    android:background="#33afdf"
-                    android:fontFamily="@font/smilen"
-                    android:text="Level Up"
-                    android:textAlignment="center"
-                    android:textAllCaps="false"
-                    android:textColor="#ffff"
-                    android:textSize="30sp" />
-
-                <ImageView
-                    android:id="@+id/level"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="10dp"
-                    app:srcCompat="@drawable/level1"
-                    android:layout_marginBottom="10dp"
-                    tools:layout_editor_absoluteX="56dp"
-                    tools:layout_editor_absoluteY="395dp" />
-
-
-            </LinearLayout>
             <LinearLayout
                 android:gravity="center"
                 android:orientation="vertical"
@@ -128,7 +102,7 @@
         android:layout_width="180dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/bg_btn_primary"
         android:text="Beranda"
@@ -138,6 +112,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/car4" />
-    <!--android:onClick="lanjutClick"-->
-
 </android.support.constraint.ConstraintLayout>

@@ -54,6 +54,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
     SharedPreferences userData;
 
     int soalDikerjakan;
+    int levelupMTK;
     SharedPreferences.Editor editor;
 
     Integer score ;
@@ -143,6 +144,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
 
 
         levelku = userData.getInt(getString(R.string.QUIZ_AKU_LEVEL), 0);
+        levelupMTK =  userData.getInt(getString(R.string.Level_MTK_UP), 0);
         namaTersimpan = userData.getString(getString(R.string.QUIZ_AKU_USERNAME),"0");
         soalDikerjakan = userData.getInt(getString(R.string.Dikerjakan_MTK_Ujian),-1);
         int nomorSoalterakhir = soalDikerjakan +1;
@@ -190,19 +192,64 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
         //resNumb ini jumlah soal dell jadi ketika resNumb udah sama dengan soal yg di kerjakan langsung cek levelnya 1 atau tidak
         if(nomor <= restNumb) {
             if ( nomor >= restNumb){
-                if (score >= score_mtk_ujian){
-                    score_mtk_ujian = score;
-                    levelku +=1;
+                if (levelupMTK==0) {
+                    levelupMTK += 100;
+                    levelku += 1;
                     updateNilai();
                     Intent intent;
-                    intent = new Intent(getContext(), ScoreLulus.class);
-                    startActivity(intent);
-                    Toast.makeText(getContext(), "Score yang anda dapat " + Integer.toString(score), Toast.LENGTH_SHORT).show();
-                }else {
-                    updateNilai();
+                    if (score >= score_mtk_ujian) {
+                        score_mtk_ujian = score;
+                        updateNilai();
+                        if (score >= 80){
+                            intent = new Intent(getContext(), ScoreLulus.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Hebat...\nKamu Lulus !", Toast.LENGTH_LONG).show();
+                        }else{
+                            intent = new Intent(getContext(), ScoreDiBawah80.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Yuk Pahami lagi materinya (*^_^*)", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                    if(score < score_mtk_ujian){
+                        updateNilai();
+                        if (score >= 80){
+                            intent = new Intent(getContext(), ScoreLulus.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Hebat...\nKamu Lulus !", Toast.LENGTH_LONG).show();
+                        }else{
+                            intent = new Intent(getContext(), ScoreDiBawah80.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Yuk Pahami lagi materinya (*^_^*)", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                }
+                if(levelupMTK>=1){
                     Intent intent;
-                    intent = new Intent(getContext(), ScoreLulus.class);
-                    startActivity(intent);
+                    if (score >= score_mtk_ujian) {
+                        score_mtk_ujian = score;
+                        updateNilai();
+                        if (score >= 80){
+                            intent = new Intent(getContext(), ScoreLulus.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Hebat...\nKamu Lulus !", Toast.LENGTH_LONG).show();
+                        }else{
+                            intent = new Intent(getContext(), ScoreDiBawah80.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Yuk Pahami lagi materinya (*^_^*)", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                    if(score < score_mtk_ujian){
+                        updateNilai();
+                        if (score >= 80){
+                            intent = new Intent(getContext(), ScoreLulus.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Hebat...\nKamu Lulus !", Toast.LENGTH_LONG).show();
+                        }else{
+                            intent = new Intent(getContext(), ScoreDiBawah80.class);
+                            startActivity(intent);
+                            Toast.makeText(getContext(), "Yuk Pahami lagi materinya (*^_^*)", Toast.LENGTH_LONG).show();
+                        }
+                    }
                 }
             }
             else {
@@ -361,7 +408,7 @@ public class fragmentKuisMTK_Ujian extends Fragment implements View.OnClickListe
 
     public void updateNilai(){
 
-
+        editor.putInt(getString(R.string.Level_MTK_UP), levelupMTK);
         editor.putInt(getString(R.string.SCORE_MTK_Ujian), score_mtk_ujian);
         editor.putInt(getString(R.string.SCORE_UTAMANYA), score);
         editor.putInt(getString(R.string.QUIZ_AKU_LEVEL), levelku);

@@ -10,4 +10,6 @@
     <color name="transparent">#00000000</color>
     <color name="black">#383836</color>
 
+
+    <color name="warnaScore">#374aa7</color>
 </resources>

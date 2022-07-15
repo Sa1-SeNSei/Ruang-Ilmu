@@ -2314,6 +2314,10 @@
     <string name="QUIZ_AKU_SCORE_KUIS7">me.sigitari.ujian.scorekuis7</string>
 -->
 
+    <string name="Level_IPA_UP">me.sigitari.Level_IPA_UP</string>
+    <string name="Level_INDO_UP">me.sigitari.Level_INDO_UP</string>
+    <string name="Level_MTK_UP">me.sigitari.Level_MTK_UP</string>
+
     <!--Score IPA-->
     <string name="SCORE_IPA_Latihan1">me.sigitari.SCORE_IPA_Latihan1</string>
     <string name="SCORE_IPA_Latihan2">me.sigitari.SCORE_IPA_Latihan2</string>
@@ -2355,16 +2359,16 @@
     <string name="SCORE_UJIAN_INDO">me.sigitari.ujian.ujianindo</string>
 -->
 
-    <string name="QUIZ_AKU_LEVEL">me.sigitari.ujian.level</string>
-    <string name="QUIZ_AKU_SOAL1">me.sigitari.ujian.level1</string>
-    <string name="QUIZ_AKU_SOAL2">me.sigitari.ujian.level2</string>
-    <string name="QUIZ_AKU_SOAL3">me.sigitari.ujian.level3</string>
-    <string name="QUIZ_AKU_SOAL4">me.sigitari.ujian.level4</string>
-    <string name="QUIZ_AKU_SOAL5">me.sigitari.ujian.level5</string>
-    <string name="QUIZ_AKU_SOAL6">me.sigitari.ujian.level6</string>
-    <string name="QUIZ_AKU_SOAL7">me.sigitari.ujian.level7</string>
-    <string name="QUIZ_AKU_SOAL8">me.sigitari.ujian.level8</string>
-    <string name="QUIZ_AKU_SOAL9">me.sigitari.ujian.level9</string>
+    <string name="QUIZ_AKU_LEVEL">me.sigitari.level</string>
+    <string name="QUIZ_AKU_SOAL1">me.sigitari.level1</string>
+    <string name="QUIZ_AKU_SOAL2">me.sigitari.level2</string>
+    <string name="QUIZ_AKU_SOAL3">me.sigitari.level3</string>
+    <string name="QUIZ_AKU_SOAL4">me.sigitari.level4</string>
+    <string name="QUIZ_AKU_SOAL5">me.sigitari.level5</string>
+    <string name="QUIZ_AKU_SOAL6">me.sigitari.level6</string>
+    <string name="QUIZ_AKU_SOAL7">me.sigitari.level7</string>
+    <string name="QUIZ_AKU_SOAL8">me.sigitari.level8</string>
+    <string name="QUIZ_AKU_SOAL9">me.sigitari.level9</string>
     <string name="QUIZ_AKU_PROGRESS">me.sigitari.ujian.progress</string>
 
     <string name="QUIZ_AKU_BGM">me.sigitari.ujian.bgm</string>

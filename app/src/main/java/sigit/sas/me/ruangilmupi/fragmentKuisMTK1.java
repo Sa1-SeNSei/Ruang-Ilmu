@@ -209,22 +209,36 @@ public class fragmentKuisMTK1 extends Fragment implements View.OnClickListener {
     public void changeIsiKuis(Integer nomor){
 
         cleanButton();
-
-        //resNumb ini jumlah soal dell jadi ketika resNumb udah sama dengan soal yg di kerjakan langsung cek levelnya 1 atau tidak
         if(nomor <= restNumb) {
             if ( nomor >= restNumb){
-                if (score >= score_mtk_lat1){
+                if (score >= score_mtk_lat1) {
                     score_mtk_lat1 = score;
                     updateNilai();
-                    Intent intent;
-                    intent = new Intent(getContext(), Score.class);
-                    startActivity(intent);
-                    Toast.makeText(getContext(), "Score yang anda dapat " + Integer.toString(score), Toast.LENGTH_SHORT).show();
-                }else {
+                    if (score >= 80){
+                        Intent intent;
+                        intent = new Intent(getContext(), ScoreDiAtas80.class);
+                        startActivity(intent);
+                        Toast.makeText(getContext(), "Kerjakan Latihan 1 & 2 Minimal 80\n Dapat Membuaka Soal Ujian", Toast.LENGTH_LONG).show();
+                    }else{
+                        Intent intent;
+                        intent = new Intent(getContext(), ScoreDiBawah80.class);
+                        startActivity(intent);
+                        Toast.makeText(getContext(), "Yuk Pahami lagi materinya (*^_^*)", Toast.LENGTH_LONG).show();
+                    }
+                }
+                if(score < score_mtk_lat1){
                     updateNilai();
-                    Intent intent;
-                    intent = new Intent(getContext(), Score.class);
-                    startActivity(intent);
+                    if (score >= 80){
+                        Intent intent;
+                        intent = new Intent(getContext(), ScoreDiAtas80.class);
+                        startActivity(intent);
+                        Toast.makeText(getContext(), "Kerjakan Latihan 1 & 2 Minimal 80\n Dapat Membuaka Soal Ujian", Toast.LENGTH_LONG).show();
+                    }else{
+                        Intent intent;
+                        intent = new Intent(getContext(), ScoreDiBawah80.class);
+                        startActivity(intent);
+                        Toast.makeText(getContext(), "Yuk Pahami lagi materinya (*^_^*)", Toast.LENGTH_LONG).show();
+                    }
                 }
             }
             else {

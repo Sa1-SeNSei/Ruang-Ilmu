@@ -30,15 +30,8 @@ public class Akun extends AppCompatActivity {
     Integer score_indo_lat1,score_indo_lat2,score_indo_ujian;
 
 
-    Integer point_exp;
-    ProgressBar progressbar;
-
-
-
-    Integer nilaibobot;
-    //    Integer umur;
     String namaTersimpan;
-    //    Boolean gender;
+
 
     TextView namaAkun, skor;
 
@@ -81,10 +74,6 @@ public class Akun extends AppCompatActivity {
         score_indo_lat1 = userData.getInt(getString(R.string.SCORE_INDO_Latihan1), 0);
         score_indo_lat2 = userData.getInt(getString(R.string.SCORE_INDO_Latihan2), 0);
         score_indo_ujian = userData.getInt(getString(R.string.SCORE_INDO_Ujian), 0);
-
-
-        //Progress bar EXP point
-        point_exp = userData.getInt(getString(R.string.Point_EXP), 0);
 
 
         levelku = userData.getInt(getString(R.string.QUIZ_AKU_LEVEL), 0);
@@ -198,11 +187,6 @@ public class Akun extends AppCompatActivity {
         }
 
 
-        int nilaibobot = userData.getInt(getString(R.string.Array_Bobot1), 0);
-        if (nilaibobot == 0) {
-//            editor.putInt(getString(R.string.Array_Bobot1), 0);
-            editor.commit();
-        }
 
         //Score untuk IPA
         int score_ipa_lat1 = userData.getInt(getString(R.string.SCORE_IPA_Latihan1), 0);
@@ -336,7 +320,6 @@ public class Akun extends AppCompatActivity {
 
         this.score = userData.getInt(getString(R.string.SCORE_UTAMANYA), 0);
 
-        this.nilaibobot = userData.getInt(getString(R.string.Array_Bobot1), 0);
 
         this.score_ipa_lat1 = userData.getInt(getString(R.string.SCORE_IPA_Latihan1), 0);
         this.score_ipa_lat2 = userData.getInt(getString(R.string.SCORE_IPA_Latihan2), 0);
@@ -350,7 +333,7 @@ public class Akun extends AppCompatActivity {
         this.score_indo_lat2 = userData.getInt(getString(R.string.SCORE_INDO_Latihan2), 0);
         this.score_indo_ujian = userData.getInt(getString(R.string.SCORE_INDO_Ujian), 0);
 
-        this.point_exp = userData.getInt(getString(R.string.Point_EXP), 0);
+
 
         levelku = userData.getInt(getString(R.string.QUIZ_AKU_LEVEL), 0);
         namaTersimpan = userData.getString(getString(R.string.QUIZ_AKU_USERNAME),"0");

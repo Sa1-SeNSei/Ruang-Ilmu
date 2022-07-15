@@ -111,7 +111,9 @@
             android:screenOrientation="portrait" />
         <activity android:name=".KuisPembahasanINDO_Ujian" />
         <activity android:name=".KuisPembahasanMTK_Ujian" />
-        <activity android:name=".KuisPembahasanIPA_Ujian"></activity>
+        <activity android:name=".KuisPembahasanIPA_Ujian" />
+        <activity android:name=".ScoreDiBawah80" />
+        <activity android:name=".ScoreDiAtas80"></activity>
     </application>
 
 </manifest>
